@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000011339833194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000012537618098}
+  - component: {fileID: 114000011479129848}
+  m_Layer: 0
+  m_Name: Trackable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012537618098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011339833194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013619951444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011479129848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011339833194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1945805196, guid: 74f59eb22abf947599d3aecf24b954b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetPattern: '*'
+  _drawable: {fileID: 0}
+  _autoToggleVisibility: 1
+  _extendedTracking: 0
+  _targetsForExtendedTracking: []
+  OnObjectRecognized:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.ObjectTrackable+OnObjectRecognizedEvent, WikitudeUnityPlugin,
+      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+  OnObjectLost:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.ObjectTrackable+OnObjectLostEvent, WikitudeUnityPlugin, Version=8.6.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!1 &1000011553030912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000013619951444}
+  - component: {fileID: 114000011743096896}
+  - component: {fileID: 4181119587680052222}
+  m_Layer: 0
+  m_Name: ObjectTracker
+  m_TagString: Tracker Behaviour
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013619951444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011553030912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000012537618098}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011743096896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011553030912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1990553978, guid: 74f59eb22abf947599d3aecf24b954b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTargetsLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.TrackerBehaviour+OnTargetsLoadedEvent, WikitudeUnityPlugin,
+      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+  OnErrorLoadingTargets:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.TrackerBehaviour+OnErrorLoadingTargetsEvent, WikitudeUnityPlugin,
+      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+  OnInitializationError:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.TrackerBehaviour+OnInitializationErrorEvent, WikitudeUnityPlugin,
+      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+  OnExtendedTrackingQualityChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.ObjectTracker+OnExtendedTrackingQualityChangedEvent, WikitudeUnityPlugin,
+      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+  _targetCollectionResource:
+    _targetPath: Wikitude/fountain.wto
+    _useCustomURL: 0
+    OnFinishLoading:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Wikitude.TargetCollectionResource+OnFinishLoadingEvent, WikitudeUnityPlugin,
+        Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+    OnErrorLoading:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Wikitude.TargetCollectionResource+OnErrorLoadingEvent, WikitudeUnityPlugin,
+        Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+  _trackerEfficiencyMode: 0
+--- !u!114 &4181119587680052222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011553030912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f956cea8edada546834bd1c1f6f1501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewSprite: {fileID: 0}
+  ObjectName: 
