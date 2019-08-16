@@ -18,26 +18,6 @@ public class MenuController : MonoBehaviour
         if (!Permission.HasUserAuthorizedPermission(Permission.Camera)) {
             Permission.RequestUserPermission(Permission.Camera);
         }
-        
-        if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation)) {
-            Permission.RequestUserPermission(Permission.FineLocation);
-        }
-        
-        /* if (!Permission.HasUserAuthorizedPermission(Permission.CoarseLocation)) {
-            Permission.RequestUserPermission(Permission.CoarseLocation);
-        }
-        
-        if (!Permission.HasUserAuthorizedPermission(Permission.Microphone)) {
-            Permission.RequestUserPermission(Permission.Microphone);
-        }
-        
-        if (!Permission.HasUserAuthorizedPermission(Permission.ExternalStorageRead)) {
-            Permission.RequestUserPermission(Permission.ExternalStorageRead);
-        }
-        
-        if (!Permission.HasUserAuthorizedPermission(Permission.ExternalStorageWrite)) {
-            Permission.RequestUserPermission(Permission.ExternalStorageWrite);
-        } */
     }
 
     public void OnSampleButtonClicked(Button sender) {
