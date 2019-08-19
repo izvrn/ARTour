@@ -813,7 +813,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3746839352260493021
 CanvasRenderer:
@@ -998,8 +998,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -104, y: 0}
-  m_SizeDelta: {x: 134, y: 0}
+  m_AnchoredPosition: {x: -50, y: 0}
+  m_SizeDelta: {x: 80, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3746839352688699232
 MonoBehaviour:
@@ -1151,7 +1151,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 300}
+  m_SizeDelta: {x: 490, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3746839352962185737
 CanvasRenderer:
@@ -1186,15 +1186,15 @@ MonoBehaviour:
     m_FontSize: 32
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 24
-    m_MaxSize: 45
+    m_MinSize: 20
+    m_MaxSize: 92
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: gdfgsdf9vjqeofkvjaokpsfadkfvmaopdfmqwpefimsdaopskdmcqpweimcaspdokfmqpweifmqwopdmsadkcmqwe[rimasdf
+  m_Text: 
 --- !u!1 &3746839353222108025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,7 +1283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3567b7240985f46a622894e51a55f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToDisable: 3
 --- !u!1 &3746839353338618553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,7 +1320,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 150}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &477420890220271152
 MonoBehaviour:
@@ -1488,7 +1487,7 @@ MonoBehaviour:
     Spielhaus (Spelhus) auf dem Weinkeller. Eine Inschrift im Wappen \xFCber dem Hauptportal
     verweist hierauf. Das Geb\xE4ude wurde dann im Jahr 1427 der Stadt Wernigerode
     von Graf Heinrich geschenkt."
-  delay: 0.025
+  delay: 0.015
 --- !u!1 &3746839353896293465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,7 +1525,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 504.9}
+  m_SizeDelta: {x: 200, y: 209.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3746839353896293461
 MonoBehaviour:
