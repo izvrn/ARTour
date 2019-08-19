@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="AirAd" t="Include">
             <e p="CursorAnimationScript.cs" t="Include" />
+            <e p="CustomScrollRect.cs" t="Include" />
             <e p="InfoButtonScript.cs" t="Include" />
             <e p="PropellerScript.cs" t="Include" />
           </e>
