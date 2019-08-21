@@ -2,14 +2,14 @@
 using UnityEngine.UI;
 using Wikitude;
 
-public class SingleObjectTrackingController : SampleController
+public class SingleImageTrackingController : SampleController
 {
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
 
     [SerializeField] private GameObject instructionsGameObject;
 
-    public void OnExtendedTrackingQualityChanged(ObjectTarget target, ExtendedTrackingQuality oldQuality, ExtendedTrackingQuality newQuality)
+    public void OnExtendedTrackingQualityChanged(ImageTarget target, ExtendedTrackingQuality oldQuality, ExtendedTrackingQuality newQuality)
     {
         switch (newQuality)
         {
@@ -28,14 +28,14 @@ public class SingleObjectTrackingController : SampleController
         }
     }
     
-    public void OnTargetRecognized(ObjectTarget target)
+    public void OnTargetRecognized(ImageTarget target)
     {
         instructionsGameObject.SetActive(false);
         informationText.text = "ObjectTarget: " + target.Name  + " Recognized";
         informationBackground.color = Color.green;
     }
 
-    public void OnTargetLost(ObjectTarget target)
+    public void OnTargetLost(ImageTarget target)
     {
         informationText.text = "ObjectTarget: " + target.Name + " Lost";
         informationBackground.color = Color.red;

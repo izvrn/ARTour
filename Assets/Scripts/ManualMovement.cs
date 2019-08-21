@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 
 public class ManualMovement : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class ManualMovement : MonoBehaviour
 
     [Header("CONTROLS SETTINGS")] 
     [SerializeField] private Transform objectTransform;
-    [SerializeField] private float movementSpeed;
+    [SerializeField] private Slider movementSlider;
     
     Vector3 _direction;
     float _scale;
@@ -23,14 +24,14 @@ public class ManualMovement : MonoBehaviour
     void Start()
     {
         ResetMoving();
-        movementSpeed = .1f;
+        movementSlider.value = .1f;
     }
     
     void Update()
     {
         SetTextFields();
         if (Input.touchCount == 0) ResetMoving();
-        objectTransform.localPosition += movementSpeed * Time.deltaTime * _direction;
+        objectTransform.localPosition += movementSlider.value * Time.deltaTime * _direction;
 
         if ( !_flag)
             WriteLastTouchData(Input.touches);
@@ -101,41 +102,62 @@ public class ManualMovement : MonoBehaviour
         _direction = Vector3.zero;
     }
 
-    private static AndroidJavaObject _activity; 
-    
-    public static AndroidJavaObject Activity
+    public void CaptureScreenshot()
     {
-        get
+        StartCoroutine(CaptureScreenshotCoroutine(Screen.width, Screen.height));
+    }
+
+    private IEnumerator CaptureScreenshotCoroutine(int width, int height)
+    {
+        yield return new WaitForEndOfFrame();
+        Texture2D tex = new Texture2D(width, height);
+        tex.ReadPixels(new Rect(0, 0, width, height), 0, 0);
+        tex.Apply();
+
+        yield return tex;
+        string path = SaveImageToGallery(tex, "Name", "Description");
+        Debug.Log("Picture has been saved at:\n" + path);
+    }
+    
+    private const string MEDIA_STORE_IMAGE_MEDIA = "android.provider.MediaStore$Images$Media";
+    private static AndroidJavaObject m_Activity;
+
+    private static string SaveImageToGallery(Texture2D a_Texture, string a_Title, string a_Description)
+    {
+        using (AndroidJavaClass mediaClass = new AndroidJavaClass(MEDIA_STORE_IMAGE_MEDIA))
         {
-            if (_activity == null)
+            using (AndroidJavaObject contentResolver = Activity.Call<AndroidJavaObject>("getContentResolver"))
             {
-                var unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-                _activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+                AndroidJavaObject image = Texture2DToAndroidBitmap(a_Texture);
+                return mediaClass.CallStatic<string>("insertImage", contentResolver, image, a_Title, a_Description);
             }
-            return _activity;
         }
     }
 
-    private const string MediaStoreImagesMediaClass = "android.provider.MediaStore$Images$Media";
-    public static string SaveImageToGallery(Texture2D texture2D, string title, string description)
+    private static AndroidJavaObject Texture2DToAndroidBitmap(Texture2D a_Texture)
     {
-        using (var mediaClass = new AndroidJavaClass(MediaStoreImagesMediaClass))
+        byte[] encodedTexture = a_Texture.EncodeToPNG();
+        using (AndroidJavaClass bitmapFactory = new AndroidJavaClass("android.graphics.BitmapFactory"))
         {
-            using (var cr = Activity.Call<AndroidJavaObject>("getContentResolver"))
-            {
-                var image = Texture2DToAndroidBitmap(texture2D);
-                var imageUrl = mediaClass.CallStatic<string>("insertImage", cr, image, title, description);
-                return imageUrl;
-            }
+            return bitmapFactory.CallStatic<AndroidJavaObject>("decodeByteArray", encodedTexture, 0, encodedTexture.Length);
         }
     }
-  
-    public static AndroidJavaObject Texture2DToAndroidBitmap(Texture2D texture2D)
+
+    private static AndroidJavaObject Activity
     {
-        byte[] encoded = texture2D.EncodeToPNG();
-        using (var bf = new AndroidJavaClass("android.graphics.BitmapFactory"))
+        get
         {
-            return bf.CallStatic<AndroidJavaObject>("decodeByteArray", encoded, 0, encoded.Length);
+            if (m_Activity == null)
+            {
+                AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+                m_Activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+            }
+            return m_Activity;
         }
+    }
+
+    private void SendObjectDataToServer()
+    {
+        
     }
 }

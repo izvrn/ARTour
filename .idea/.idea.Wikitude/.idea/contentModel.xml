@@ -14,6 +14,7 @@
           <e p="ManualMovement.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
           <e p="SampleController.cs" t="Include" />
+          <e p="SingleImageTrackingController.cs" t="Include" />
           <e p="SingleObjectTrackingController.cs" t="Include" />
           <e p="URLManager.cs" t="Include" />
         </e>

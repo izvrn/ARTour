@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 488580}
   - component: {fileID: 11427236}
-  - component: {fileID: 1254166000462014741}
   m_Layer: 0
   m_Name: ImageTracker
   m_TagString: Tracker Behaviour
@@ -113,20 +112,6 @@ MonoBehaviour:
   _maximumNumberOfConcurrentTrackableTargets: 1
   _rangeExtension: 2
   _trackerEfficiencyMode: 0
---- !u!114 &1254166000462014741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f956cea8edada546834bd1c1f6f1501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreviewSprite: {fileID: 0}
-  ObjectName: 
 --- !u!1 &131830
 GameObject:
   m_ObjectHideFlags: 0
