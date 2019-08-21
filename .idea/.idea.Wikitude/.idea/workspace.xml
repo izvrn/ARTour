@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a101e3-99fd-4f2e-97fe-b64b97756b09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dullenturm Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dullenturm Tracking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Rathaus Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Rathaus Tracking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/10744-v1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/10744-v1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/BrickGroutless0025_3_S.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/BrickGroutless0025_3_S.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/BuildingsDerelict0132_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/BuildingsDerelict0132_M.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/RooftilesWood0047_1_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/RooftilesWood0047_1_M.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/Rose_Ornament_Art_Nouveau_Tidbits_Freebie-300x283.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/Rose_Ornament_Art_Nouveau_Tidbits_Freebie-300x283.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/WoodPlanksBeamed0023_2_S.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/WoodPlanksBeamed0023_2_S.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/WoodPlanksBeamed0042_4_L.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/WoodPlanksBeamed0042_4_L.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/WoodPlanksDirty0008_L.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Materials/WoodPlanksDirty0008_L.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/rathaus/rathaus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/rathaus/rathaus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +15,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <marker date="1566226896073" expanded="false" signature="6:109" ph="..." />
+                <marker date="1566226896073" expanded="true" signature="173:1754" ph="{...}" />
+                <marker date="1566226896073" expanded="true" signature="496:1288" ph="{...}" />
+                <marker date="1566226896073" expanded="true" signature="530:1282" ph="{...}" />
+                <marker date="1566226896073" expanded="true" signature="1353:1554" ph="{...}" />
+                <marker date="1566226896073" expanded="true" signature="1609:1752" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <marker date="1566290824049" expanded="true" signature="6:54" ph="..." />
+                <marker date="1566290824049" expanded="true" signature="99:4536" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="550:614" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="637:1059" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="917:1023" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="1104:1711" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="1132:1705" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="1755:1853" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="1887:2302" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="2350:2725" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="2779:3063" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3094:3141" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3241:3557" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3259:3551" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3304:3511" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3755:4187" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3852:4181" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="3950:4171" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="4272:4534" ph="{...}" />
+                <marker date="1566290824049" expanded="true" signature="4417:4528" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>color</find>
+      <find>transform</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -50,6 +90,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManualPositioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" />
       </list>
     </option>
   </component>
@@ -58,32 +101,25 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="124" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1440" />
-    <option name="height" value="776" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -131,11 +167,14 @@
       <updated>1565875703550</updated>
       <workItem from="1565875709624" duration="1229000" />
       <workItem from="1565939185446" duration="3195000" />
+      <workItem from="1566209129131" duration="7961000" />
+      <workItem from="1566287079371" duration="4588000" />
+      <workItem from="1566295797350" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4424000" />
+    <option name="totallyTimeSpent" value="17600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -147,7 +186,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25268096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -167,7 +207,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32874355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -209,25 +249,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InfoButtonScript.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <marker date="1565940195742" expanded="true" signature="6:66" ph="..." />
-            <marker date="1565940195742" expanded="true" signature="118:1394" ph="{...}" />
-            <marker date="1565940195742" expanded="true" signature="295:640" ph="{...}" />
-            <marker date="1565940195742" expanded="true" signature="669:718" ph="{...}" />
-            <marker date="1565940195742" expanded="true" signature="755:1125" ph="{...}" />
-            <marker date="1565940195742" expanded="true" signature="799:1119" ph="{...}" />
-            <marker date="1565940195742" expanded="true" signature="1156:1392" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InfoButtonScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
@@ -253,6 +275,67 @@
             <marker date="1565942927556" expanded="false" signature="6:78" ph="..." />
             <marker date="1565942927556" expanded="true" signature="124:296" ph="{...}" />
             <marker date="1565942927556" expanded="true" signature="197:294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-721">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1566205830946" expanded="true" signature="6:66" ph="..." />
+            <marker date="1566205830946" expanded="true" signature="118:1594" ph="{...}" />
+            <marker date="1566205830946" expanded="true" signature="376:721" ph="{...}" />
+            <marker date="1566205830946" expanded="true" signature="750:819" ph="{...}" />
+            <marker date="1566205830946" expanded="true" signature="856:1290" ph="{...}" />
+            <marker date="1566205830946" expanded="true" signature="926:1246" ph="{...}" />
+            <marker date="1566205830946" expanded="true" signature="1321:1592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualPositioning.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <marker date="1566226896073" expanded="false" signature="6:109" ph="..." />
+            <marker date="1566226896073" expanded="true" signature="173:1754" ph="{...}" />
+            <marker date="1566226896073" expanded="true" signature="496:1288" ph="{...}" />
+            <marker date="1566226896073" expanded="true" signature="530:1282" ph="{...}" />
+            <marker date="1566226896073" expanded="true" signature="1353:1554" ph="{...}" />
+            <marker date="1566226896073" expanded="true" signature="1609:1752" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <marker date="1566290824049" expanded="true" signature="6:54" ph="..." />
+            <marker date="1566290824049" expanded="true" signature="99:4536" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="550:614" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="637:1059" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="917:1023" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="1104:1711" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="1132:1705" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="1755:1853" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="1887:2302" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="2350:2725" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="2779:3063" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3094:3141" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3241:3557" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3259:3551" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3304:3511" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3755:4187" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3852:4181" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="3950:4171" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="4272:4534" ph="{...}" />
+            <marker date="1566290824049" expanded="true" signature="4417:4528" ph="{...}" />
           </folding>
         </state>
       </provider>

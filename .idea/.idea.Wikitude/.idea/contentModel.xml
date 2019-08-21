@@ -11,6 +11,7 @@
             <e p="InfoButtonScript.cs" t="Include" />
             <e p="PropellerScript.cs" t="Include" />
           </e>
+          <e p="ManualMovement.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
           <e p="SampleController.cs" t="Include" />
           <e p="SingleObjectTrackingController.cs" t="Include" />
