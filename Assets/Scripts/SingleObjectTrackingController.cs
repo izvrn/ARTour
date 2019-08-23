@@ -2,11 +2,10 @@
 using UnityEngine.UI;
 using Wikitude;
 
-public class SingleObjectTrackingController : SampleController
+public class SingleObjectTrackingController : BaseController
 {
     [SerializeField] private Text informationText;
-    [SerializeField] private Image informationBackground;
-
+    [SerializeField] private Image informationBackground; 
     [SerializeField] private GameObject instructionsGameObject;
 
     public void OnExtendedTrackingQualityChanged(ObjectTarget target, ExtendedTrackingQuality oldQuality, ExtendedTrackingQuality newQuality)

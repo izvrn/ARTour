@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using Wikitude;
 
-public class SingleImageTrackingController : SampleController
+public class SingleImageTrackingController : BaseController
 {
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;

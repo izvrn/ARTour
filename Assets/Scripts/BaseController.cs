@@ -4,7 +4,7 @@ using Wikitude;
 using System.Text;
 
 /* Base class for all sample controllers. Defines functionality that all samples needs. */
-public class SampleController : MonoBehaviour
+public class BaseController : MonoBehaviour
 {
     protected virtual void Start() {
         /* Default shadow distance is set to 60. Because some samples have different scales, they might overwrite this value. */

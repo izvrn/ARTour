@@ -11,11 +11,14 @@
             <e p="InfoButtonScript.cs" t="Include" />
             <e p="PropellerScript.cs" t="Include" />
           </e>
+          <e p="BaseController.cs" t="Include" />
+          <e p="GyroscopeController.cs" t="Include" />
           <e p="ManualMovement.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
           <e p="SampleController.cs" t="Include" />
           <e p="SingleImageTrackingController.cs" t="Include" />
           <e p="SingleObjectTrackingController.cs" t="Include" />
+          <e p="TrackingController.cs" t="Include" />
           <e p="URLManager.cs" t="Include" />
         </e>
         <e p="Wikitude" t="Include">

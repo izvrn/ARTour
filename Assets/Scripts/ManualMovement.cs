@@ -25,15 +25,22 @@ public class ManualMovement : MonoBehaviour
     {
         ResetMoving();
         movementSlider.value = .1f;
+        
+        Debug.LogError("This message will make the console appear in Development Builds");
     }
     
     void Update()
     {
         SetTextFields();
-        if (Input.touchCount == 0) ResetMoving();
         objectTransform.localPosition += movementSlider.value * Time.deltaTime * _direction;
-
-        if ( !_flag)
+        
+        if (Input.touchCount == 0)
+        {
+            ResetMoving();
+            return;
+        }
+        
+        if (!_flag)
             WriteLastTouchData(Input.touches);
         
         if (Input.touchCount == 2)
@@ -42,6 +49,7 @@ public class ManualMovement : MonoBehaviour
             ChangeScale(Input.touches);
             return;
         }
+        
         _flag = false;       
     }
     
@@ -50,10 +58,10 @@ public class ManualMovement : MonoBehaviour
         switch (path)
         {
             case "forward" :
-                _direction = -Vector3.forward;
+                _direction = Vector3.forward;
                 break;
             case "back":
-                _direction = -Vector3.back;
+                _direction = Vector3.back;
                 break;
             case "left":
                 _direction = Vector3.left;
@@ -122,21 +130,21 @@ public class ManualMovement : MonoBehaviour
     private const string MEDIA_STORE_IMAGE_MEDIA = "android.provider.MediaStore$Images$Media";
     private static AndroidJavaObject m_Activity;
 
-    private static string SaveImageToGallery(Texture2D a_Texture, string a_Title, string a_Description)
+    private static string SaveImageToGallery(Texture2D aTexture, string aTitle, string aDescription)
     {
         using (AndroidJavaClass mediaClass = new AndroidJavaClass(MEDIA_STORE_IMAGE_MEDIA))
         {
             using (AndroidJavaObject contentResolver = Activity.Call<AndroidJavaObject>("getContentResolver"))
             {
-                AndroidJavaObject image = Texture2DToAndroidBitmap(a_Texture);
-                return mediaClass.CallStatic<string>("insertImage", contentResolver, image, a_Title, a_Description);
+                AndroidJavaObject image = Texture2DToAndroidBitmap(aTexture);
+                return mediaClass.CallStatic<string>("insertImage", contentResolver, image, aTitle, aDescription);
             }
         }
     }
 
-    private static AndroidJavaObject Texture2DToAndroidBitmap(Texture2D a_Texture)
+    private static AndroidJavaObject Texture2DToAndroidBitmap(Texture2D aTexture)
     {
-        byte[] encodedTexture = a_Texture.EncodeToPNG();
+        byte[] encodedTexture = aTexture.EncodeToPNG();
         using (AndroidJavaClass bitmapFactory = new AndroidJavaClass("android.graphics.BitmapFactory"))
         {
             return bitmapFactory.CallStatic<AndroidJavaObject>("decodeByteArray", encodedTexture, 0, encodedTexture.Length);

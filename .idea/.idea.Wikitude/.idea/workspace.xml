@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a101e3-99fd-4f2e-97fe-b64b97756b09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Controls.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Controls.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Preview Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Preview Images/dullenturm_preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Preview Images/dullenturm_preview.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Preview Images/rathaus_preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Preview Images/rathaus_preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Image Marker Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Image Marker Tracking.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Rathaus Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Rathaus Tracking.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SampleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SampleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm.wto" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm.wto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm2.wto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm2.wto.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/rathaus.wto" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/rathaus.wto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/rathaus2.wto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/rathaus2.wto.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/10744-v1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/10744-v1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/1383-v8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/1383-v8.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/BrickGroutless0025_3_S.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/BrickGroutless0025_3_S.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/BuildingsDerelict0132_M.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/BuildingsDerelict0132_M.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Ground_03_UV_H_CM_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Ground_03_UV_H_CM_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/RooftilesWood0047_1_M.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/RooftilesWood0047_1_M.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Rose_Ornament_Art_Nouveau_Tidbits_Freebie-300x283.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/Rose_Ornament_Art_Nouveau_Tidbits_Freebie-300x283.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/WoodPlanksBeamed0023_2_S.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/WoodPlanksBeamed0023_2_S.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/WoodPlanksBeamed0042_4_L.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/WoodPlanksBeamed0042_4_L.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/WoodPlanksDirty0008_L.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/WoodPlanksDirty0008_L.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ImageTracker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ImageTracker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ObjectTracker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ObjectTracker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,68 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1566376583592" expanded="true" signature="6:56" ph="..." />
-                <marker date="1566376583592" expanded="true" signature="120:1644" ph="{...}" />
-                <marker date="1566376583592" expanded="true" signature="439:1204" ph="{...}" />
-                <marker date="1566376583592" expanded="true" signature="473:1198" ph="{...}" />
-                <marker date="1566376583592" expanded="true" signature="1265:1457" ph="{...}" />
-                <marker date="1566376583592" expanded="true" signature="1508:1642" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="749">
+              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
               <folding>
-                <marker date="1566378308613" expanded="true" signature="6:80" ph="..." />
-                <marker date="1566378308613" expanded="true" signature="125:5297" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="578:649" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="672:1101" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="959:1065" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="1146:1753" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="1174:1747" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="1797:1895" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="1929:2344" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="2392:2767" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="2821:3105" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="3136:3183" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="3220:3313" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="3388:3737" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="3991:4450" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4098:4444" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4223:4434" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4534:4852" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4710:4846" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4899:5231" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4917:5225" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="4963:5184" ph="{...}" />
-                <marker date="1566378308613" expanded="true" signature="5274:5295" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <marker date="1566376354531" expanded="true" signature="6:56" ph="..." />
-                <marker date="1566376354531" expanded="true" signature="119:1640" ph="{...}" />
-                <marker date="1566376354531" expanded="true" signature="437:1202" ph="{...}" />
-                <marker date="1566376354531" expanded="true" signature="471:1196" ph="{...}" />
-                <marker date="1566376354531" expanded="true" signature="1262:1454" ph="{...}" />
-                <marker date="1566376354531" expanded="true" signature="1504:1638" ph="{...}" />
+                <marker date="1566483123725" expanded="false" signature="6:109" ph="..." />
+                <marker date="1566483123725" expanded="true" signature="159:2802" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="640:938" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="690:932" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="797:866" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="964:1303" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="1104:1268" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="1458:2235" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="1492:2229" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="2296:2491" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="2546:2684" ph="{...}" />
+                <marker date="1566483123725" expanded="true" signature="2747:2800" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,19 +51,40 @@
     <findStrings>
       <find>color</find>
       <find>transform</find>
+      <find>EnableCameraRendering</find>
+      <find>OnCameraOpened</find>
+      <find>CalibrationPositionOffset</find>
+      <find>Update</find>
+      <find>Update\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</find>
+      <find>Events</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3F37B2CA-7BC0-4094-93C9-29A81891A481/61/0bea1146/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c0/b93ebce6/WikitudeBridge.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Other/Wikitude+Geo/Assets/Scripts/GeolocationTracking/GeolocationTrackingController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/23/40248fd2/BridgeFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/59/a8b196c7/ImageTracker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/8f/66709eaa/IPlatformBridge.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/d6/9e4beff4/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GyroscopeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/0e/1a2c7436/TrackerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c1/af2b9ba8/WikitudeSDK.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/44/1cb7c087/ObjectTarget.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/3f/1f3237eb/WikitudeCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/20/c1da4339/TrackerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,7 +96,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ManualPositioning.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/GestureController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GyroscopeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" />
       </list>
     </option>
   </component>
@@ -220,12 +181,14 @@
       <workItem from="1566209129131" duration="7961000" />
       <workItem from="1566287079371" duration="4588000" />
       <workItem from="1566295797350" duration="627000" />
-      <workItem from="1566375036063" duration="3317000" />
+      <workItem from="1566375036063" duration="24128000" />
+      <workItem from="1566476531665" duration="5262000" />
+      <workItem from="1566482659518" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20917000" />
+    <option name="totallyTimeSpent" value="48118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +220,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32874355" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.3275563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,48 +324,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controls/GestureController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/8f/66709eaa/IPlatformBridge.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="393">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/23/40248fd2/BridgeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-701">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c1/af2b9ba8/WikitudeSDK.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding>
-            <marker date="1566376583592" expanded="true" signature="6:56" ph="..." />
-            <marker date="1566376583592" expanded="true" signature="120:1644" ph="{...}" />
-            <marker date="1566376583592" expanded="true" signature="439:1204" ph="{...}" />
-            <marker date="1566376583592" expanded="true" signature="473:1198" ph="{...}" />
-            <marker date="1566376583592" expanded="true" signature="1265:1457" ph="{...}" />
-            <marker date="1566376583592" expanded="true" signature="1508:1642" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="0:305" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1565267473678" expanded="false" signature="313:359" ph="..." />
+            <marker date="1565267473678" expanded="true" signature="379:3908" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="415:3906" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="534:1044" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1328:1535" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1344:1529" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1582:1672" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1598:1666" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1724:1931" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1740:1925" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="1967:2099" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="2158:2544" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="2603:2851" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="2896:3076" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="3132:3902" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="3148:3896" ph="{...}" />
+            <marker date="1565267473678" expanded="true" signature="3213:3836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c0/b93ebce6/WikitudeBridge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/d6/9e4beff4/Plugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/3f/1f3237eb/WikitudeCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="391" column="30" selection-start-line="391" selection-start-column="30" selection-end-line="391" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3F37B2CA-7BC0-4094-93C9-29A81891A481/61/0bea1146/Quaternion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="263" column="29" selection-start-line="263" selection-start-column="29" selection-end-line="263" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GyroscopeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <marker date="1566466373262" expanded="true" signature="6:44" ph="..." />
+            <marker date="1566466373262" expanded="true" signature="94:1870" ph="{...}" />
+            <marker date="1566466373262" expanded="true" signature="479:584" ph="{...}" />
+            <marker date="1566466373262" expanded="true" signature="611:965" ph="{...}" />
+            <marker date="1566466373262" expanded="true" signature="1002:1064" ph="{...}" />
+            <marker date="1566466373262" expanded="true" signature="1118:1183" ph="{...}" />
+            <marker date="1566466373262" expanded="true" signature="1215:1265" ph="{...}" />
+            <marker date="1566466373262" expanded="true" signature="1303:1868" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
-            <marker date="1566378308613" expanded="true" signature="6:80" ph="..." />
-            <marker date="1566378308613" expanded="true" signature="125:5297" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="578:649" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="672:1101" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="959:1065" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="1146:1753" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="1174:1747" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="1797:1895" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="1929:2344" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="2392:2767" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="2821:3105" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="3136:3183" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="3220:3313" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="3388:3737" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="3991:4450" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4098:4444" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4223:4434" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4534:4852" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4710:4846" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4899:5231" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4917:5225" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="4963:5184" ph="{...}" />
-            <marker date="1566378308613" expanded="true" signature="5274:5295" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="6:80" ph="..." />
+            <marker date="1566393090122" expanded="true" signature="125:5464" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="578:749" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="772:1278" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="940:1007" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="1127:1233" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="1323:1928" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="1351:1922" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="1972:2070" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="2104:2519" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="2567:2942" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="2996:3280" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="3311:3358" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="3395:3488" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="3563:3912" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="4163:4619" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="4270:4613" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="4395:4603" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="4702:5019" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="4877:5013" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="5066:5398" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="5084:5392" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="5130:5351" ph="{...}" />
+            <marker date="1566393090122" expanded="true" signature="5441:5462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/44/1cb7c087/ObjectTarget.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/59/a8b196c7/ImageTracker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#312#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/20/c1da4339/TrackerBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/0e/1a2c7436/TrackerManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="648" column="21" selection-start-line="648" selection-start-column="21" selection-end-line="648" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <marker date="1566480751788" expanded="true" signature="6:56" ph="..." />
+            <marker date="1566480751788" expanded="true" signature="118:1642" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="437:1202" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="471:1196" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1263:1455" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1506:1640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <marker date="1566480751788" expanded="false" signature="6:88" ph="..." />
+            <marker date="1566480751788" expanded="true" signature="224:4906" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="262:446" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="494:679" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="842:905" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="959:1024" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1085:1150" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1219:1277" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1338:1398" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1451:1502" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1540:1689" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1637:1683" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="1857:2204" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="2343:2756" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="2612:2750" ph="{...}" />
+            <marker date="1566480751788" expanded="false" signature="2871:4904" ph="Error Console GUI" />
+            <marker date="1566480751788" expanded="true" signature="3315:4889" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="3343:4883" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="4082:4170" ph="{...}" />
+            <marker date="1566480751788" expanded="true" signature="4287:4364" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Other/Wikitude+Geo/Assets/Scripts/GeolocationTracking/GeolocationTrackingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding>
+            <marker date="1566483123725" expanded="false" signature="6:109" ph="..." />
+            <marker date="1566483123725" expanded="true" signature="159:2802" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="640:938" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="690:932" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="797:866" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="964:1303" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="1104:1268" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="1458:2235" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="1492:2229" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="2296:2491" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="2546:2684" ph="{...}" />
+            <marker date="1566483123725" expanded="true" signature="2747:2800" ph="{...}" />
           </folding>
         </state>
       </provider>
