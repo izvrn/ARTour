@@ -12,14 +12,28 @@
             <e p="PropellerScript.cs" t="Include" />
           </e>
           <e p="BaseController.cs" t="Include" />
-          <e p="GyroscopeController.cs" t="Include" />
-          <e p="ManualMovement.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
+          <e p="Controls" t="Include">
+            <e p="GyroscopeController.cs" t="Include" />
+            <e p="ManualMovement.cs" t="Include" />
+            <e p="MoveController.cs" t="Include" />
+            <e p="ScaleController.cs" t="Include" />
+          </e>
+          <e p="FPSCounter.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
-          <e p="SampleController.cs" t="Include" />
+          <e p="OcclusionCurtain" t="Include">
+            <e p="OccluderController.cs" t="Include" />
+            <e p="TogglerElementDragger.cs" t="Include" />
+          </e>
           <e p="SingleImageTrackingController.cs" t="Include" />
           <e p="SingleObjectTrackingController.cs" t="Include" />
           <e p="TrackingController.cs" t="Include" />
           <e p="URLManager.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Backobjects.shader" t="Include" />
+          <e p="Occluder.shader" t="Include" />
+          <e p="Portal.shader" t="Include" />
         </e>
         <e p="Wikitude" t="Include">
           <e p="Dependencies" t="Include">

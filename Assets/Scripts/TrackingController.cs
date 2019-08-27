@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using Wikitude;
 
@@ -18,7 +18,7 @@ public class TrackingController : BaseController
     private List<TrackerBehaviour> _trackers = new List<TrackerBehaviour>();
     private int _currentTracker;
 
-    public int CurrentTracker
+    private int CurrentTracker
     {
         get => _currentTracker;
         set
@@ -30,14 +30,23 @@ public class TrackingController : BaseController
                 tracker.enabled = false;
             }
 
+            instructionsText.text = _trackers[_currentTracker].name;
             _trackers[_currentTracker].enabled = true;
+            TrackerChanged.Invoke(_trackers[_currentTracker]);
         }
     }
 
+    public TrackerChangedEvent TrackerChanged;
+
     private void Awake()
     {
-        base.Start();
+        TrackerChanged = new TrackerChangedEvent();
+    }
 
+    private new void Start()
+    {
+        base.Start();
+        
         var list = GameObject.FindGameObjectsWithTag("Tracker Behaviour");
 
         foreach (var item in list)
@@ -86,4 +95,9 @@ public class TrackingController : BaseController
     {
         CurrentTracker = dropdown.value;
     }
+}
+
+public class TrackerChangedEvent : UnityEvent<TrackerBehaviour>
+{
+    
 }

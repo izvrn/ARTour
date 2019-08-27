@@ -8,6 +8,7 @@ TagManager:
   - GeoPoint
   - Tracker Behaviour
   - Controller
+  - CurtainToggler
   layers:
   - Default
   - TransparentFX
