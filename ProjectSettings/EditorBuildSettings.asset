@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 929c293ab85da7d46bd4ea236c81a4ef
   - enabled: 1
-    path: Assets/Scenes/Debug Tracking/Multiple Object Tracking.unity
+    path: Assets/Scenes/Debug Tracking/Multiple Tracking.unity
     guid: 1081d82b0885e4645aa06cf0b439c542
   - enabled: 0
     path: Assets/Scenes/Debug Tracking/Image Marker Tracking.unity

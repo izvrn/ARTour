@@ -2260,7 +2260,7 @@ PrefabInstance:
     - target: {fileID: 1555584501876162298, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_Name
-      value: Multiple Object Tracking
+      value: Multiple Tracking
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
@@ -2380,7 +2380,7 @@ PrefabInstance:
     - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_Text
-      value: Multiple Object Tracking
+      value: Multiple Tracking
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af6432be82614146908854240475913, type: 3}

@@ -8,15 +8,14 @@ public class OccluderController : MonoBehaviour
 
     private void Start()
     {
-        dragger.DragEvent.AddListener(OnTogglerDrag);
+        dragger.dragEvent.AddListener(OnTogglerDrag);
     }
 
     private void OnTogglerDrag(float xPosition, float t)
     {
-        Debug.Log("CLAMPED X FROM EVENT: " + xPosition);
+        if (xPosition < 0)
+            return;
         
         occluderPanelImage.fillAmount = Mathf.Lerp(occluderPanelImage.fillAmount, xPosition / Screen.width, t);
-        
-        Debug.Log("FILL AMOUNT : " + occluderPanelImage.fillAmount);
     }
 }

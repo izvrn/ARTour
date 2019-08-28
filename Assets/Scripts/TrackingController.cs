@@ -2,45 +2,46 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.UI.Extensions;
 using Wikitude;
 
 public class TrackingController : BaseController
 {
+    [Header("INFORMATION HEADER SETTINGS")]
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
 
-    [SerializeField] private Text instructionsText;
-    [SerializeField] private Image instructionsImage;
-
-    [SerializeField] private GameObject instructionsGameObject;
-    [SerializeField] private Dropdown trackersDropdown;
+    [Header("HORIZONTAL SCROLLRECT SETTINGS")] 
+    [SerializeField] private HorizontalScrollSnap horizontalScrollSnap;
+    [SerializeField] private GameObject itemPrefab;
 
     private List<TrackerBehaviour> _trackers = new List<TrackerBehaviour>();
     private int _currentTracker;
 
     private int CurrentTracker
     {
-        get => _currentTracker;
         set
         {
             _currentTracker = value;
+            
+            if (_trackers.Count < 1)
+                return;
             
             foreach (var tracker in _trackers)
             {
                 tracker.enabled = false;
             }
-
-            instructionsText.text = _trackers[_currentTracker].name;
+            
             _trackers[_currentTracker].enabled = true;
-            TrackerChanged.Invoke(_trackers[_currentTracker]);
+            trackerChanged.Invoke(_trackers[_currentTracker]);
         }
     }
 
-    public TrackerChangedEvent TrackerChanged;
+    public TrackerChangedEvent trackerChanged;
 
     private void Awake()
     {
-        TrackerChanged = new TrackerChangedEvent();
+        trackerChanged = new TrackerChangedEvent();
     }
 
     private new void Start()
@@ -52,9 +53,12 @@ public class TrackingController : BaseController
         foreach (var item in list)
         {
             _trackers.Add(item.GetComponent<TrackerBehaviour>());
-            trackersDropdown.options.Add(new Dropdown.OptionData(item.name));
+            
+            var trackerItem = Instantiate(itemPrefab);
+            trackerItem.transform.GetChild(0).GetComponent<Text>().text = item.name;
+            horizontalScrollSnap.AddChild(trackerItem);
         }
-
+        
         CurrentTracker = 0;
     }
 
@@ -80,7 +84,6 @@ public class TrackingController : BaseController
 
     public void OnTargetRecognized(RecognizedTarget target)
     {
-        instructionsGameObject.SetActive(false);
         informationText.text = "ObjectTarget: " + target.Drawable + " Recognized";
         informationBackground.color = Color.green;
     }
@@ -90,10 +93,11 @@ public class TrackingController : BaseController
         informationText.text = "ObjectTarget: " + target.Drawable + " Lost";
         informationBackground.color = Color.red;
     }
-    
-    public void OnDropdownValueChanged(Dropdown dropdown)
+
+    public void OnScrollRectPageChanged(int page)
     {
-        CurrentTracker = dropdown.value;
+        CurrentTracker = page;
+        Debug.Log(page);
     }
 }
 

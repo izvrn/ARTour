@@ -34,7 +34,7 @@ public class ManualMovement : MonoBehaviour
         ResetMoving();
         movementSlider.value = .1f;
         _mainCamera = Camera.main;
-        trackingController.TrackerChanged.AddListener(OnTrackerChanged);
+        trackingController.trackerChanged.AddListener(OnTrackerChanged);
         
         Debug.LogError("This message will make the console appear in Development Builds");
     }

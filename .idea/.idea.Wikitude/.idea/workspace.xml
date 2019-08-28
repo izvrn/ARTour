@@ -5,37 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Controls.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Controls.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dullenturm Tracking.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dullenturm Tracking.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fountain Long Distance.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fountain Long Distance.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fountain Medium Distance.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fountain Medium Distance.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fountain Short Distance.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fountain Short Distance.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Image Marker Tracking.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Image Marker Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Debug Tracking/Multiple Object Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Debug Tracking/Multiple Object Tracking.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Multiple Object Tracking.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Multiple Object Tracking.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Rathaus Tracking.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Rathaus Tracking.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GyroscopeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GyroscopeController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain_ld.wto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain_ld.wto.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain_md.wto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain_md.wto.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain_sd.wto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain_sd.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,114 +25,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-              <folding>
-                <marker date="1566914430951" expanded="true" signature="6:40" ph="..." />
-                <marker date="1566914430951" expanded="true" signature="89:626" ph="{...}" />
-                <marker date="1566914430951" expanded="true" signature="232:298" ph="{...}" />
-                <marker date="1566914430951" expanded="true" signature="356:624" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1566915657841" expanded="true" signature="6:76" ph="..." />
-                <marker date="1566915657841" expanded="true" signature="168:2823" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="331:463" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="489:686" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="713:2088" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="753:1406" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="790:1396" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="1443:2082" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="1480:2072" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="2140:2465" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="2525:2563" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="2621:2660" ph="{...}" />
-                <marker date="1566915657841" expanded="true" signature="2874:2883" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <marker date="1566918538521" expanded="true" signature="6:44" ph="..." />
-                <marker date="1566918538521" expanded="true" signature="85:2511" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="91:547" ph="/* Attach this to any object to make a frames/second indicator. ... */" />
-                <marker date="1566918538521" expanded="true" signature="1382:1418" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="1435:1502" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="1523:1932" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="1599:1929" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="1948:2312" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="2043:2202" ph="{...}" />
-                <marker date="1566918538521" expanded="true" signature="2345:2509" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>color</find>
-      <find>transform</find>
-      <find>EnableCameraRendering</find>
-      <find>OnCameraOpened</find>
-      <find>CalibrationPositionOffset</find>
-      <find>Update</find>
-      <find>Update\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</find>
-      <find>Events</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/3f/1f3237eb/WikitudeCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/63/7d0da8cb/InstantTrackable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/44/1cb7c087/ObjectTarget.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/38/dab62f64/InstantTarget.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/59/a8b196c7/ImageTracker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/20/c1da4339/TrackerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c0/b93ebce6/WikitudeBridge.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/0e/1a2c7436/TrackerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwipeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Other/Wikitude+Geo/Assets/Scripts/GeolocationTracking/GeolocationTrackingController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/23/40248fd2/BridgeFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/59/a8b196c7/ImageTracker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/8f/66709eaa/IPlatformBridge.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/d6/9e4beff4/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c1/af2b9ba8/WikitudeSDK.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Backobjects.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Portal.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/3f/1f3237eb/WikitudeCamera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3F37B2CA-7BC0-4094-93C9-29A81891A481/61/0bea1146/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Occluder.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/0e/1a2c7436/TrackerManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/44/1cb7c087/ObjectTarget.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/20/c1da4339/TrackerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Occluder.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Portal.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Backobjects.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CE23092-8A98-496B-A12C-A183760FB5F6/f6/408ad327/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/8f/66709eaa/IPlatformBridge.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/5c/76d57c94/InstantTracker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c1/af2b9ba8/WikitudeSDK.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,10 +86,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CustomWikitudeCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwipeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" />
       </list>
     </option>
   </component>
@@ -189,22 +103,13 @@
         <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" />
         <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/projectSettingsUpdater.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1440" />
-    <option name="height" value="777" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
+  <component name="ProjectId" id="1Q2jnVnBibnaJZXStZAGM7YsnU1" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -266,56 +171,33 @@
       <workItem from="1566827551927" duration="4830000" />
       <workItem from="1566889629130" duration="19472000" />
       <workItem from="1566915650289" duration="1983000" />
+      <workItem from="1566975767926" duration="19795000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89964000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25262308" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Unity" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.3275563" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="-299" key="run.anything.popup" />
+    <state x="616" y="-299" key="run.anything.popup/1920.1080/1920.1080" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -325,415 +207,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#118#0" expanded="true" />
-            <marker date="1565875732541" expanded="true" signature="399:555" ph="{...}" />
-            <marker date="1565875732541" expanded="true" signature="473:549" ph="{...}" />
-            <marker date="1565875732541" expanded="true" signature="610:747" ph="{...}" />
-            <marker date="1565875732541" expanded="true" signature="787:1269" ph="{...}" />
-            <marker date="1565875732541" expanded="true" signature="1313:1356" ph="{...}" />
-            <marker date="1565875732541" expanded="true" signature="1376:1596" ph="{...}" />
-            <marker date="1565875732541" expanded="true" signature="1478:1590" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InfoButtonScript.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <marker date="1565940195730" expanded="true" signature="6:80" ph="..." />
-            <marker date="1565940195730" expanded="true" signature="127:1110" ph="{...}" />
-            <marker date="1565940195730" expanded="true" signature="378:432" ph="{...}" />
-            <marker date="1565940195730" expanded="true" signature="461:512" ph="{...}" />
-            <marker date="1565940195730" expanded="true" signature="542:599" ph="{...}" />
-            <marker date="1565940195730" expanded="true" signature="642:879" ph="{...}" />
-            <marker date="1565940195730" expanded="true" signature="743:873" ph="{...}" />
-            <marker date="1565940195730" expanded="true" signature="906:1108" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1565942927556" expanded="false" signature="6:78" ph="..." />
-            <marker date="1565942927556" expanded="true" signature="124:296" ph="{...}" />
-            <marker date="1565942927556" expanded="true" signature="197:294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-721">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1566205830946" expanded="true" signature="6:66" ph="..." />
-            <marker date="1566205830946" expanded="true" signature="118:1594" ph="{...}" />
-            <marker date="1566205830946" expanded="true" signature="376:721" ph="{...}" />
-            <marker date="1566205830946" expanded="true" signature="750:819" ph="{...}" />
-            <marker date="1566205830946" expanded="true" signature="856:1290" ph="{...}" />
-            <marker date="1566205830946" expanded="true" signature="926:1246" ph="{...}" />
-            <marker date="1566205830946" expanded="true" signature="1321:1592" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualPositioning.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <marker date="1566376354531" expanded="true" signature="6:56" ph="..." />
-            <marker date="1566376354531" expanded="true" signature="119:1640" ph="{...}" />
-            <marker date="1566376354531" expanded="true" signature="437:1202" ph="{...}" />
-            <marker date="1566376354531" expanded="true" signature="471:1196" ph="{...}" />
-            <marker date="1566376354531" expanded="true" signature="1262:1454" ph="{...}" />
-            <marker date="1566376354531" expanded="true" signature="1504:1638" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controls/GestureController.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/8f/66709eaa/IPlatformBridge.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/23/40248fd2/BridgeFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-701">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c1/af2b9ba8/WikitudeSDK.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <marker date="1565267473678" expanded="true" signature="0:305" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1565267473678" expanded="false" signature="313:359" ph="..." />
-            <marker date="1565267473678" expanded="true" signature="379:3908" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="415:3906" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="534:1044" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1328:1535" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1344:1529" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1582:1672" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1598:1666" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1724:1931" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1740:1925" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="1967:2099" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="2158:2544" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="2603:2851" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="2896:3076" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="3132:3902" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="3148:3896" ph="{...}" />
-            <marker date="1565267473678" expanded="true" signature="3213:3836" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c0/b93ebce6/WikitudeBridge.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/d6/9e4beff4/Plugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/3f/1f3237eb/WikitudeCamera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="391" column="30" selection-start-line="391" selection-start-column="30" selection-end-line="391" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3F37B2CA-7BC0-4094-93C9-29A81891A481/61/0bea1146/Quaternion.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="263" column="29" selection-start-line="263" selection-start-column="29" selection-end-line="263" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/44/1cb7c087/ObjectTarget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/59/a8b196c7/ImageTracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="e#312#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/20/c1da4339/TrackerBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/0e/1a2c7436/TrackerManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="648" column="21" selection-start-line="648" selection-start-column="21" selection-end-line="648" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <marker date="1566480751788" expanded="true" signature="6:56" ph="..." />
-            <marker date="1566480751788" expanded="true" signature="118:1642" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="437:1202" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="471:1196" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1263:1455" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1506:1640" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Other/Wikitude+Geo/Assets/Scripts/GeolocationTracking/GeolocationTrackingController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <folding>
-            <element signature="e#0#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1081">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1566480751788" expanded="false" signature="6:88" ph="..." />
-            <marker date="1566480751788" expanded="true" signature="224:4906" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="262:446" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="494:679" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="842:905" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="959:1024" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1085:1150" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1219:1277" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1338:1398" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1451:1502" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1540:1689" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1637:1683" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="1857:2204" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="2343:2756" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="2612:2750" ph="{...}" />
-            <marker date="1566480751788" expanded="false" signature="2871:4904" ph="Error Console GUI" />
-            <marker date="1566480751788" expanded="true" signature="3315:4889" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="3343:4883" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="4082:4170" ph="{...}" />
-            <marker date="1566480751788" expanded="true" signature="4287:4364" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Occluder.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <marker date="1566825706806" expanded="true" signature="25:151" ph="{...}" />
-            <marker date="1566825706806" expanded="true" signature="46:149" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Backobjects.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1566826659028" expanded="true" signature="28:305" ph="{...}" />
-            <marker date="1566826659028" expanded="true" signature="48:303" ph="{...}" />
-            <marker date="1566826659028" expanded="true" signature="159:297" ph="{...}" />
-            <marker date="1566826659028" expanded="true" signature="193:287" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Portal.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1566826603880" expanded="true" signature="23:184" ph="{...}" />
-            <marker date="1566826603880" expanded="true" signature="43:182" ph="{...}" />
-            <marker date="1566826603880" expanded="true" signature="67:176" ph="{...}" />
-            <marker date="1566826603880" expanded="true" signature="102:166" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManualMovement.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GyroscopeController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <marker date="1566903662658" expanded="true" signature="6:67" ph="..." />
-            <marker date="1566903662658" expanded="true" signature="112:2815" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="433:612" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="483:606" ph="/* _controller = FindObjectOfType&lt;TrackingController&gt;(); ... */" />
-            <marker date="1566903662658" expanded="true" signature="643:2318" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="739:2137" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="910:971" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="1132:2127" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="1465:2113" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="2152:2312" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="2356:2597" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="2667:2731" ph="{...}" />
-            <marker date="1566903662658" expanded="true" signature="2765:2813" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <marker date="1566894610439" expanded="true" signature="6:67" ph="..." />
-            <marker date="1566894610439" expanded="true" signature="113:3205" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="448:627" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="498:621" ph="/* _controller = FindObjectOfType&lt;TrackingController&gt;(); ... */" />
-            <marker date="1566894610439" expanded="true" signature="658:2476" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="755:2244" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="1078:1460" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="1174:1446" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="1474:1713" ph="/* If we are scaling an augmentation, do a raycast for each touch position ... */" />
-            <marker date="1566894610439" expanded="true" signature="1740:2234" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="2259:2470" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="2282:2430" ph="/* If there are less than two touches on the screen, stop scaling the currently scaled augmentation, ... */" />
-            <marker date="1566894610439" expanded="true" signature="2515:2552" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="2619:2959" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="2850:2915" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="3029:3117" ph="{...}" />
-            <marker date="1566894610439" expanded="true" signature="3155:3203" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OccluderController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1566913015748" expanded="true" signature="6:34" ph="..." />
-            <marker date="1566913015748" expanded="true" signature="81:328" ph="{...}" />
-            <marker date="1566913015748" expanded="true" signature="147:217" ph="{...}" />
-            <marker date="1566913015748" expanded="true" signature="244:326" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret lean-forward="true" />
-          <folding>
-            <marker date="1566913224979" expanded="true" signature="6:116" ph="..." />
-            <marker date="1566913224979" expanded="true" signature="166:3092" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="648:1078" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="698:1072" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="805:874" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="1152:1216" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="1246:1593" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="1394:1558" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="1748:2525" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="1782:2519" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="2586:2781" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="2836:2974" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="3037:3090" ph="{...}" />
-            <marker date="1566913224979" expanded="true" signature="3157:3166" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <marker date="1566914430951" expanded="true" signature="6:40" ph="..." />
-            <marker date="1566914430951" expanded="true" signature="89:626" ph="{...}" />
-            <marker date="1566914430951" expanded="true" signature="232:298" ph="{...}" />
-            <marker date="1566914430951" expanded="true" signature="356:624" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1566915657841" expanded="true" signature="6:76" ph="..." />
-            <marker date="1566915657841" expanded="true" signature="168:2823" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="331:463" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="489:686" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="713:2088" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="753:1406" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="790:1396" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="1443:2082" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="1480:2072" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="2140:2465" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="2525:2563" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="2621:2660" ph="{...}" />
-            <marker date="1566915657841" expanded="true" signature="2874:2883" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <marker date="1566918538521" expanded="true" signature="6:44" ph="..." />
-            <marker date="1566918538521" expanded="true" signature="85:2511" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="91:547" ph="/* Attach this to any object to make a frames/second indicator. ... */" />
-            <marker date="1566918538521" expanded="true" signature="1382:1418" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="1435:1502" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="1523:1932" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="1599:1929" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="1948:2312" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="2043:2202" ph="{...}" />
-            <marker date="1566918538521" expanded="true" signature="2345:2509" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
