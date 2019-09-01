@@ -52,11 +52,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Wikitude.ObjectTrackable+OnObjectRecognizedEvent, WikitudeUnityPlugin,
-      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnObjectLost:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.ObjectTrackable+OnObjectLostEvent, WikitudeUnityPlugin, Version=8.6.0.0,
+    m_TypeName: Wikitude.ObjectTrackable+OnObjectLostEvent, WikitudeUnityPlugin, Version=8.7.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1000011553030912
 GameObject:
@@ -106,33 +106,33 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Wikitude.TrackerBehaviour+OnTargetsLoadedEvent, WikitudeUnityPlugin,
-      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnErrorLoadingTargets:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Wikitude.TrackerBehaviour+OnErrorLoadingTargetsEvent, WikitudeUnityPlugin,
-      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnInitializationError:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Wikitude.TrackerBehaviour+OnInitializationErrorEvent, WikitudeUnityPlugin,
-      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnExtendedTrackingQualityChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Wikitude.ObjectTracker+OnExtendedTrackingQualityChangedEvent, WikitudeUnityPlugin,
-      Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   _targetCollectionResource:
-    _targetPath: Wikitude/dullenturm.wto
+    _targetPath: Wikitude/firetruck.wto
     _useCustomURL: 0
     OnFinishLoading:
       m_PersistentCalls:
         m_Calls: []
       m_TypeName: Wikitude.TargetCollectionResource+OnFinishLoadingEvent, WikitudeUnityPlugin,
-        Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
     OnErrorLoading:
       m_PersistentCalls:
         m_Calls: []
       m_TypeName: Wikitude.TargetCollectionResource+OnErrorLoadingEvent, WikitudeUnityPlugin,
-        Version=8.6.0.0, Culture=neutral, PublicKeyToken=null
+        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   _trackerEfficiencyMode: 0

@@ -5,6 +5,30 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Demigiant" t="Include">
+          <e p="DemiLib" t="Include">
+            <e p="Core" t="Include">
+              <e p="DemiLib.xml" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DemiEditor.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="DOTween" t="Include">
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="DOTweenPro" t="Include">
+            <e p="DOTweenAnimation.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="DOTweenAnimationInspector.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="readme_DOTweenPro.txt" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AirAd" t="Include">
             <e p="CursorAnimationScript.cs" t="Include" />
@@ -12,26 +36,37 @@
             <e p="InfoButtonScript.cs" t="Include" />
             <e p="PropellerScript.cs" t="Include" />
           </e>
-          <e p="BaseController.cs" t="Include" />
-          <e p="CameraController.cs" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="BaseController.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
+            <e p="FPSCounter.cs" t="Include" />
+            <e p="InstantTrackingController.cs" t="Include" />
+            <e p="MenuController.cs" t="Include" />
+            <e p="SingleImageTrackingController.cs" t="Include" />
+            <e p="SingleObjectTrackingController.cs" t="Include" />
+            <e p="SwipeManager.cs" t="Include" />
+            <e p="TrackingController.cs" t="Include" />
+            <e p="URLManager.cs" t="Include" />
+          </e>
           <e p="Controls" t="Include">
-            <e p="GyroscopeController.cs" t="Include" />
             <e p="ManualMovement.cs" t="Include" />
             <e p="MoveController.cs" t="Include" />
             <e p="ScaleController.cs" t="Include" />
           </e>
-          <e p="FPSCounter.cs" t="Include" />
-          <e p="MenuController.cs" t="Include" />
-          <e p="OcclusionCurtain" t="Include">
-            <e p="OccluderController.cs" t="Include" />
-            <e p="TogglerElementDragger.cs" t="Include" />
+          <e p="Demo" t="Include">
+            <e p="ImageController.cs" t="Include" />
+            <e p="PointerScaler.cs" t="Include" />
+            <e p="VirtualObjectTouchController.cs" t="Include" />
           </e>
-          <e p="SingleImageTrackingController.cs" t="Include" />
-          <e p="SingleObjectTrackingController.cs" t="Include" />
-          <e p="SwipeManager.cs" t="Include" />
+          <e p="Gyroscope" t="Include">
+            <e p="GyroscopeController.cs" t="Include" />
+            <e p="MadgwickAHRS.cs" t="Include" />
+          </e>
+          <e p="OcclusionCurtain" t="Include">
+            <e p="GutterController.cs" t="Include" />
+            <e p="GutterSwipeController.cs" t="Include" />
+          </e>
           <e p="Test.cs" t="Include" />
-          <e p="TrackingController.cs" t="Include" />
-          <e p="URLManager.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Backobjects.shader" t="Include" />

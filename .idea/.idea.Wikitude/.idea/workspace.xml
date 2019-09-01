@@ -2,22 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a101e3-99fd-4f2e-97fe-b64b97756b09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Debug Tracking/Multiple Object Tracking.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Debug Tracking/Multiple Object Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/android_component.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/android_component.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/android_component.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/android_component.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/core-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/core-1.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/unity_android_bridge.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/unity_android_bridge.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/unity_android_bridge.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/unity_android_bridge.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WSA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/WSA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WSA/x64.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/WSA/x64.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WSA/x64/UnityUWPBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/WSA/x64/UnityUWPBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework/Info.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework/WikitudeSDK" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework/WikitudeSDK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework/WikitudeSDK.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/WikitudeSDK.framework/WikitudeSDK.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libUnityiOSBridge.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/libUnityiOSBridge.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libUnityiOSBridge.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/libUnityiOSBridge.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Debug Tracking/Multiple Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Debug Tracking/Multiple Tracking.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Extended Rectangle Flowerbed Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Extended Rectangle Flowerbed Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Fountain Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Fountain Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/New Manhole Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/New Manhole Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Old Manhole Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Old Manhole Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rectangle Flowerbed Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rectangle Flowerbed Tracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Tile Tracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Tile Tracking.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controls/GyroscopeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controls/GyroscopeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwipeManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwipeManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/URLManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/URLManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm.wto" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm.wto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm.wto.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/dullenturm.wto.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/flowerbed.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/flowerbed.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain (86 photo - cloudy).wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain (86 photo - cloudy).wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/fountain.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/new manhole.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/new manhole.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/old manhole.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/old manhole.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/qr-codes.wtc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/qr-codes.wtc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/rathaus.wto.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/rathaus.wto.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/round flowerbed.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/round flowerbed.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/sunny flowerbed.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/sunny flowerbed.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/sunny tiles.wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/sunny tiles.wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/tiles (50 photo + half-sunny).wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/tiles (50 photo + half-sunny).wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/tiles (~60 photo).wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/tiles (~60 photo).wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/tiles (~80 photo + long distance).wto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Wikitude/tiles (~80 photo + long distance).wto.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/towerPNG.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/dullenturm/towerPNG.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Virtual Objects/rathaus/materials/Rotor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Virtual Objects/rathaus/materials/Rotor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/AndroidBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/AndroidBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/AndroidBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/AndroidBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/MacOSEditorBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/MacOSEditorBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/MacOSEditorBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/MacOSEditorBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/Platform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/Platform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/Platform.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/UWPBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/UWPBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/UWPBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/UWPBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeUnityPlugin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeUnityPlugin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeUnityPlugin.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WikitudeUnityPlugin.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WindowsEditorBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WindowsEditorBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WindowsEditorBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/WindowsEditorBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/iOSBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/iOSBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/iOSBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/iOSBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/link.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/link.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/link.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Dependencies/link.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/WikitudeUnityEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/WikitudeUnityEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/WikitudeUnityEditor.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/WikitudeUnityEditor.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/Windows/UnityEditorWindowsBridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/Windows/UnityEditorWindowsBridge.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/Windows/UnityEditorWindowsBridge.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/Windows/UnityEditorWindowsBridge.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/Windows/openblas.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/Windows/openblas.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/MacOS/UnityEditorMacOSBridge" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/MacOS/UnityEditorMacOSBridge" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/MacOS/UnityEditorMacOSBridge.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/MacOS/UnityEditorMacOSBridge.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/_CodeSignature/CodeResources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Editor/macOS/UnityEditorMacOSBridge.bundle/Contents/_CodeSignature/CodeResources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/CloudTracker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/CloudTracker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/CloudTracker.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/CloudTracker.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ImageTracker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ImageTracker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ImageTracker.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ImageTracker.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/InstantTracker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/InstantTracker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/InstantTracker.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/InstantTracker.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ObjectTracker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ObjectTracker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ObjectTracker.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/ObjectTracker.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/WikitudeCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/WikitudeCamera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/WikitudeCamera.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wikitude/Prefabs/WikitudeCamera.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,37 +148,48 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/3f/1f3237eb/WikitudeCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/63/7d0da8cb/InstantTrackable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/44/1cb7c087/ObjectTarget.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleImageTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/38/dab62f64/InstantTarget.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45E29CC2-DF18-4420-9D16-8A280C119159/1c/089b2c56/LoopType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/59/a8b196c7/ImageTracker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Android.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CE23092-8A98-496B-A12C-A183760FB5F6/fd/cfe9cbbc/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/20/c1da4339/TrackerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/InstantTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/0e/1a2c7436/TrackerManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18609630-9175-4A82-9456-6E9D4FA3D421/08/5b58fcb3/WindowsEditorWikitudeBridge.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwipeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Other/Wikitude+Geo/Assets/Scripts/GeolocationTracking/GeolocationTrackingController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/f2/59f31772/SDKBuildInformation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A627739B-FE1B-4EFD-9252-B7ADAC113F32/3f/9d14bad4/TrackerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/42/32785f28/IWikitudeBridge.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Occluder.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A627739B-FE1B-4EFD-9252-B7ADAC113F32/4e/9de11a44/ObjectTracker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Portal.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/MadgwickAHRS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Backobjects.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/GyroscopeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CE23092-8A98-496B-A12C-A183760FB5F6/f6/408ad327/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/23/40248fd2/BridgeFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B30780C1-54BE-4CA1-9B7F-2D49C32FCD4D/8f/66709eaa/IPlatformBridge.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/5c/76d57c94/InstantTracker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/116B88FA-2573-4C9E-AB11-C5AB35C11592/c1/af2b9ba8/WikitudeSDK.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -90,9 +219,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwipeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gyroscope/MadgwickAHRS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDraggerCenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gyroscope/GyroscopeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/InstantTrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/TogglerElementDragger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/Gutter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterDrag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterDragController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/ImageGutter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectClickController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" />
       </list>
     </option>
   </component>
@@ -172,6 +316,10 @@
       <workItem from="1566889629130" duration="19472000" />
       <workItem from="1566915650289" duration="1983000" />
       <workItem from="1566975767926" duration="19795000" />
+      <workItem from="1567060636668" duration="9672000" />
+      <workItem from="1567082784757" duration="4783000" />
+      <workItem from="1567147793033" duration="10708000" />
+      <workItem from="1567171486561" duration="6721000" />
     </task>
     <servers />
   </component>
@@ -185,7 +333,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -197,6 +347,8 @@
   <component name="WindowStateProjectService">
     <state x="616" y="-299" key="run.anything.popup" />
     <state x="616" y="-299" key="run.anything.popup/1920.1080/1920.1080" />
+    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup" />
+    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup/1920.1080/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
