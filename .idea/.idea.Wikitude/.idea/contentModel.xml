@@ -36,6 +36,7 @@
             <e p="InfoButtonScript.cs" t="Include" />
             <e p="PropellerScript.cs" t="Include" />
           </e>
+          <e p="ChairMovingScript.cs" t="Include" />
           <e p="Controllers" t="Include">
             <e p="BaseController.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
@@ -66,7 +67,6 @@
             <e p="GutterController.cs" t="Include" />
             <e p="GutterSwipeController.cs" t="Include" />
           </e>
-          <e p="Test.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Backobjects.shader" t="Include" />

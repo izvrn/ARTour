@@ -24,24 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Debug Tracking/Image Marker Tracking.unity
     guid: 33a3904948c55e6448abbfcf6c7c92b8
   - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Tile Tracking.unity
-    guid: f9795b60ad8b10b4995b3fc07868dfdd
-  - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Rectangle Flowerbed Tracking.unity
-    guid: f0770bd04a5b07843907de7dbce9a670
-  - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Extended Rectangle Flowerbed Tracking.unity
-    guid: 8b8eee51438ece64a87b836ffc0bf68f
-  - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Fountain Tracking.unity
-    guid: aff5f42c225f29746ac1ccf66c8e59ba
-  - enabled: 0
-    path: Assets/Scenes/Demo Tracking/New Manhole Tracking.unity
-    guid: e2153877337252e49a945b4d12474868
-  - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Old Manhole Tracking.unity
-    guid: c3ca9ce2f6fb7e345b7698b63b6503f2
-  - enabled: 0
     path: Assets/Scenes/Object Tracking/Dullenturm Tracking.unity
     guid: e9a47ce8288f2b24586ac169cc9f0b0c
   - enabled: 0

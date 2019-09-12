@@ -14,6 +14,8 @@ public class ImageController : MonoBehaviour
     private Vector3 _localScale;
 
     private Transform _child1, _child2;
+
+    private WikitudeCamera _wikitudeCamera;
     
     private void Start()
     {
@@ -23,6 +25,8 @@ public class ImageController : MonoBehaviour
         _child2 = imageGutterCanvasGameObject.transform.GetChild(1);
         
         _localScale = _child1.localScale;
+
+        _wikitudeCamera = FindObjectOfType<WikitudeCamera>();
     }
     
     private void OnVirtualButtonClicked()
