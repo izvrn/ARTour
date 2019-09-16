@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Projects\Unity\Wikitude" t="IncludeRecursive">
+    <e p="C:\Users\Andrey\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Andrey\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Wikitude.-1498102531.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\Wikitude" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -36,7 +38,6 @@
             <e p="InfoButtonScript.cs" t="Include" />
             <e p="PropellerScript.cs" t="Include" />
           </e>
-          <e p="ChairMovingScript.cs" t="Include" />
           <e p="Controllers" t="Include">
             <e p="BaseController.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
@@ -63,6 +64,7 @@
             <e p="GyroscopeController.cs" t="Include" />
             <e p="MadgwickAHRS.cs" t="Include" />
           </e>
+          <e p="MovingScript.cs" t="Include" />
           <e p="OcclusionCurtain" t="Include">
             <e p="GutterController.cs" t="Include" />
             <e p="GutterSwipeController.cs" t="Include" />
@@ -298,7 +300,5 @@
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="Wikitude.sln" t="IncludeFlat" />
     </e>
-    <e p="C:\Users\Andrei\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Andrei\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Wikitude.550621292.00" t="ExcludeRecursive" />
   </component>
 </project>
