@@ -23,6 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,8 +42,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/GyroscopeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/MadgwickAHRS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/InstantTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,16 +88,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterDragController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/OccluderController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/ImageGutter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectClickController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChairMovingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +125,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,6 +187,8 @@
       <workItem from="1567405946634" duration="2955000" />
       <workItem from="1567413329993" duration="888000" />
       <workItem from="1568658307564" duration="4059000" />
+      <workItem from="1568700700421" duration="7044000" />
+      <workItem from="1568746332173" duration="7160000" />
     </task>
     <servers />
   </component>

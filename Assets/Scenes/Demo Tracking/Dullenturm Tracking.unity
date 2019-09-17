@@ -1125,7 +1125,7 @@ PrefabInstance:
     - target: {fileID: 114000011743096896, guid: 78da3f0a9196f486f8452d72d45e3926,
         type: 3}
       propertyPath: _trackerEfficiencyMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114000011479129848, guid: 78da3f0a9196f486f8452d72d45e3926,
         type: 3}

@@ -43,6 +43,8 @@ public class GutterSwipeController : MonoBehaviour, IBeginDragHandler, IDragHand
     public void OnBeginDrag(PointerEventData eventData)
     {
         _lastX = eventData.position.x;
+
+        Debug.Log("TEST");
     }
     
     public void OnDrag(PointerEventData eventData)

@@ -21,8 +21,22 @@ public class TrackingController : BaseController
     private int _trackerCount;
     private int _currentTracker;
 
+    private MovingController _movingController;
+
     private int CurrentTracker
     {
+        get
+        {
+            return _currentTracker;
+            
+            for (var i = 0; i < _trackers.Count; i++)
+            {
+                if (_trackers[i].enabled)
+                    return i;
+            }
+
+            return 0;
+        }
         set
         {
             if (_currentTracker == value || _trackers.Count < 1)
@@ -36,25 +50,24 @@ public class TrackingController : BaseController
             }
             
             _trackers[_currentTracker].enabled = true;
-            trackerChanged.Invoke(_trackers[_currentTracker]);
+            _movingController.ObjectTransform = _trackers[CurrentTracker].transform.GetChild(0).GetChild(0);
+            informationText.text = "Tracker switched to " + _trackers[CurrentTracker].name;
         }
     }
-
-    public TrackerChangedEvent trackerChanged;
-
+    
     private void Awake()
     {
-        trackerChanged = new TrackerChangedEvent();
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
+
+        _movingController = GetComponent<MovingController>();
     }
 
     private new void Start()
     {
         base.Start();
-        TrackersInitialization();
 
-        CurrentTracker = 0;
+        StartCoroutine(Initialization());
     }
 
     public void OnExtendedTrackingQualityChanged(RecognizedTarget target, ExtendedTrackingQuality oldQuality,
@@ -63,15 +76,15 @@ public class TrackingController : BaseController
         switch (newQuality)
         {
             case ExtendedTrackingQuality.Bad:
-                informationText.text = "Extended Tracking Quality on Target " + _trackers[_currentTracker].name + " : Bad";
+                informationText.text = "Extended Tracking Quality on Target " + _trackers[CurrentTracker].name + " : Bad";
                 informationBackground.color = Color.red;
                 break;
             case ExtendedTrackingQuality.Average:
-                informationText.text = "Extended Tracking Quality on Target " + _trackers[_currentTracker].name + " : Average";
+                informationText.text = "Extended Tracking Quality on Target " + _trackers[CurrentTracker].name + " : Average";
                 informationBackground.color = Color.yellow;
                 break;
             case ExtendedTrackingQuality.Good:
-                informationText.text = "Extended Tracking Quality on Target " + _trackers[_currentTracker].name + " : Good";
+                informationText.text = "Extended Tracking Quality on Target " + _trackers[CurrentTracker].name + " : Good";
                 informationBackground.color = Color.green;
                 break;
         }
@@ -79,13 +92,13 @@ public class TrackingController : BaseController
 
     public void OnTargetRecognized(RecognizedTarget target)
     {
-        informationText.text = "Target: " + _trackers[_currentTracker].name + " Recognized";
+        informationText.text = "Target: " + _trackers[CurrentTracker].name + " Recognized";
         informationBackground.color = Color.green;
     }
 
     public void OnTargetLost(RecognizedTarget target)
     {
-        informationText.text = "Target: " + _trackers[_currentTracker].name + " Lost";
+        informationText.text = "Target: " + _trackers[CurrentTracker].name + " Lost";
         informationBackground.color = Color.red;
     }
 
@@ -93,7 +106,7 @@ public class TrackingController : BaseController
     {
         CurrentTracker = page;
     }
-    
+
     private void TrackersInitialization()
     {
         horizontalScrollSnap.RemoveAllChildren(out var childrenRemoved);
@@ -104,8 +117,17 @@ public class TrackingController : BaseController
             scrollsnapItem.transform.GetChild(0).GetComponent<Text>().text = tracker.name;
             horizontalScrollSnap.AddChild(scrollsnapItem);
         }
+    }
 
+    private IEnumerator Initialization()
+    {
+        yield return new WaitForSeconds(2f);
+
+        TrackersInitialization();
+        
         CurrentTracker = 0;
+        horizontalScrollSnap.CurrentPage = 0;
+        _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
     }
 }
 

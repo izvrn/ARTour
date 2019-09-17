@@ -9,20 +9,20 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     [SerializeField] private RectTransform gutterRect;
     [SerializeField] private RectTransform bordersRect;
 
-    protected float _gutterBordersWidth = 180f;
-    protected float _gutterWidth = 20f;
+    private float _gutterBordersWidth = 180f;
+    private float _gutterWidth = 20f;
     
-    protected float _lerpParameter = 0.4f;
-    protected float _timeToHide = 1.5f;
-    protected float _hideOffset = 40f;
-    protected float _speed = 40f;
-    
-    protected float _timer;
-    
-    protected bool _dragging;
-    protected bool _moving;
+    private float _lerpParameter = 0.4f;
+    private float _timeToHide = 1.5f;
+    private float _hideOffset = 40f;
+    private float _speed = 40f;
 
-    protected bool Hidden => gutterRect.anchoredPosition.x < LeftBorder - _gutterWidth * .5f;
+    private float _timer;
+    
+    private bool _dragging;
+    private bool _moving;
+
+    private bool Hidden => gutterRect.anchoredPosition.x < LeftBorder - _gutterWidth * .5f;
 
     protected void Awake()
     {
@@ -30,7 +30,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         gutterRect.sizeDelta = new Vector2(_gutterWidth, gutterRect.sizeDelta.y);
     }
 
-    protected void Start()
+    private void Start()
     {
         _timer = _timeToHide;
         
@@ -42,7 +42,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         SwipeManager.Instance.swipeLeft.AddListener(OnSwipeLeft);
     }
     
-    protected void Update()
+    private void Update()
     {
         if (Hidden || _moving) return;
 
@@ -56,19 +56,19 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         }
     }
 
-    protected void OnSwipeRight()
+    private void OnSwipeRight()
     {
         if (Hidden && !_moving)
             StartCoroutine(Show());
     }
     
-    protected void OnSwipeLeft()
+    private void OnSwipeLeft()
     {
         if (!Hidden && !_moving)
             StartCoroutine(Hide());
     }
 
-    protected IEnumerator Hide()
+    private IEnumerator Hide()
     {
         _moving = true;
 
@@ -88,7 +88,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         _timer = _timeToHide;
     }
     
-    protected IEnumerator Show()
+    private IEnumerator Show()
     {
         _moving = true;
         var anchoredPosition = gutterRect.anchoredPosition;
@@ -107,7 +107,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         _timer = _timeToHide;
     }
 
-    protected void OnRectTransformDimensionsChange()
+    private void OnRectTransformDimensionsChange()
     {
         if (!gutterRect)
             return;

@@ -5273,6 +5273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dullenturm Tracking
       objectReference: {fileID: 0}
+    - target: {fileID: 1555584501876162298, guid: 3af6432be82614146908854240475913,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5336,7 +5341,7 @@ PrefabInstance:
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -392
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
