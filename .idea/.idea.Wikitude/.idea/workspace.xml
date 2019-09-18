@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="70a101e3-99fd-4f2e-97fe-b64b97756b09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rathaus Tracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rathaus Tracking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking (multiple markers).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking (multiple markers).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,34 +20,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Occluder.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Portal.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Backobjects.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Android.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/GyroscopeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/MadgwickAHRS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/InstantTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Android.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/InstantTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScaleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Occluder.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Portal.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/MadgwickAHRS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Backobjects.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gyroscope/GyroscopeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,7 +99,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controls/ManualMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GPSTracking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LocationProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracking.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +194,8 @@
       <workItem from="1568658307564" duration="4059000" />
       <workItem from="1568700700421" duration="7044000" />
       <workItem from="1568746332173" duration="7160000" />
+      <workItem from="1568754927109" duration="2861000" />
+      <workItem from="1568786671266" duration="1889000" />
     </task>
     <servers />
   </component>

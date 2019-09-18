@@ -18,6 +18,7 @@ public class TrackingController : BaseController
     [SerializeField] private GameObject itemPrefab;
 
     private List<TrackerBehaviour> _trackers;
+    private List<Location> _trackerLocations;
     private int _trackerCount;
     private int _currentTracker;
 
@@ -25,25 +26,14 @@ public class TrackingController : BaseController
 
     private int CurrentTracker
     {
-        get
-        {
-            return _currentTracker;
-            
-            for (var i = 0; i < _trackers.Count; i++)
-            {
-                if (_trackers[i].enabled)
-                    return i;
-            }
-
-            return 0;
-        }
+        get => _currentTracker;
         set
         {
-            if (_currentTracker == value || _trackers.Count < 1)
+            if (_trackers.Count < 1)
                 return;
             
             _currentTracker = value;
-            
+
             foreach (var tracker in _trackers)
             {
                 tracker.enabled = false;
@@ -54,11 +44,15 @@ public class TrackingController : BaseController
             informationText.text = "Tracker switched to " + _trackers[CurrentTracker].name;
         }
     }
-    
+
+    public List<TrackerBehaviour> Trackers => _trackers;
+    public List<Location> TrackerLocations => _trackerLocations;
+
     private void Awake()
     {
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
+        _trackerLocations = new List<Location>();
 
         _movingController = GetComponent<MovingController>();
     }
@@ -113,6 +107,7 @@ public class TrackingController : BaseController
         
         foreach (var tracker in _trackers)
         {
+            _trackerLocations.Add(tracker.GetComponent<Location>());
             var scrollsnapItem = Instantiate(itemPrefab);
             scrollsnapItem.transform.GetChild(0).GetComponent<Text>().text = tracker.name;
             horizontalScrollSnap.AddChild(scrollsnapItem);
@@ -126,7 +121,6 @@ public class TrackingController : BaseController
         TrackersInitialization();
         
         CurrentTracker = 0;
-        horizontalScrollSnap.CurrentPage = 0;
         _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
     }
 }
