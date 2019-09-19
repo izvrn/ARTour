@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.UI.Extensions;
 using Wikitude;
 
-public class TrackingController : BaseController
+public class GPSTrackingController : BaseController
 {
     [Header("INFORMATION HEADER SETTINGS")]
     [SerializeField] private Text informationText;
@@ -18,6 +17,7 @@ public class TrackingController : BaseController
     [SerializeField] private GameObject itemPrefab;
 
     private List<TrackerBehaviour> _trackers;
+    private List<LocationProvider> _trackerLocationProviders;
     private int _trackerCount;
     private int _currentTracker;
 
@@ -45,11 +45,13 @@ public class TrackingController : BaseController
     }
 
     public List<TrackerBehaviour> Trackers => _trackers;
-    
+    public List<LocationProvider> TrackerLocationProviders => _trackerLocationProviders;
+
     private void Awake()
     {
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
+        _trackerLocationProviders = new List<LocationProvider>();
 
         _movingController = GetComponent<MovingController>();
     }
@@ -104,6 +106,7 @@ public class TrackingController : BaseController
         
         foreach (var tracker in _trackers)
         {
+            _trackerLocationProviders.Add(tracker.GetComponent<LocationProvider>());
             var scrollsnapItem = Instantiate(itemPrefab);
             scrollsnapItem.transform.GetChild(0).GetComponent<Text>().text = tracker.name;
             horizontalScrollSnap.AddChild(scrollsnapItem);
@@ -118,25 +121,5 @@ public class TrackingController : BaseController
         
         CurrentTracker = 0;
         _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
-    }
-}
-
-public class TrackerChangedEvent : UnityEvent<TrackerBehaviour>
-{
-    
-}
-
-public class TrackerBehaviourComparer : IComparer<TrackerBehaviour>
-{
-    public int Compare(TrackerBehaviour x, TrackerBehaviour y)
-    {
-        if (x.name.CompareTo(y.name) != 0)
-        {
-            return x.name.CompareTo(y.name);
-        }
-        else
-        {
-            return 0;
-        }
     }
 }

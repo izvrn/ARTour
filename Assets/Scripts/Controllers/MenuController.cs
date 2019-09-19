@@ -14,18 +14,27 @@ public class MenuController : MonoBehaviour
     public Text BuildConfigurationText;
     public Text UnityVersionText;
 
-    private void Awake() {
-        if (!Permission.HasUserAuthorizedPermission(Permission.Camera)) {
+    private void Awake() 
+    {
+        if (!Permission.HasUserAuthorizedPermission(Permission.Camera)) 
+        {
             Permission.RequestUserPermission(Permission.Camera);
+        }
+        
+        if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
+        {
+            Permission.RequestUserPermission(Permission.FineLocation);
         }
     }
 
-    public void OnSampleButtonClicked(Button sender) {
+    public void OnSampleButtonClicked(Button sender) 
+    {
         /* Start the appropriate scene based on the button name that was pressed. */
         SceneManager.LoadScene(sender.name);
     }
 
-    public void OnInfoButtonPressed() {
+    public void OnInfoButtonPressed() 
+    {
         /* Display the info panel, which contains additional information about the Wikitude SDK. */
         InfoPanel.SetActive(true);
 
@@ -37,11 +46,13 @@ public class MenuController : MonoBehaviour
         UnityVersionText.text = Application.unityVersion;
     }
 
-    public void OnInfoDoneButtonPressed() {
+    public void OnInfoDoneButtonPressed() 
+    {
         InfoPanel.SetActive(false);
     }
 
-    void Update() {
+    void Update() 
+    {
         /* Also handles the back button on Android */
         if (Input.GetKeyDown(KeyCode.Escape)) {
             /* There is nowhere else to go back, so quit the app. */

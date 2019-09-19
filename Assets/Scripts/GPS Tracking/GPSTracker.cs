@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class GPSTracking : MonoBehaviour
+public class GPSTracker : MonoBehaviour
 {
+    public static GPSTracker Instance { get; set; }
+
     private float _desiredAccuracyInMeters;
     private float _updateDistanceInMeters;
     private float _updateTime;
@@ -12,9 +14,13 @@ public class GPSTracking : MonoBehaviour
     private TrackingController _trackingController;
 
     public int CurrentTarget { get; set; } = -1;
+    public bool Connected => _serviceGranted;
 
     private void Awake()
     {
+        if (!Instance)
+            Instance = this;
+        
         _trackingController = GetComponent<TrackingController>();
     }
 
@@ -56,5 +62,5 @@ public class GPSTracking : MonoBehaviour
     }
     
 
-    private Location CurrentLocation => new Location(Input.location.lastData);
+    public Location CurrentLocation => new Location(Input.location.lastData);
 }

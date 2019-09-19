@@ -12,28 +12,23 @@ public class MathHelper
         return radians * 180 / Math.PI;
     }
     
-    public static double GetAzimuth(PointOfInterest userPOI, PointOfInterest poi)
+    public static double GetAzimuth(Location userLocation, Location location)
     {
-        
-        var userLong = userPOI.longitude;
-        var objLong = poi.longitude;
-        var userLat = userPOI.latitude;
-        var objLat = poi.latitude;
-
+        var userLong = userLocation.longitude;
+        var objLong = location.longitude;
+        var userLat = userLocation.latitude;
+        var objLat = location.latitude;
 
         var dLat = Math.Abs(objLat - userLat);
         var dLong = Math.Abs(objLong - userLong);
 
-        if(objLong > userLong)
+        if (objLong > userLong)
             return (objLat > userLat) ? 
                 Math.PI/2 - Math.Atan(dLat / dLong) :
                 Math.PI - Math.Atan(dLong / dLat);
-        else
-        {
-            return (objLat > userLat) ?
-                Math.PI * 3 / 2 + Math.Atan(dLat / dLong) :
-                Math.PI + Math.Atan(dLong / dLat);
-        }
-
+        
+        return (objLat > userLat) ?
+            Math.PI * 3 / 2 + Math.Atan(dLat / dLong) :
+            Math.PI + Math.Atan(dLong / dLat);
     }
 }
