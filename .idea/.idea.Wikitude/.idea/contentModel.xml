@@ -51,7 +51,9 @@
           <e p="GPS Tracking" t="Include">
             <e p="GPSTracking.cs" t="Include" />
             <e p="LocationProvider.cs" t="Include" />
+            <e p="MarkerScript.cs" t="Include" />
             <e p="MathHelper.cs" t="Include" />
+            <e p="RadarDrawer.cs" t="Include" />
           </e>
           <e p="Gyroscope" t="Include">
             <e p="GyroscopeController.cs" t="Include" />

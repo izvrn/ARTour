@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="70a101e3-99fd-4f2e-97fe-b64b97756b09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking (multiple markers).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking (multiple markers).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +48,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/RadarDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MarkerScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AirAd/CursorAnimationScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AirAd/InfoButtonScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AirAd/PropellerScript.cs" />
@@ -101,10 +99,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GPSTracking.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LocationProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/RadarDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MarkerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
       </list>
     </option>
   </component>
@@ -196,6 +196,7 @@
       <workItem from="1568746332173" duration="7160000" />
       <workItem from="1568754927109" duration="2861000" />
       <workItem from="1568786671266" duration="1889000" />
+      <workItem from="1568806543847" duration="1550000" />
     </task>
     <servers />
   </component>

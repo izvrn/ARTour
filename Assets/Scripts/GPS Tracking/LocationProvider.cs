@@ -42,11 +42,40 @@ public struct Location
 
         return c * r;
     }
+    
+    public double AzimuthTo(Location other)
+    {
+        var lon1 = longitude;
+        var lon2 = other.longitude;
+        var lat1 = latitude;
+        var lat2 = other.latitude;
+        
+        var dLat = Math.Abs(lat2 - lat1);
+        var dLong = Math.Abs(lon2 - lon1);
+
+        if (lon2 > lon1)
+            return (lat2 > lat1) ? 
+                Math.PI/2 - Math.Atan(dLat / dLong) :
+                Math.PI - Math.Atan(dLong / dLat);
+        else
+        {
+            return (lat2 > lat1) ?
+                Math.PI * 3 / 2 + Math.Atan(dLat / dLong) :
+                Math.PI + Math.Atan(dLong / dLat);
+        }
+
+    }
 
     public static double DistanceBetween(Location first, Location second)
     {
         return first.DistanceTo(second);
     }
+
+    public static double AzimuthBetween(Location first, Location second)
+    {
+        return first.AzimuthTo(second);
+    }
+    
 }
 
 
