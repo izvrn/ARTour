@@ -32,7 +32,7 @@ public class MovingController : MonoBehaviour
     
     private void Update()
     {
-        if (!ObjectTransform)
+        if (!ObjectTransform || !controlsInfoGameObject.activeSelf)
             return;
         
         SetTextFields();

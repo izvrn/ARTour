@@ -9,8 +9,8 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     [SerializeField] private RectTransform gutterRect;
     [SerializeField] private RectTransform bordersRect;
 
-    private float _gutterBordersWidth = 180f;
-    private float _gutterWidth = 20f;
+    [SerializeField] private float gutterBordersWidth = 180f;
+    [SerializeField] private float gutterWidth = 20f;
     
     private float _lerpParameter = 0.4f;
     private float _timeToHide = 1.5f;
@@ -22,12 +22,12 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     private bool _dragging;
     private bool _moving;
 
-    private bool Hidden => gutterRect.anchoredPosition.x < LeftBorder - _gutterWidth * .5f;
+    private bool Hidden => gutterRect.anchoredPosition.x < LeftBorder - gutterWidth * .5f;
 
     protected void Awake()
     {
-        bordersRect.sizeDelta = new Vector2(_gutterBordersWidth, bordersRect.sizeDelta.y);
-        gutterRect.sizeDelta = new Vector2(_gutterWidth, gutterRect.sizeDelta.y);
+        bordersRect.sizeDelta = new Vector2(gutterBordersWidth, bordersRect.sizeDelta.y);
+        gutterRect.sizeDelta = new Vector2(gutterWidth, gutterRect.sizeDelta.y);
     }
 
     private void Start()
@@ -35,7 +35,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         _timer = _timeToHide;
         
         var anchoredPosition = gutterRect.anchoredPosition;
-        anchoredPosition = new Vector2(LeftBorder - _gutterBordersWidth * .5f, anchoredPosition.y);
+        anchoredPosition = new Vector2(LeftBorder - gutterBordersWidth * .5f, anchoredPosition.y);
         gutterRect.anchoredPosition = anchoredPosition;
         
         SwipeManager.Instance.swipeRight.AddListener(OnSwipeRight);
@@ -50,7 +50,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         {
             StartCoroutine(Hide());
         }
-        else if (gutterRect.anchoredPosition.x < _gutterBordersWidth + _hideOffset + LeftBorder)
+        else if (gutterRect.anchoredPosition.x < gutterBordersWidth + _hideOffset + LeftBorder)
         {
             _timer -= Time.deltaTime;
         }
@@ -74,7 +74,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
 
         var anchoredPosition = gutterRect.anchoredPosition;
         
-        while (anchoredPosition.x > LeftBorder - _gutterWidth * .5f && !_dragging)
+        while (anchoredPosition.x > LeftBorder - gutterWidth * .5f && !_dragging)
         {
             anchoredPosition = gutterRect.anchoredPosition;
             var desiredPosition = new Vector2(anchoredPosition.x - _speed, anchoredPosition.y);
@@ -93,7 +93,7 @@ public class GutterController : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         _moving = true;
         var anchoredPosition = gutterRect.anchoredPosition;
         
-        while (anchoredPosition.x < LeftBorder + _gutterWidth * .5f && !_dragging)
+        while (anchoredPosition.x < LeftBorder + gutterWidth * .5f && !_dragging)
         {
             anchoredPosition = gutterRect.anchoredPosition;
             var desiredPosition = new Vector2(anchoredPosition.x + _speed, anchoredPosition.y);

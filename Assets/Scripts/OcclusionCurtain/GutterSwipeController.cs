@@ -4,12 +4,14 @@ using UnityEngine.UI;
 
 public class GutterSwipeController : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    [SerializeField] private GameObject controlsGameObject;
+    
     [SerializeField] private Image frontPanelImage;
     [SerializeField] private RectTransform gutterRect;
     [SerializeField] private RectTransform bordersRect;
-    
-    private float _gutterBordersWidth = 180f;
-    private float _gutterWidth = 20f;
+
+    [SerializeField] private float gutterBordersWidth = 180f;
+    [SerializeField] private float gutterWidth = 20f;
 
     private float _lerpParameter = 1f;
     private float _hideOffset = 40f;
@@ -18,14 +20,14 @@ public class GutterSwipeController : MonoBehaviour, IBeginDragHandler, IDragHand
     
     private void Awake()
     {
-        bordersRect.sizeDelta = new Vector2(_gutterBordersWidth, bordersRect.sizeDelta.y);
-        gutterRect.sizeDelta = new Vector2(_gutterWidth, gutterRect.sizeDelta.y);
+        bordersRect.sizeDelta = new Vector2(gutterBordersWidth, bordersRect.sizeDelta.y);
+        gutterRect.sizeDelta = new Vector2(gutterWidth, gutterRect.sizeDelta.y);
     }
 
     private void Start()
     {
         var anchoredPosition = gutterRect.anchoredPosition;
-        anchoredPosition = new Vector2(LeftBorder - _gutterBordersWidth * .5f, anchoredPosition.y);
+        anchoredPosition = new Vector2(LeftBorder - gutterBordersWidth * .5f, anchoredPosition.y);
         gutterRect.anchoredPosition = anchoredPosition;
     }
 
@@ -42,13 +44,17 @@ public class GutterSwipeController : MonoBehaviour, IBeginDragHandler, IDragHand
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (controlsGameObject.activeSelf)
+            return;
+        
         _lastX = eventData.position.x;
-
-        Debug.Log("TEST");
     }
     
     public void OnDrag(PointerEventData eventData)
     {
+        if (controlsGameObject.activeSelf)
+            return;
+        
         var anchoredPosition = gutterRect.anchoredPosition;
         var diff = eventData.position.x - _lastX;
         var desiredX = Mathf.Clamp(anchoredPosition.x + diff, LeftBorder, RightBorder);
