@@ -15,7 +15,7 @@ public class MovingController : MonoBehaviour
     [SerializeField] private Text scaleText;
 
     [Header("CONTROLS SETTINGS")]
-    [SerializeField] private float movementSpeed;
+    [SerializeField] private float movementSpeed = 0.2f;
 
     private Vector3 _direction;
     

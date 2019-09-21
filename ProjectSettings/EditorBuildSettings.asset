@@ -15,9 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo Tracking/Rathaus Tracking (image).unity
     guid: b853e904b6d7b6a41bdba75ce53d16e4
   - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity
+    path: Assets/Scenes/Demo Tracking/Outdated/Dullenturm Tracking.unity
     guid: bf8c8d811bd2fa24eaa4f32d8da64799
   - enabled: 1
     path: Assets/Scenes/Demo Tracking/Dullenturm Tracking (multiple markers).unity
     guid: 512277e3bf65a0743baa2701ff177bb6
+  - enabled: 1
+    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Menu.unity
+    guid: e83585c04d460134d9373ef97b8a32b2
+  - enabled: 1
+    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Mode.unity
+    guid: 0a9d3a7798159ef4a8e2853d49a47e3b
   m_configObjects: {}
