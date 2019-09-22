@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Model
-  - GeoPoint
-  - Tracker Behaviour
-  - Controller
-  - CurtainToggler
-  - Trackable
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -19,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - Trackable
+  - 
   - 
   - 
   - 

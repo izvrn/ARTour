@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 [Serializable]
 public struct Location
@@ -81,9 +82,11 @@ public struct Location
 
 public class LocationProvider : MonoBehaviour
 {
-    [SerializeField] private Location geographicCoordinates;
-    [SerializeField] private string locationName;
+    [SerializeField] private Location location;
+    [SerializeField] private string name;
+    [SerializeField] private Sprite preview;
     
-    public Location GeographicCoordinates => geographicCoordinates;
-    public string LocationName => locationName;
+    public Location Location => location;
+    public string Name => name;
+    public Sprite Preview => preview;
 }

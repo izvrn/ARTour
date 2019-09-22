@@ -48,7 +48,7 @@ public class RadarController : MonoBehaviour
 
     private void Start()
     {
-        foreach (var locationProvider in _trackingController.TrackerLocationProviders)
+        foreach (var locationProvider in _trackingController.LocationProviders)
         {
             var compassPosition = compassGameObject.transform.position;
             var a = Instantiate(markerSample, new Vector3(compassPosition.x, compassPosition.y, 0), Quaternion.identity, compassGameObject.transform);

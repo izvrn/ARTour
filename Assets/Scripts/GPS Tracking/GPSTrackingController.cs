@@ -1,9 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UI.Extensions;
 using Wikitude;
 
 public class GPSTrackingController : BaseController
@@ -12,50 +12,89 @@ public class GPSTrackingController : BaseController
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
 
-    [Header("HORIZONTAL SCROLLRECT SETTINGS")] 
-    [SerializeField] private HorizontalScrollSnap horizontalScrollSnap;
-    [SerializeField] private GameObject itemPrefab;
+    [Header("CURRENT TRACKER INFORMATION SETTINGS")] 
+    [SerializeField] private GameObject scanHelper;
+    [SerializeField] private Image markerPreview;
+
+    [Header("GPS TRACKING SETTINGS")] 
+    [SerializeField] private float gpsUpdateTime = 1f;
+    [SerializeField] private float trackingDistance = 30f;
 
     private List<TrackerBehaviour> _trackers;
-    private List<LocationProvider> _trackerLocationProviders;
-    private int _trackerCount;
     private MovingController _movingController;
+
+    private double _currentDistance;
+    private bool _initialized;
     
     private TrackerBehaviour CurrentTracker { get; set; }
+    private LocationProvider TrackerLocationProvider { get; set; }
+    public List<LocationProvider> LocationProviders { get; set; }
 
-    private void SetTracker(string trackerName)
+    private void SetTracker()
     {
         foreach (var tracker in _trackers)
         {
-            if (tracker.name == trackerName)
+            var locationProvider = tracker.GetComponent<LocationProvider>();
+            
+            if (tracker.name == Settings.CurrentTrackerName)
             {
                 tracker.enabled = true;
                 _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
                 informationText.text = "Tracker switched to " + tracker.name;
 
                 CurrentTracker = tracker;
+                TrackerLocationProvider = locationProvider;
+                
+                LocationProviders.Add(locationProvider);
                 continue;
             }
             
+            LocationProviders.Add(locationProvider);
             tracker.enabled = false;
         }
-    }
 
-    public List<TrackerBehaviour> Trackers => _trackers;
-    public List<LocationProvider> TrackerLocationProviders => _trackerLocationProviders;
+        markerPreview.sprite = TrackerLocationProvider.Preview;
+    }
 
     private void Awake()
     {
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
-        _trackerLocationProviders = new List<LocationProvider>();
+        
+        LocationProviders = new List<LocationProvider>();
+        
         _movingController = GetComponent<MovingController>();
+
+        informationText.text = Settings.CurrentTrackerName;
     }
 
-    private new void Start()
+    protected override void Start()
     {
         base.Start();
+        
+        GPSTracker.Instance.StatusChanged.AddListener(OnGPSStatusChanged);
         StartCoroutine(Initialization());
+        StartCoroutine(DistanceUpdate());
+        
+        //TODO: Stop Wikitude Camera Processing for battery saving
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        
+        if (!GPSTracker.Instance.Connected || !_initialized)
+            return;
+
+        if (_currentDistance < trackingDistance)
+        {
+            scanHelper.SetActive(true);
+            //TODO: Start Wikitude Camera Processing
+        }
+        else
+        {
+            scanHelper.SetActive(false);
+        }
     }
 
     public void OnExtendedTrackingQualityChanged(RecognizedTarget target, ExtendedTrackingQuality oldQuality,
@@ -89,10 +128,30 @@ public class GPSTrackingController : BaseController
         informationText.text = "Target: " + CurrentTracker.name + " Lost";
         informationBackground.color = Color.red;
     }
-    
+
     private IEnumerator Initialization()
     {
         yield return new WaitForSeconds(2f);
-        SetTracker(Settings.CurrentTrackerName);
+        SetTracker();
+        _initialized = true;
+    }
+
+    private IEnumerator DistanceUpdate()
+    {
+        while (!_initialized)
+            yield return null;
+
+        while (true)
+        {
+            _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(TrackerLocationProvider.Location);
+            informationText.text =
+                "Distance to " + TrackerLocationProvider.Name + ": " + Math.Round(_currentDistance, 2);
+            yield return new WaitForSeconds(gpsUpdateTime);
+        }
+    }
+    
+    private void OnGPSStatusChanged()
+    {
+        informationText.text = GPSTracker.Instance.Status;
     }
 }

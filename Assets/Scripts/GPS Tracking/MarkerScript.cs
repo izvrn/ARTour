@@ -18,8 +18,8 @@ public class MarkerScript : MonoBehaviour
 
     public void DrawMarker(float maxDistance, int length)
     {
-        var angle = -((float)MathHelper.GetAzimuth(GPSTracker.Instance.CurrentLocation, LocationProvider.GeographicCoordinates) + Mathf.PI / 2);
-        var distance = Location.DistanceBetween(GPSTracker.Instance.CurrentLocation, LocationProvider.GeographicCoordinates);
+        var angle = -((float)MathHelper.GetAzimuth(GPSTracker.Instance.CurrentLocation, LocationProvider.Location) + Mathf.PI / 2);
+        var distance = Location.DistanceBetween(GPSTracker.Instance.CurrentLocation, LocationProvider.Location);
 
         if (distance > maxDistance)
         {

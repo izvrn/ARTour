@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GPSTracker : MonoBehaviour
 {
@@ -7,34 +8,29 @@ public class GPSTracker : MonoBehaviour
 
     private float _desiredAccuracyInMeters;
     private float _updateDistanceInMeters;
-    private float _updateTime;
-
     private bool _serviceGranted;
-
-    private TrackingController _trackingController;
-
-    public int CurrentTarget { get; set; } = -1;
+    
     public bool Connected => _serviceGranted;
+    public string Status { get; set; }
 
     private void Awake()
     {
-        if (!Instance)
-            Instance = this;
-        
-        _trackingController = GetComponent<TrackingController>();
+        Instance = this;
+        StatusChanged = new UnityEvent();
     }
 
     private IEnumerator Start()
     {
-        if (!Input.location.isEnabledByUser)
+        while (!Input.location.isEnabledByUser)
         {
-            Debug.Log("GPS is off");
-            yield break;
+            Status = "Please, enable GPS";
+            StatusChanged.Invoke();
+            yield return null;
         }
         
         Input.location.Start(_desiredAccuracyInMeters, _updateDistanceInMeters);
         
-        int initializationTimer = 20;
+        var initializationTimer = 20;
         while (Input.location.status == LocationServiceStatus.Initializing && initializationTimer > 0)
         {
             yield return new WaitForSeconds(1f);
@@ -43,24 +39,18 @@ public class GPSTracker : MonoBehaviour
 
         if (initializationTimer < 1)
         {
-            Debug.Log("Timed out");
+            Status = "Timed out. Restart application";
+            StatusChanged.Invoke();
             yield break;
         }
 
+        Status = "GPS Service granted!";
+        StatusChanged.Invoke();
+        
         Input.compass.enabled = true;
         _serviceGranted = true;
     }
-    
-    private void Update()
-    {
-        
-    }
-
-    private IEnumerator UpdateDistance()
-    {
-        yield return new WaitForSeconds(_updateTime);
-    }
-    
 
     public Location CurrentLocation => new Location(Input.location.lastData);
+    public UnityEvent StatusChanged { get; set; }
 }
