@@ -4,6 +4,8 @@ using UnityEngine.Events;
 
 public class GPSTracker : MonoBehaviour
 {
+    [SerializeField] private bool useFakeGPS;
+    [SerializeField] private Location fakeCoordinates;
     public static GPSTracker Instance { get; set; }
 
     private float _desiredAccuracyInMeters;
@@ -21,6 +23,14 @@ public class GPSTracker : MonoBehaviour
 
     private IEnumerator Start()
     {
+        if (useFakeGPS)
+        {
+            Status = "Fake GPS Service granted!";
+            StatusChanged.Invoke();
+            _serviceGranted = true;
+            yield break;
+        }
+        
         while (!Input.location.isEnabledByUser)
         {
             Status = "Please, enable GPS";
@@ -51,6 +61,6 @@ public class GPSTracker : MonoBehaviour
         _serviceGranted = true;
     }
 
-    public Location CurrentLocation => new Location(Input.location.lastData);
+    public Location CurrentLocation => useFakeGPS ? fakeCoordinates : new Location(Input.location.lastData);
     public UnityEvent StatusChanged { get; set; }
 }

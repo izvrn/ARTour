@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -143,7 +142,7 @@ public class GPSTrackingController : BaseController
         while (true)
         {
             _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(TrackerLocationProvider.Location);
-            informationText.text = "Distance to " + TrackerLocationProvider.Name + ": " + _currentDistance * 1000 + " meters";
+            informationText.text = "Distance to " + TrackerLocationProvider.Name + ": " + Mathf.Round(_currentDistance) + " meters";
             yield return new WaitForSeconds(gpsUpdateTime);
         }
     }

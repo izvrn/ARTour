@@ -1,11 +1,10 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.UI;
 
 [Serializable]
 public struct Location
 {
-    private const float EARTH_RADIUS = 6371f;
+    private const float EARTH_RADIUS = 6371f * 1000;
     
     public float latitude;
     public float longitude;

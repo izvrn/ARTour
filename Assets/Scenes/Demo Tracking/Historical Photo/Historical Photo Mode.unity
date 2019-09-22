@@ -3288,6 +3288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15691896f52f3dd488a5f2e35c68c87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useFakeGPS: 0
+  fakeCoordinates:
+    latitude: 51.83106
+    longitude: 10.78726
+    altitude: 0
 --- !u!1 &1363021311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,7 +3506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011553030912, guid: 78da3f0a9196f486f8452d72d45e3926, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1000011553030912, guid: 78da3f0a9196f486f8452d72d45e3926, type: 3}
       propertyPath: m_TagString
