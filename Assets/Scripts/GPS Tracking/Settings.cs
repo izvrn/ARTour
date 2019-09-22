@@ -1,4 +1,4 @@
 ﻿public static class Settings
 {
-    public static string WTOName { get; set; }
+    public static string CurrentTrackerName { get; set; }
 }

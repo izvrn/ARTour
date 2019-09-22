@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a101e3-99fd-4f2e-97fe-b64b97756b09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wikitude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DemiLib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Dullenturm Tracking.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/GPSTracking (multiple markers).unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/GPSTracking (multiple markers).unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/KleinsteHaus Tracking (video).unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/KleinsteHaus Tracking (video).unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rathaus Tracking (3d model).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rathaus Tracking (3d model).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rathaus Tracking (image).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/Rathaus Tracking (image).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/SchiefesHaus Tracking (text).unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo Tracking/SchiefesHaus Tracking (text).unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Settings.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +17,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/GPSMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Android.meta" root0="FORCE_HIGHLIGHTING" />
@@ -60,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/SingleObjectTrackingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterSwipeController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,7 +95,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MarkerScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/RadarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OcclusionCurtain/GutterController.cs" />
@@ -117,9 +102,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GPSMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" />
       </list>
     </option>
   </component>
@@ -215,7 +201,7 @@
       <workItem from="1568914888034" duration="3346000" />
       <workItem from="1568919476327" duration="2246000" />
       <workItem from="1568981397048" duration="5081000" />
-      <workItem from="1569057530733" duration="724000" />
+      <workItem from="1569057530733" duration="1682000" />
     </task>
     <servers />
   </component>

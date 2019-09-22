@@ -19,28 +19,25 @@ public class GPSTrackingController : BaseController
     private List<TrackerBehaviour> _trackers;
     private List<LocationProvider> _trackerLocationProviders;
     private int _trackerCount;
-    private int _currentTracker;
-
     private MovingController _movingController;
+    
+    private TrackerBehaviour CurrentTracker { get; set; }
 
-    private int CurrentTracker
+    private void SetTracker(string trackerName)
     {
-        get => _currentTracker;
-        set
+        foreach (var tracker in _trackers)
         {
-            if (_trackers.Count < 1)
-                return;
-            
-            _currentTracker = value;
-
-            foreach (var tracker in _trackers)
+            if (tracker.name == trackerName)
             {
-                tracker.enabled = false;
+                tracker.enabled = true;
+                _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
+                informationText.text = "Tracker switched to " + tracker.name;
+
+                CurrentTracker = tracker;
+                continue;
             }
             
-            _trackers[_currentTracker].enabled = true;
-            _movingController.ObjectTransform = _trackers[CurrentTracker].transform.GetChild(0).GetChild(0);
-            informationText.text = "Tracker switched to " + _trackers[CurrentTracker].name;
+            tracker.enabled = false;
         }
     }
 
@@ -52,14 +49,12 @@ public class GPSTrackingController : BaseController
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
         _trackerLocationProviders = new List<LocationProvider>();
-
         _movingController = GetComponent<MovingController>();
     }
 
     private new void Start()
     {
         base.Start();
-
         StartCoroutine(Initialization());
     }
 
@@ -69,15 +64,15 @@ public class GPSTrackingController : BaseController
         switch (newQuality)
         {
             case ExtendedTrackingQuality.Bad:
-                informationText.text = "Extended Tracking Quality on Target " + _trackers[CurrentTracker].name + " : Bad";
+                informationText.text = "Extended Tracking Quality on Target " + CurrentTracker.name + " : Bad";
                 informationBackground.color = Color.red;
                 break;
             case ExtendedTrackingQuality.Average:
-                informationText.text = "Extended Tracking Quality on Target " + _trackers[CurrentTracker].name + " : Average";
+                informationText.text = "Extended Tracking Quality on Target " + CurrentTracker.name + " : Average";
                 informationBackground.color = Color.yellow;
                 break;
             case ExtendedTrackingQuality.Good:
-                informationText.text = "Extended Tracking Quality on Target " + _trackers[CurrentTracker].name + " : Good";
+                informationText.text = "Extended Tracking Quality on Target " + CurrentTracker.name + " : Good";
                 informationBackground.color = Color.green;
                 break;
         }
@@ -85,41 +80,19 @@ public class GPSTrackingController : BaseController
 
     public void OnTargetRecognized(RecognizedTarget target)
     {
-        informationText.text = "Target: " + _trackers[CurrentTracker].name + " Recognized";
+        informationText.text = "Target: " + CurrentTracker.name + " Recognized";
         informationBackground.color = Color.green;
     }
 
     public void OnTargetLost(RecognizedTarget target)
     {
-        informationText.text = "Target: " + _trackers[CurrentTracker].name + " Lost";
+        informationText.text = "Target: " + CurrentTracker.name + " Lost";
         informationBackground.color = Color.red;
     }
-
-    public void OnScrollRectPageChanged(int page)
-    {
-        CurrentTracker = page;
-    }
-
-    private void TrackersInitialization()
-    {
-        horizontalScrollSnap.RemoveAllChildren(out var childrenRemoved);
-        
-        foreach (var tracker in _trackers)
-        {
-            _trackerLocationProviders.Add(tracker.GetComponent<LocationProvider>());
-            var scrollsnapItem = Instantiate(itemPrefab);
-            scrollsnapItem.transform.GetChild(0).GetComponent<Text>().text = tracker.name;
-            horizontalScrollSnap.AddChild(scrollsnapItem);
-        }
-    }
-
+    
     private IEnumerator Initialization()
     {
         yield return new WaitForSeconds(2f);
-
-        TrackersInitialization();
-        
-        CurrentTracker = 0;
-        _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
+        SetTracker(Settings.CurrentTrackerName);
     }
 }

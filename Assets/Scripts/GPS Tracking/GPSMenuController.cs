@@ -25,7 +25,7 @@ public class GPSMenuController : MonoBehaviour
     public void OnSampleButtonClicked(Button sender) 
     {
         /* Start the appropriate scene based on the button name that was pressed. */
-        Settings.WTOName = sender.name;
+        Settings.CurrentTrackerName = sender.name;
         SceneManager.LoadScene(SceneName);
     }
 
