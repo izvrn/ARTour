@@ -5,18 +5,14 @@ using UnityEngine.UI;
 
 public class RadarController : MonoBehaviour
 {
-    [Header("Radar Settings")]
-
+    [Header("RADAR SETTINGS")]
     [SerializeField] private int maxDistance;
     [SerializeField] private Text distanceText;
     
+    [Header("RADAR GAMEOBEJCTS")]
     [SerializeField] private GameObject markerSample;
     [SerializeField] private GameObject compassGameObject;
-    [SerializeField] private List<LocationProvider> locations;
-
     [SerializeField] private Image compass;
-    [SerializeField] private Image mask;
-    [SerializeField] private Image radar;
     
     private Location _userLocation;
 

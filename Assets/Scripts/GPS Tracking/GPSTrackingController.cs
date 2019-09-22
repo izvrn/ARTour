@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using Wikitude;
 
@@ -12,6 +13,7 @@ public class GPSTrackingController : BaseController
     [SerializeField] private Image informationBackground;
 
     [Header("CURRENT TRACKER INFORMATION SETTINGS")] 
+    [SerializeField] private GameObject orientationHelper;
     [SerializeField] private GameObject scanHelper;
     [SerializeField] private Image markerPreview;
 
@@ -22,12 +24,14 @@ public class GPSTrackingController : BaseController
     private List<TrackerBehaviour> _trackers;
     private MovingController _movingController;
 
-    private float _currentDistance;
+    private float _currentDistance = 100f;
     private bool _initialized;
     
     private TrackerBehaviour CurrentTracker { get; set; }
-    private LocationProvider TrackerLocationProvider { get; set; }
-    public List<LocationProvider> LocationProviders { get; set; }
+    public LocationProvider CurrentTrackerLocationProvider { get; private set; }
+    public List<LocationProvider> LocationProviders { get; private set; }
+    public bool Initialized => _initialized;
+    public UnityEvent TrackerInitialized { get; private set; }
 
     private void SetTracker()
     {
@@ -42,7 +46,7 @@ public class GPSTrackingController : BaseController
                 informationText.text = "Tracker switched to " + tracker.name;
 
                 CurrentTracker = tracker;
-                TrackerLocationProvider = locationProvider;
+                CurrentTrackerLocationProvider = locationProvider;
                 
                 _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
                 informationText.text = "Tracker switched to " + tracker.name;
@@ -55,7 +59,7 @@ public class GPSTrackingController : BaseController
             tracker.enabled = false;
         }
 
-        markerPreview.sprite = TrackerLocationProvider.Preview;
+        markerPreview.sprite = CurrentTrackerLocationProvider.Preview;
     }
 
     private void Awake()
@@ -63,6 +67,7 @@ public class GPSTrackingController : BaseController
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
         LocationProviders = new List<LocationProvider>();
+        TrackerInitialized = new UnityEvent();
         _movingController = GetComponent<MovingController>();
     }
 
@@ -86,11 +91,13 @@ public class GPSTrackingController : BaseController
 
         if (_currentDistance < trackingDistance)
         {
+            orientationHelper.SetActive(false);
             scanHelper.SetActive(true);
             //TODO: Start Wikitude Camera Processing
         }
         else
         {
+            orientationHelper.SetActive(true);
             scanHelper.SetActive(false);
         }
     }
@@ -132,6 +139,7 @@ public class GPSTrackingController : BaseController
         yield return new WaitForSeconds(2f);
         SetTracker();
         _initialized = true;
+        TrackerInitialized.Invoke();
     }
 
     private IEnumerator DistanceUpdate()
@@ -141,8 +149,8 @@ public class GPSTrackingController : BaseController
 
         while (true)
         {
-            _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(TrackerLocationProvider.Location);
-            informationText.text = "Distance to " + TrackerLocationProvider.Name + ": " + Mathf.Round(_currentDistance) + " meters";
+            _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(CurrentTrackerLocationProvider.Location);
+            informationText.text = "Distance to " + CurrentTrackerLocationProvider.Name + ": " + Mathf.Round(_currentDistance) + " meters";
             yield return new WaitForSeconds(gpsUpdateTime);
         }
     }
