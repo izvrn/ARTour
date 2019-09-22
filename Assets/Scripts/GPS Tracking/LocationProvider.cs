@@ -5,11 +5,13 @@ using UnityEngine.UI;
 [Serializable]
 public struct Location
 {
-    public double latitude;
-    public double longitude;
-    public double altitude;
+    private const float EARTH_RADIUS = 6371f;
+    
+    public float latitude;
+    public float longitude;
+    public float altitude;
 
-    public Location(double latitude, double longitude, double altitude)
+    public Location(float latitude, float longitude, float altitude)
     {
         this.latitude = latitude;
         this.longitude = longitude;
@@ -23,7 +25,33 @@ public struct Location
         altitude = locationInfo.altitude;
     }
 
-    public double DistanceTo(Location other)
+    public float DistanceTo(Location other)
+    {
+        var lat1 = MathHelper.DegreesToRadians(latitude);
+        var lat2 = MathHelper.DegreesToRadians(other.latitude);
+
+        var lon1 = MathHelper.DegreesToRadians(longitude);
+        var lon2 = MathHelper.DegreesToRadians(other.longitude);
+
+        var cosL1 = Mathf.Cos(lat1);
+        var cosL2 = Mathf.Cos(lat2);
+        
+        var sinL1 = Mathf.Cos(lon1);
+        var sinL2 = Mathf.Cos(lon2);
+
+        var delta = lon2 - lon1;
+
+        var cosDelta = Mathf.Cos(delta);
+        var sinDelta = Mathf.Sin(delta);
+
+        var y = Mathf.Sqrt((cosL2 * sinDelta) * (cosL2 * sinDelta) +
+                           (cosL1 * sinL2 - sinL1 * cosL2 * cosDelta) * (cosL1 * sinL2 - sinL1 * cosL2 * cosDelta));
+        var x = sinL1 * sinL2 + cosL1 * cosL2 * cosDelta;
+
+        return Mathf.Atan2(y, x) * EARTH_RADIUS;
+    }
+    
+    public float DistanceToOld(Location other)
     {
         var lat1 = MathHelper.DegreesToRadians(latitude);
         var lat2 = MathHelper.DegreesToRadians(other.latitude);
@@ -34,49 +62,48 @@ public struct Location
         var deltaLat = lat2 - lat1;
         var deltaLon = lon2 - lon1;
 
-        var a = Math.Sin(deltaLat * 0.5f) * Math.Sin(deltaLat * 0.5f) +
-                   Math.Cos(lat1) * Math.Cos(lat2) +
-                   Math.Sin(deltaLon * 0.5f) * Math.Sin(deltaLon * 0.5f);
-        var c = 2 * Math.Asin(Math.Sqrt(a));
+        var a = Mathf.Sin(deltaLat * 0.5f) * Mathf.Sin(deltaLat * 0.5f) +
+                Mathf.Cos(lat1) * Mathf.Cos(lat2) +
+                Mathf.Sin(deltaLon * 0.5f) * Mathf.Sin(deltaLon * 0.5f);
+        var c = 2 * Mathf.Asin(Mathf.Sqrt(a));
 
-        var r = 6371;
-
-        return c * r;
+        return c * EARTH_RADIUS;
     }
     
-    public double AzimuthTo(Location other)
+    public float AzimuthTo(Location other)
     {
         var lon1 = longitude;
         var lon2 = other.longitude;
         var lat1 = latitude;
         var lat2 = other.latitude;
         
-        var dLat = Math.Abs(lat2 - lat1);
-        var dLong = Math.Abs(lon2 - lon1);
+        var dLat = Mathf.Abs(lat2 - lat1);
+        var dLong = Mathf.Abs(lon2 - lon1);
 
         if (lon2 > lon1)
             return (lat2 > lat1) ? 
-                Math.PI/2 - Math.Atan(dLat / dLong) :
-                Math.PI - Math.Atan(dLong / dLat);
-        else
-        {
-            return (lat2 > lat1) ?
-                Math.PI * 3 / 2 + Math.Atan(dLat / dLong) :
-                Math.PI + Math.Atan(dLong / dLat);
-        }
-
+                Mathf.PI / 2 - Mathf.Atan(dLat / dLong) :
+                Mathf.PI - Mathf.Atan(dLong / dLat);
+        
+        return (lat2 > lat1) ?
+            Mathf.PI * 3 / 2 + Mathf.Atan(dLat / dLong) :
+            Mathf.PI + Mathf.Atan(dLong / dLat);
     }
 
-    public static double DistanceBetween(Location first, Location second)
+    public static float DistanceBetween(Location first, Location second)
     {
         return first.DistanceTo(second);
     }
 
-    public static double AzimuthBetween(Location first, Location second)
+    public static float AzimuthBetween(Location first, Location second)
     {
         return first.AzimuthTo(second);
     }
-    
+
+    public override string ToString()
+    {
+        return latitude + ";" + longitude + ";" + altitude;
+    }
 }
 
 

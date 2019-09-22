@@ -23,7 +23,7 @@ public class GPSTrackingController : BaseController
     private List<TrackerBehaviour> _trackers;
     private MovingController _movingController;
 
-    private double _currentDistance;
+    private float _currentDistance;
     private bool _initialized;
     
     private TrackerBehaviour CurrentTracker { get; set; }
@@ -36,7 +36,7 @@ public class GPSTrackingController : BaseController
         {
             var locationProvider = tracker.GetComponent<LocationProvider>();
             
-            if (tracker.name == Settings.CurrentTrackerName)
+            if (tracker.name == Scenes.GetParameter("CurrentTrackerName"))
             {
                 tracker.enabled = true;
                 _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
@@ -44,6 +44,9 @@ public class GPSTrackingController : BaseController
 
                 CurrentTracker = tracker;
                 TrackerLocationProvider = locationProvider;
+                
+                _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
+                informationText.text = "Tracker switched to " + tracker.name;
                 
                 LocationProviders.Add(locationProvider);
                 continue;
@@ -60,12 +63,8 @@ public class GPSTrackingController : BaseController
     {
         _trackers = FindObjectsOfType<TrackerBehaviour>().ToList();
         _trackers.Sort(new TrackerBehaviourComparer());
-        
         LocationProviders = new List<LocationProvider>();
-        
         _movingController = GetComponent<MovingController>();
-
-        informationText.text = Settings.CurrentTrackerName;
     }
 
     protected override void Start()
@@ -144,8 +143,7 @@ public class GPSTrackingController : BaseController
         while (true)
         {
             _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(TrackerLocationProvider.Location);
-            informationText.text =
-                "Distance to " + TrackerLocationProvider.Name + ": " + Math.Round(_currentDistance, 2);
+            informationText.text = "Distance to " + TrackerLocationProvider.Name + ": " + _currentDistance * 1000 + " meters";
             yield return new WaitForSeconds(gpsUpdateTime);
         }
     }
