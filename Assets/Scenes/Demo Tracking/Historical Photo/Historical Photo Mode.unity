@@ -3502,11 +3502,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011553030912, guid: 78da3f0a9196f486f8452d72d45e3926, type: 3}
       propertyPath: m_Name
-      value: Gvozdi
+      value: Tiles
       objectReference: {fileID: 0}
     - target: {fileID: 1000011553030912, guid: 78da3f0a9196f486f8452d72d45e3926, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000011553030912, guid: 78da3f0a9196f486f8452d72d45e3926, type: 3}
       propertyPath: m_TagString
@@ -3739,7 +3739,7 @@ PrefabInstance:
     - target: {fileID: 114000011743096896, guid: 78da3f0a9196f486f8452d72d45e3926,
         type: 3}
       propertyPath: _targetCollectionResource._targetPath
-      value: Wikitude/30.08_dulllenturm (~90 photo + new shots).wto
+      value: Wikitude/tiles (~80 photo + long distance).wto
       objectReference: {fileID: 0}
     - target: {fileID: 114000011743096896, guid: 78da3f0a9196f486f8452d72d45e3926,
         type: 3}
@@ -3878,11 +3878,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location:
-    latitude: 51.69119
-    longitude: 39.267384
+    latitude: 51.691265
+    longitude: 39.268852
     altitude: 0
-  name: Gvozdi
-  preview: {fileID: 21300000, guid: 2e4aaa40217a7ab41b7019735a65a9da, type: 3}
+  name: Tiles
+  preview: {fileID: 21300000, guid: c57478fd56dcd3240ba9d7a10abaf57a, type: 3}
 --- !u!1 &1477689408
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,10 +29,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/RadarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Scenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569140492516</updated>
       <workItem from="1569140496439" duration="8192000" />
-      <workItem from="1569160935629" duration="5761000" />
+      <workItem from="1569160935629" duration="6458000" />
     </task>
     <servers />
   </component>
