@@ -20,7 +20,6 @@ public class RadarController : MonoBehaviour
     private List<Image> _markerImages;
 
     private int _length = 180;
-    private int _distance = 300;
     private bool _connected;
     private Vector3 _markerStartPosition;
     
@@ -55,12 +54,6 @@ public class RadarController : MonoBehaviour
             _markers.Add(markerScript);
             _markerImages.Add(a.GetComponent<Image>());
         }
-        
-        foreach (var marker in _markers)
-        {
-            //marker.OnEnabled += DrawPlaces;
-            //marker.OnDisabled += DrawPlaces;
-        }
     }
     
     private void Update()
@@ -81,20 +74,8 @@ public class RadarController : MonoBehaviour
     {
         foreach (var marker in _markers)
         {
-            marker.DrawMarker(_distance, _length);
+            marker.DrawMarker(maxDistance, _length);
         }
-    }
-
-    private float MidValue(Queue<float> data)
-    {
-        float res = 0;
-        
-        foreach (var t in data)
-        {
-            res += t;
-        }
-        
-        return res / data.Count;
     }
 
     private IEnumerator AddValueInQueue()
@@ -105,12 +86,5 @@ public class RadarController : MonoBehaviour
         
         _actualData = Input.compass.trueHeading;
         StartCoroutine(AddValueInQueue());
-    }
-    
-    public void ChangeDistance(Slider s)
-    {
-        _distance = (int)s.value;
-        distanceText.text = "GPS radius : " + (_distance < 1000 ? _distance : _distance / 1000).ToString();
-        distanceText.color = new Color(0, 1 - _distance / 10000f, _distance / 10000f);
     }
 }

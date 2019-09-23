@@ -13,7 +13,7 @@ public class GPSTrackingController : BaseController
     [SerializeField] private Image informationBackground;
 
     [Header("CURRENT TRACKER INFORMATION SETTINGS")] 
-    [SerializeField] private GameObject orientationHelper;
+    [SerializeField] private Text orientationHelperText;
     [SerializeField] private GameObject scanHelper;
     [SerializeField] private Image markerPreview;
 
@@ -44,12 +44,10 @@ public class GPSTrackingController : BaseController
                 tracker.enabled = true;
                 _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
                 informationText.text = "Tracker switched to " + tracker.name;
+                orientationHelperText.text = "HEAD TO " + locationProvider.Street;
 
                 CurrentTracker = tracker;
                 CurrentTrackerLocationProvider = locationProvider;
-                
-                _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
-                informationText.text = "Tracker switched to " + tracker.name;
                 
                 LocationProviders.Add(locationProvider);
                 continue;
@@ -91,13 +89,13 @@ public class GPSTrackingController : BaseController
 
         if (_currentDistance < trackingDistance)
         {
-            orientationHelper.SetActive(false);
+            orientationHelperText.gameObject.SetActive(false);
             scanHelper.SetActive(true);
             //TODO: Start Wikitude Camera Processing
         }
         else
         {
-            orientationHelper.SetActive(true);
+            orientationHelperText.gameObject.SetActive(true);
             scanHelper.SetActive(false);
         }
     }

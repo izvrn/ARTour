@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,7 +20,6 @@ public class SimpleRadarController : MonoBehaviour
     private Image _markerImage;
 
     private int _length = 180;
-    private int _distance = 300;
     private bool _connected;
     private Vector3 _markerStartPosition;
     
@@ -55,7 +53,7 @@ public class SimpleRadarController : MonoBehaviour
   
         Debug.Log(_marker);
         
-        _marker.DrawMarker(_distance, _length);
+        _marker.DrawMarker(maxDistance, _length);
         _markerImage.rectTransform.rotation = Quaternion.identity;
     }
 

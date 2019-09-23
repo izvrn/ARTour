@@ -110,9 +110,12 @@ public class LocationProvider : MonoBehaviour
 {
     [SerializeField] private Location location;
     [SerializeField] private string name;
+    [SerializeField] private string street;
     [SerializeField] private Sprite preview;
     
     public Location Location => location;
     public string Name => name;
+    public string Street => street;
+
     public Sprite Preview => preview;
 }
