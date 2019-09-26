@@ -76,8 +76,6 @@ public class GPSTrackingController : BaseController
         GPSTracker.Instance.StatusChanged.AddListener(OnGPSStatusChanged);
         StartCoroutine(Initialization());
         StartCoroutine(DistanceUpdate());
-        
-        //TODO: Stop Wikitude Camera Processing for battery saving
     }
 
     protected override void Update()
@@ -91,7 +89,11 @@ public class GPSTrackingController : BaseController
         {
             orientationHelperText.gameObject.SetActive(false);
             scanHelper.SetActive(true);
-            //TODO: Start Wikitude Camera Processing
+            
+            //TODO: Start Wikitude Camera Processing:
+            //Destroy the WikitudeCamera and the associated trackers,
+            //and recreate them again when you need AR content.
+            //Or split them in different scenes. 
         }
         else
         {
