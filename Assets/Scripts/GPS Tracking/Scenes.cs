@@ -1,44 +1,38 @@
-﻿using System.Collections.Generic;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
 
 public static class Scenes
 {
-    public static Dictionary<string, string> Parameters { get; private set; }
+    public static LocationProvider CurrentTracker { get; set; }
+    
+    public static void Load(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+    
+    /* public static Dictionary<string, dynamic> Parameters { get; private set; }
 
-    public static void Load(string sceneName, Dictionary<string, string> parameters = null)
+    public static void Load(string sceneName, Dictionary<string, dynamic> parameters = null)
     {
         Parameters = parameters;
         SceneManager.LoadScene(sceneName);
     }
     
-    public static void Load(string sceneName, string paramKey, string paramValue) 
+    public static void Load(string sceneName, string paramKey, dynamic paramValue) 
     {
-        Parameters = new Dictionary<string, string> {{paramKey, paramValue}};
-        SceneManager.LoadScene(sceneName);
-    }
-    
-    public static void Load(string sceneName, params string[][] parameters) 
-    {
-        Parameters = new Dictionary<string, string>();
-
-        foreach (var parameter in parameters)
-        {
-            Parameters.Add(parameter[0], parameter[1]);
-        }
-        
+        Parameters = new Dictionary<string, dynamic> {{paramKey, paramValue}};
         SceneManager.LoadScene(sceneName);
     }
 
-    public static string GetParameter(string paramKey)
+    public static dynamic GetParameter(string paramKey)
     {
         return Parameters == null ? "" : Parameters[paramKey];
     }
  
-    public static void SetParameter(string paramKey, string paramValue) 
+    public static void SetParameter(string paramKey, dynamic paramValue) 
     {
         if (Parameters == null)
-            Parameters = new Dictionary<string, string>();
+            Parameters = new Dictionary<string, dynamic>();
         
-        Parameters.Add(paramKey, paramValue);
-    }
+        Parameters.Add(paramKey, paramValue); 
+    }*/
 }

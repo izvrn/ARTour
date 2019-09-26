@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Android;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Wikitude;
 
@@ -14,8 +13,6 @@ public class GPSMenuController : MonoBehaviour
     public Text BuildNumberText;
     public Text BuildConfigurationText;
     public Text UnityVersionText;
-
-    public string SceneName = "Historical Photo Mode";
     
     private void Awake()
     {
@@ -25,7 +22,10 @@ public class GPSMenuController : MonoBehaviour
     public void OnSampleButtonClicked(Button sender) 
     {
         /* Start the appropriate scene based on the button name that was pressed. */
-        Scenes.Load(SceneName, new [] {"CurrentTrackerName", sender.name});
+        Scenes.CurrentTracker = sender.GetComponent<LocationProvider>();
+        
+        Debug.Log(Scenes.CurrentTracker);
+        Scenes.Load("Historical Photo GPS Tracking");
     }
 
     public void OnInfoButtonPressed() 

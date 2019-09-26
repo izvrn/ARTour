@@ -53,12 +53,16 @@
           </e>
           <e p="GPS Tracking" t="Include">
             <e p="GPSMenuController.cs" t="Include" />
+            <e p="GPSScanningController.cs" t="Include" />
             <e p="GPSTracker.cs" t="Include" />
             <e p="GPSTrackingController.cs" t="Include" />
             <e p="LocationProvider.cs" t="Include" />
-            <e p="MarkerScript.cs" t="Include" />
             <e p="MathHelper.cs" t="Include" />
-            <e p="RadarController.cs" t="Include" />
+            <e p="Radar" t="Include">
+              <e p="MarkerScript.cs" t="Include" />
+              <e p="RadarController.cs" t="Include" />
+              <e p="SimpleRadarController.cs" t="Include" />
+            </e>
             <e p="Scenes.cs" t="Include" />
           </e>
           <e p="Gyroscope" t="Include">

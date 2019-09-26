@@ -23,14 +23,12 @@ public class SimpleRadarController : MonoBehaviour
     private bool _connected;
     private Vector3 _markerStartPosition;
     
-    private GPSTrackingController _trackingController;
-    
     private Queue<float> _compassData;
     private float _actualData;
     
     private void Awake()
     {
-        _trackingController = GetComponent<GPSTrackingController>();
+        OnTrackerInitialized();
         
         _compassData = new Queue<float>(3);
         _compassData.Enqueue(Input.compass.trueHeading);
@@ -39,19 +37,12 @@ public class SimpleRadarController : MonoBehaviour
         _actualData = Input.compass.trueHeading + 10f;
     }
 
-    private void Start()
-    {
-        _trackingController.TrackerInitialized.AddListener(OnTrackerInitialized);
-    }
-
     private void Update()
     {
-        if (!GPSTracker.Instance.Connected || !_trackingController.Initialized) 
+        if (!GPSTracker.Instance.Connected) 
             return;
         
         compass.rectTransform.rotation = Quaternion.Lerp(compass.rectTransform.rotation, Quaternion.Euler(new Vector3(0, 0, _actualData)), Time.deltaTime * 1.3f);
-  
-        Debug.Log(_marker);
         
         _marker.DrawMarker(maxDistance, _length);
         _markerImage.rectTransform.rotation = Quaternion.identity;
@@ -67,13 +58,13 @@ public class SimpleRadarController : MonoBehaviour
         StartCoroutine(AddValueInQueue());
     }
 
-    public void OnTrackerInitialized()
+    private void OnTrackerInitialized()
     {
         var compassPosition = compassGameObject.transform.position;
         var a = Instantiate(markerSample, new Vector3(compassPosition.x, compassPosition.y, 0), Quaternion.identity, compassGameObject.transform);
         
         var markerScript = a.GetComponent<MarkerScript>();
-        markerScript.LocationProvider = _trackingController.CurrentTrackerLocationProvider;
+        markerScript.LocationProvider = Scenes.CurrentTracker;
         _marker = markerScript;
         _markerImage = a.GetComponent<Image>();
     }

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Menu.unity
     guid: e83585c04d460134d9373ef97b8a32b2
   - enabled: 1
-    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Mode.unity
+    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Scanning.unity
+    guid: 55405485ec2acc14f8326b14f541c406
+  - enabled: 1
+    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo GPS Tracking.unity
     guid: 0a9d3a7798159ef4a8e2853d49a47e3b
   m_configObjects: {}
