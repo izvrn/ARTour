@@ -8,8 +8,8 @@ public class GPSTracker : MonoBehaviour
     [SerializeField] private Location fakeCoordinates;
     public static GPSTracker Instance { get; set; }
 
-    private float _desiredAccuracyInMeters;
-    private float _updateDistanceInMeters;
+    private float _desiredAccuracyInMeters = 10f;
+    private float _updateDistanceInMeters = 1f;
     private bool _serviceGranted;
     
     public bool Connected => _serviceGranted;

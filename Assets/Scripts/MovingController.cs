@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using Wikitude;
 
 public class MovingController : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class MovingController : MonoBehaviour
     private float _previousAngle;
     
     private bool _flag;
+
+    private Camera _wikitude;
     
     private void Start()
     {
@@ -121,7 +124,7 @@ public class MovingController : MonoBehaviour
         var localScale = ObjectTransform.localScale;
         
         positionText.text = "X: " + localPosition.x + "\r\nY: " + localPosition.y + "\r\nZ: " + localPosition.z;
-        rotationText.text = "X: " + localRotation.x + "\r\nY: " + localRotation.y + "\r\nZ: " + localRotation.z;
+        rotationText.text = "X: " + localRotation.eulerAngles.x + "\r\nY: " + localRotation.eulerAngles.y + "\r\nZ: " + localRotation.eulerAngles.z;
         scaleText.text = "X: " + localScale.x + "\r\nY: " + localScale.y + "\r\nZ: " + localScale.z;
     }
 

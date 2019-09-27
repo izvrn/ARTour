@@ -11,8 +11,8 @@ public class GPSScanningController : BaseController
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
 
-    [Header("CURRENT TRACKER INFORMATION SETTINGS")] 
-    [SerializeField] private GameObject scanHelper;
+    [Header("CURRENT TRACKER INFORMATION SETTINGS")] [SerializeField]
+    private GameObject helperObject;
     [SerializeField] private Image markerPreview;
 
     private MovingController _movingController;
@@ -20,6 +20,8 @@ public class GPSScanningController : BaseController
     
     private LocationProvider _currentLocationProvider;
     private TrackerBehaviour _currentTracker;
+
+    [SerializeField] private Canvas arrowCanvas;
     
     public bool Initialized => _initialized;
     public UnityEvent TrackerInitialized { get; private set; }
@@ -34,7 +36,6 @@ public class GPSScanningController : BaseController
             {
                 tracker.enabled = true;
                 _movingController.ObjectTransform = tracker.transform.GetChild(0).GetChild(0);
-                informationText.text = "Tracker switched to " + tracker.name;
 
                 _currentTracker = tracker;
                 continue;
@@ -42,8 +43,6 @@ public class GPSScanningController : BaseController
             
             tracker.enabled = false;
         }
-
-        markerPreview.sprite = _currentLocationProvider.Preview;
     }
 
     private void Awake()
@@ -56,6 +55,9 @@ public class GPSScanningController : BaseController
     protected override void Start()
     {
         base.Start();
+
+        informationText.text = _currentLocationProvider.Name;
+        markerPreview.sprite = _currentLocationProvider.Preview;
         StartCoroutine(Initialization());
     }
 
@@ -83,12 +85,18 @@ public class GPSScanningController : BaseController
     {
         informationText.text = "Target: " + _currentTracker.name + " Recognized";
         informationBackground.color = Color.green;
+        
+        helperObject.SetActive(false);
+        arrowCanvas.gameObject.SetActive(true);
     }
 
     public void OnTargetLost(RecognizedTarget target)
     {
         informationText.text = "Target: " + _currentTracker.name + " Lost";
         informationBackground.color = Color.red;
+        
+        helperObject.SetActive(true);
+        arrowCanvas.gameObject.SetActive(false);
     }
 
     private IEnumerator Initialization()
