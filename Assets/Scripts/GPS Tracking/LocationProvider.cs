@@ -116,6 +116,10 @@ public class LocationProvider : MonoBehaviour
     public Location Location => location;
     public string Name => name;
     public string Street => street;
-
     public Sprite Preview => preview;
+
+    public override string ToString()
+    {
+        return location.ToString() + Environment.NewLine + name + Environment.NewLine + Street;
+    }
 }

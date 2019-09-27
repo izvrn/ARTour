@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Radar/RadarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Radar/MarkerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,14 +31,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/RadarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/MathHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Radar/RadarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Scenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSScanningController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Radar/SimpleRadarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Radar/MarkerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" />
       </list>
     </option>
@@ -91,6 +93,7 @@
       <workItem from="1569140496439" duration="8192000" />
       <workItem from="1569160935629" duration="6458000" />
       <workItem from="1569514080939" duration="6581000" />
+      <workItem from="1569567361354" duration="3132000" />
     </task>
     <servers />
   </component>

@@ -23,8 +23,6 @@ public class GPSMenuController : MonoBehaviour
     {
         /* Start the appropriate scene based on the button name that was pressed. */
         Scenes.CurrentTracker = sender.GetComponent<LocationProvider>();
-        
-        Debug.Log(Scenes.CurrentTracker);
         Scenes.Load("Historical Photo GPS Tracking");
     }
 

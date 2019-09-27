@@ -7,15 +7,12 @@ public class SimpleRadarController : MonoBehaviour
 {
     [Header("RADAR SETTINGS")]
     [SerializeField] private int maxDistance;
-    [SerializeField] private Text distanceText;
     
     [Header("RADAR GAMEOBEJCTS")]
     [SerializeField] private GameObject markerSample;
     [SerializeField] private GameObject compassGameObject;
     [SerializeField] private Image compass;
     
-    private Location _userLocation;
-
     private MarkerScript _marker;
     private Image _markerImage;
 

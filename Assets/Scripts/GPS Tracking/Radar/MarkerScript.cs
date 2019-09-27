@@ -34,7 +34,7 @@ public class MarkerScript : MonoBehaviour
         markerImage.rectTransform.localScale = markerText.rectTransform.localScale = new Vector3((float)(1f - Math.Min(distance, maxDistance) * .5f / maxDistance),
             (float)(1f - Math.Min(distance, maxDistance) * .5f / maxDistance), (float)(1f - Math.Min(distance, maxDistance) * .5f / maxDistance)) ;
 
-        markerText.text = LocationProvider.name + " : " + (int)distance;
+        markerText.text = LocationProvider.Name + " : " + (int)distance;
         markerText.color = new Color((float)distance / maxDistance, (float)(1 - distance / maxDistance), 0);
     }
 }

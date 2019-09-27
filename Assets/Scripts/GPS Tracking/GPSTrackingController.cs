@@ -15,25 +15,24 @@ public class GPSTrackingController : BaseController
     [SerializeField] private float gpsUpdateTime = 1f;
     [SerializeField] private float trackingDistance = 30f;
 
-    private float _currentDistance = 100f;
+    private float _currentDistance = Mathf.Infinity;
 
     protected override void Start()
     {
         base.Start();
 
         orientationHelperText.text = "HEAD TO: " + Scenes.CurrentTracker.Street;
-        orientationHelperText.gameObject.SetActive(true);
-        
         GPSTracker.Instance.StatusChanged.AddListener(OnGPSStatusChanged);
+        
         StartCoroutine(DistanceUpdate());
     }
 
     private IEnumerator DistanceUpdate()
     {
-        while (!GPSTracker.Instance.Connected || !Scenes.CurrentTracker)
+        while (!GPSTracker.Instance.Connected)
             yield return null;
         
-        while (_currentDistance < trackingDistance)
+        while (_currentDistance > trackingDistance)
         {
             _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(Scenes.CurrentTracker.Location);
             informationText.text = "Distance to " + Scenes.CurrentTracker.Name + ": " + Mathf.Round(_currentDistance) + " meters";

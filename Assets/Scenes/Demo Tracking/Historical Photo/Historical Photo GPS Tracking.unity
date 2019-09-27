@@ -1035,7 +1035,7 @@ MonoBehaviour:
   informationText: {fileID: 1477689411}
   informationBackground: {fileID: 2080164494}
   orientationHelperText: {fileID: 1787709007}
-  gpsUpdateTime: 2
+  gpsUpdateTime: 1
   trackingDistance: 30
 --- !u!4 &1249750922
 Transform:
@@ -1063,9 +1063,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15691896f52f3dd488a5f2e35c68c87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useFakeGPS: 1
+  useFakeGPS: 0
   fakeCoordinates:
-    latitude: 59.51
+    latitude: 88.25
     longitude: 10.78726
     altitude: 0
 --- !u!114 &1249750927
@@ -1081,7 +1081,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 1000
-  distanceText: {fileID: 0}
   markerSample: {fileID: 5097130487620990703, guid: b458c90d6601937478992ebff50e53bf,
     type: 3}
   compassGameObject: {fileID: 967095457}
@@ -1491,10 +1490,10 @@ RectTransform:
   m_Father: {fileID: 2086532752}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -100}
-  m_SizeDelta: {x: 1080, y: 200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787709007
 MonoBehaviour:
@@ -1717,7 +1716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2086532752
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1733,10 +1732,10 @@ RectTransform:
   m_Father: {fileID: 1391026489}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -125}
-  m_SizeDelta: {x: 1080, y: 200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2086532753
 MonoBehaviour:
