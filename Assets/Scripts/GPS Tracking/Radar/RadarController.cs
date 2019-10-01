@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class RadarController : MonoBehaviour
 {
     /*
-     [Header("RADAR SETTINGS")]
+    [Header("RADAR SETTINGS")]
     [SerializeField] private int maxDistance;
     [SerializeField] private Text distanceText;
     

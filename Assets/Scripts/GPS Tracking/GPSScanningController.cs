@@ -9,19 +9,20 @@ public class GPSScanningController : BaseController
 {
     [Header("INFORMATION HEADER SETTINGS")]
     [SerializeField] private Text informationText;
-    [SerializeField] private Image informationBackground;
+    [SerializeField] private Image informationMarker;
 
-    [Header("CURRENT TRACKER INFORMATION SETTINGS")] [SerializeField]
-    private GameObject helperObject;
+    [Header("CURRENT TRACKER INFORMATION SETTINGS")] 
+    [SerializeField] private GameObject helperObject;
     [SerializeField] private Image markerPreview;
 
+    [Header("ARROW POINTER GAMEOBJECT")] 
+    [SerializeField] private GameObject arrowGameObject;
+    
     private MovingController _movingController;
     private bool _initialized;
     
     private LocationProvider _currentLocationProvider;
     private TrackerBehaviour _currentTracker;
-
-    [SerializeField] private Canvas arrowCanvas;
     
     public bool Initialized => _initialized;
     public UnityEvent TrackerInitialized { get; private set; }
@@ -68,15 +69,15 @@ public class GPSScanningController : BaseController
         {
             case ExtendedTrackingQuality.Bad:
                 informationText.text = "Extended Tracking Quality on Target " + _currentTracker.name + " : Bad";
-                informationBackground.color = Color.red;
+                informationMarker.color = Color.red;
                 break;
             case ExtendedTrackingQuality.Average:
                 informationText.text = "Extended Tracking Quality on Target " + _currentTracker.name + " : Average";
-                informationBackground.color = Color.yellow;
+                informationMarker.color = Color.yellow;
                 break;
             case ExtendedTrackingQuality.Good:
                 informationText.text = "Extended Tracking Quality on Target " + _currentTracker.name + " : Good";
-                informationBackground.color = Color.green;
+                informationMarker.color = Color.green;
                 break;
         }
     }
@@ -84,19 +85,15 @@ public class GPSScanningController : BaseController
     public void OnTargetRecognized(RecognizedTarget target)
     {
         informationText.text = "Target: " + _currentTracker.name + " Recognized";
-        informationBackground.color = Color.green;
+        informationMarker.color = Color.green;
         
         helperObject.SetActive(false);
-        arrowCanvas.gameObject.SetActive(true);
+        arrowGameObject.SetActive(true);
     }
 
-    public void OnTargetLost(RecognizedTarget target)
+    public override void OnBackButtonClicked()
     {
-        informationText.text = "Target: " + _currentTracker.name + " Lost";
-        informationBackground.color = Color.red;
-        
-        helperObject.SetActive(true);
-        arrowCanvas.gameObject.SetActive(false);
+        Scenes.Load("Historical Photo Menu");
     }
 
     private IEnumerator Initialization()

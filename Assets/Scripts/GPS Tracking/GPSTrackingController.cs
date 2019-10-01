@@ -6,7 +6,6 @@ public class GPSTrackingController : BaseController
 {
     [Header("INFORMATION HEADER SETTINGS")]
     [SerializeField] private Text informationText;
-    [SerializeField] private Image informationBackground;
 
     [Header("CURRENT TRACKER INFORMATION SETTINGS")] 
     [SerializeField] private Text orientationHelperText;
@@ -25,6 +24,11 @@ public class GPSTrackingController : BaseController
         GPSTracker.Instance.StatusChanged.AddListener(OnGPSStatusChanged);
         
         StartCoroutine(DistanceUpdate());
+    }
+    
+    public override void OnBackButtonClicked()
+    {
+        Scenes.Load("Historical Photo Menu");
     }
 
     private IEnumerator DistanceUpdate()
