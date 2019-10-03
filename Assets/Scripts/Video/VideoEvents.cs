@@ -1,14 +1,23 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 using UnityEngine.Video;
 
 public class VideoEvents : MonoBehaviour
 {
     private VideoPlayer _vPlayer;
 
-    void Start()
-    {        
+    private void Awake()
+    {
         _vPlayer = GetComponent<VideoPlayer>();
-        _vPlayer.waitForFirstFrame = true;
+        StartCoroutine(ResetVideo());
+    }
+
+    private IEnumerator ResetVideo()
+    {        
+        yield return new WaitForSeconds(2f);
+        _vPlayer.Pause();
+        _vPlayer.time = 0;
     }
    
     public void OnTargetRecognized()
