@@ -76,11 +76,15 @@
             <e p="GutterController.cs" t="Include" />
             <e p="GutterSwipeController.cs" t="Include" />
           </e>
+          <e p="Video" t="Include">
+            <e p="VideoEvents.cs" t="Include" />
+          </e>
         </e>
         <e p="Shaders" t="Include">
           <e p="Backobjects.shader" t="Include" />
           <e p="Occluder.shader" t="Include" />
           <e p="Portal.shader" t="Include" />
+          <e p="VideoChromaKeyer.shader" t="Include" />
         </e>
         <e p="unity-ui-extensions" t="Include">
           <e p="Editor" t="Include">

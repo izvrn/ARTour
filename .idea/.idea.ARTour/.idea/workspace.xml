@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Video/VideoEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSScanningController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,6 +44,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSScanningController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Video/VideoEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Video/CustomRenderTexture.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +100,7 @@
       <workItem from="1569514080939" duration="6581000" />
       <workItem from="1569567361354" duration="3132000" />
       <workItem from="1569927569900" duration="6869000" />
+      <workItem from="1570115728079" duration="2819000" />
     </task>
     <servers />
   </component>
