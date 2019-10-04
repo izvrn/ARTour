@@ -38,6 +38,7 @@
             <e p="SwipeManager.cs" t="Include" />
             <e p="TrackingController.cs" t="Include" />
             <e p="URLManager.cs" t="Include" />
+            <e p="VideoTrackingController.cs" t="Include" />
           </e>
           <e p="Controls" t="Include">
             <e p="ManualMovement.cs" t="Include" />
@@ -76,6 +77,7 @@
           <e p="Video" t="Include">
             <e p="VideoEvents.cs" t="Include" />
           </e>
+          <e p="VideoMovingController.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Backobjects.shader" t="Include" />

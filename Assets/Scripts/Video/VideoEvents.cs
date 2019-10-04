@@ -12,8 +12,6 @@ public class VideoEvents : MonoBehaviour
         _vPlayer = GetComponent<VideoPlayer>();
     }
 
-
-
     public void OnTargetRecognized()
     {
         _vPlayer.Play();

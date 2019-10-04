@@ -4869,22 +4869,22 @@ PrefabInstance:
     - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.10849059
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.96651876
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584500775202609, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584500775202611, guid: 3af6432be82614146908854240475913,
         type: 3}
@@ -9219,6 +9219,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Historical Photo Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 1555584501876162298, guid: 3af6432be82614146908854240475913,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9282,7 +9287,7 @@ PrefabInstance:
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -592
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
