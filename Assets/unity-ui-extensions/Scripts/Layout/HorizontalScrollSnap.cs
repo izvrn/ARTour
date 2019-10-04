@@ -211,6 +211,7 @@ namespace UnityEngine.UI.Extensions
 
         private void OnRectTransformDimensionsChange()
         {
+            UpdateLayout();
             if (_childAnchorPoint != Vector2.zero)
             {
                 UpdateLayout();

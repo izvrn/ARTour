@@ -91,9 +91,19 @@ public class MovingController : MonoBehaviour
         }
     }
 
-    public void RotateObject(Slider s)
+    public void RotateObjectX(Slider s)
+    {
+        ObjectTransform.localRotation = Quaternion.Euler(new Vector3(s.value, 0, 0));
+    }
+    
+    public void RotateObjectY(Slider s)
     {
         ObjectTransform.localRotation = Quaternion.Euler(new Vector3(0, s.value, 0));
+    }
+    
+    public void RotateObjectZ(Slider s)
+    {
+        ObjectTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, s.value));
     }
     
     private void ScaleObject (Touch[] touches)

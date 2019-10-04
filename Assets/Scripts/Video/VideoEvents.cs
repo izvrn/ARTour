@@ -10,14 +10,6 @@ public class VideoEvents : MonoBehaviour
     private void Awake()
     {
         _vPlayer = GetComponent<VideoPlayer>();
-        StartCoroutine(ResetVideo());
-    }
-
-    private IEnumerator ResetVideo()
-    {        
-        yield return new WaitForSeconds(2f);
-        _vPlayer.Pause();
-        _vPlayer.time = 0;
     }
    
     public void OnTargetRecognized()
