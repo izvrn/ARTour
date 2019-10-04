@@ -4864,7 +4864,22 @@ PrefabInstance:
     - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_Text
-      value: Dullenturm Tracking (video)
+      value: Dullenturm Tracking (transparent video)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.10849059
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555584500683860350, guid: 3af6432be82614146908854240475913,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.96651876
       objectReference: {fileID: 0}
     - target: {fileID: 1555584500775202609, guid: 3af6432be82614146908854240475913,
         type: 3}
@@ -9204,11 +9219,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Historical Photo Menu
       objectReference: {fileID: 0}
-    - target: {fileID: 1555584501876162298, guid: 3af6432be82614146908854240475913,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9267,17 +9277,17 @@ PrefabInstance:
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 373.85544
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -592
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 747.7109
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
@@ -9292,7 +9302,7 @@ PrefabInstance:
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
@@ -9302,7 +9312,7 @@ PrefabInstance:
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555584501876162277, guid: 3af6432be82614146908854240475913,
         type: 3}

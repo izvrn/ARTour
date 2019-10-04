@@ -3706,6 +3706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WikitudeCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 2057576, guid: b58f1f87dc68947dfb9766f0cb9ec1fc, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 458674, guid: b58f1f87dc68947dfb9766f0cb9ec1fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3765,10 +3769,6 @@ PrefabInstance:
     - target: {fileID: 11456902, guid: b58f1f87dc68947dfb9766f0cb9ec1fc, type: 3}
       propertyPath: _enableLivePreview
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2057576, guid: b58f1f87dc68947dfb9766f0cb9ec1fc, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58f1f87dc68947dfb9766f0cb9ec1fc, type: 3}
