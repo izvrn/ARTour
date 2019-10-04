@@ -9,24 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 929c293ab85da7d46bd4ea236c81a4ef
   - enabled: 1
-    path: Assets/Scenes/Demo Tracking/Dullenturm Tracking (multiple markers).unity
+    path: Assets/Scenes/Dullenturm Tracking (multiple markers).unity
     guid: 512277e3bf65a0743baa2701ff177bb6
   - enabled: 1
-    path: Assets/Scenes/Demo Tracking/Rathaus Tracking (3d model).unity
+    path: Assets/Scenes/Rathaus Tracking (3d model).unity
     guid: b66d87a9bc492d3469da1ef52f14240f
   - enabled: 1
-    path: Assets/Scenes/Demo Tracking/Rathaus Tracking (image).unity
+    path: Assets/Scenes/Rathaus Tracking (image).unity
     guid: b853e904b6d7b6a41bdba75ce53d16e4
   - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Menu.unity
+    path: Assets/Scenes/Historical Photo/Historical Photo Menu.unity
     guid: e83585c04d460134d9373ef97b8a32b2
   - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo Scanning.unity
+    path: Assets/Scenes/Historical Photo/Historical Photo Scanning.unity
     guid: 55405485ec2acc14f8326b14f541c406
   - enabled: 0
-    path: Assets/Scenes/Demo Tracking/Historical Photo/Historical Photo GPS Tracking.unity
+    path: Assets/Scenes/Historical Photo/Historical Photo GPS Tracking.unity
     guid: 0a9d3a7798159ef4a8e2853d49a47e3b
   - enabled: 1
-    path: Assets/Scenes/Demo Tracking/Video Scene.unity
+    path: Assets/Scenes/Video Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
