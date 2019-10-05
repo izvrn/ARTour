@@ -1,5 +1,4 @@
-﻿using System;
-using DG.Tweening;
+﻿using DG.Tweening;
 using UnityEngine;
 
 public class PointerScaler : MonoBehaviour
@@ -14,13 +13,13 @@ public class PointerScaler : MonoBehaviour
         _localScale = transform.localScale;
     }
 
-    private void OnEnable()
-    {
-        StartAnimation();
-    }
-
-    private void StartAnimation()
+    public void OnTargetReco()
     {
         transform.DOScale(_localScale * _sizeScaler, _duration).SetLoops(-1, LoopType.Yoyo);
+    }
+    
+    public void OnTargetLost()
+    {
+        transform.DOKill();
     }
 }

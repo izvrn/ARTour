@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using Wikitude;
 
 public class MovingController : MonoBehaviour
 {
@@ -94,21 +93,21 @@ public class MovingController : MonoBehaviour
     public void RotateObjectX(Slider s)
     {
         var localRotation = ObjectTransform.localRotation;
-        localRotation = Quaternion.Euler(new Vector3(s.value, localRotation.y, localRotation.z));
+        localRotation = Quaternion.Euler(new Vector3(s.value, localRotation.eulerAngles.y, localRotation.eulerAngles.z));
         ObjectTransform.localRotation = localRotation;
     }
     
     public void RotateObjectY(Slider s)
     {
         var localRotation = ObjectTransform.localRotation;
-        localRotation = Quaternion.Euler(new Vector3(localRotation.x, s.value, localRotation.z));
+        localRotation = Quaternion.Euler(new Vector3(localRotation.eulerAngles.x, s.value, localRotation.eulerAngles.z));
         ObjectTransform.localRotation = localRotation;
     }
     
     public void RotateObjectZ(Slider s)
     {
         var localRotation = ObjectTransform.localRotation;
-        localRotation = Quaternion.Euler(new Vector3(localRotation.x, localRotation.y, s.value));
+        localRotation = Quaternion.Euler(new Vector3(localRotation.eulerAngles.x, localRotation.eulerAngles.y, s.value));
         ObjectTransform.localRotation = localRotation;
     }
     

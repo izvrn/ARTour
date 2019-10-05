@@ -13,9 +13,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Video/VideoEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/VirtualObjectTouchController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSScanningController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/Radar/SimpleRadarController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/LocationProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,6 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTrackingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Video/VideoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Video/CustomRenderTexture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" />
       </list>
     </option>
   </component>
@@ -56,6 +63,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,6 +109,8 @@
       <workItem from="1569567361354" duration="3132000" />
       <workItem from="1569927569900" duration="6869000" />
       <workItem from="1570115728079" duration="2819000" />
+      <workItem from="1570274790257" duration="686000" />
+      <workItem from="1570276216814" duration="7958000" />
     </task>
     <servers />
   </component>
