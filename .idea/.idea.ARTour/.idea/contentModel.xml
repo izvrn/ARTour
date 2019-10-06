@@ -34,6 +34,7 @@
             <e p="BaseController.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
             <e p="FPSCounter.cs" t="Include" />
+            <e p="GuideViewController.cs" t="Include" />
             <e p="InstantTrackingController.cs" t="Include" />
             <e p="MenuController.cs" t="Include" />
             <e p="SingleImageTrackingController.cs" t="Include" />

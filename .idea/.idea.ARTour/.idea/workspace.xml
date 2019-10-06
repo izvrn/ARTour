@@ -18,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSScanningController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/GuideViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GPS Tracking/GPSTracker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,6 +54,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Demo/PointerScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/TrackingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GuideViewController.cs" />
       </list>
     </option>
   </component>
@@ -111,6 +114,7 @@
       <workItem from="1570115728079" duration="2819000" />
       <workItem from="1570274790257" duration="686000" />
       <workItem from="1570276216814" duration="7958000" />
+      <workItem from="1570349308643" duration="723000" />
     </task>
     <servers />
   </component>
