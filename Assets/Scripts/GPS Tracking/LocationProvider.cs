@@ -112,11 +112,14 @@ public class LocationProvider : MonoBehaviour
     [SerializeField] private string name;
     [SerializeField] private string street;
     [SerializeField] private Sprite preview;
+    [SerializeField] private string sceneName;
 
     public Location Location => location;
     public string Name => name;
     public string Street => street;
     public Sprite Preview => preview;
+
+    public string SceneName => sceneName;
 
     public override string ToString()
     {

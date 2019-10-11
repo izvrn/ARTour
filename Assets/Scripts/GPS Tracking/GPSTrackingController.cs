@@ -28,7 +28,7 @@ public class GPSTrackingController : BaseController
     
     public override void OnBackButtonClicked()
     {
-        Scenes.Load("Historical Photo Menu");
+        Scenes.Load(Scenes.CurrentTracker.SceneName);
     }
 
     private IEnumerator DistanceUpdate()

@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Historical Photo/Historical Photo GPS Tracking.unity
     guid: 0a9d3a7798159ef4a8e2853d49a47e3b
   - enabled: 1
-    path: Assets/Scenes/Video Scene.unity
+    path: Assets/Scenes/Dullenturm Tracking (video).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GPS Tracking.unity
+    guid: 320f90441279a8d40923b5c80f375249
   m_configObjects: {}
