@@ -85,7 +85,7 @@ public class ScaleManager : MonoBehaviour
             yield return null;
         }
 
-        radarDistance = MathHelper.DistanceTo(new Location(Input.location.lastData), Scenes.CurrentTracker.Location) / 1000f * 1.2f;
+        radarDistance = MathHelper.DistanceTo(new Location(Input.location.lastData), GlobalParameters.CurrentTracker.Location) / 1000f * 1.2f;
         _lastDistance = radarDistance;
         SetDistanceText();
     }

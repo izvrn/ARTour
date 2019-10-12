@@ -5,7 +5,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void SetTracker(LocationProvider provider)
     {
-        Scenes.CurrentTracker = provider;
+        GlobalParameters.CurrentTracker = provider;
     }
     
     public void LoadScene(string name)

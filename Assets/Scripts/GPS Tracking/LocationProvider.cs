@@ -114,12 +114,35 @@ public class LocationProvider : MonoBehaviour
     [SerializeField] private Sprite preview;
     [SerializeField] private string sceneName;
 
-    public Location Location => location;
-    public string Name => name;
-    public string Street => street;
-    public Sprite Preview => preview;
+    public Location Location
+    {
+        get => location;
+        set => location = value;
+    }
+    
+    public string Name 
+    {
+        get => name;
+        set => name = value;
+    }
+    
+    public string Street
+    {
+        get => street;
+        set => street = value;
+    }
+    
+    public Sprite Preview
+    {
+        get => preview;
+        set => preview = value;
+    }
 
-    public string SceneName => sceneName;
+    public string SceneName   
+    {
+        get => sceneName;
+        set => sceneName = value;
+    }
 
     public override string ToString()
     {

@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Wikitude;
 
@@ -50,7 +51,7 @@ public class GPSScanningController : BaseController
     {
         TrackerInitialized = new UnityEvent();
         _movingController = GetComponent<MovingController>();
-        _currentLocationProvider = Scenes.CurrentTracker;
+        _currentLocationProvider = GlobalParameters.CurrentTracker;
     }
 
     protected override void Start()
@@ -93,7 +94,7 @@ public class GPSScanningController : BaseController
 
     public override void OnBackButtonClicked()
     {
-        Scenes.Load("Historical Photo Menu");
+        SceneManager.LoadScene("Historical Photo Menu");
     }
 
     private IEnumerator Initialization()

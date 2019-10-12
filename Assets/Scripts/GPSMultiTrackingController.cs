@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GPSMultiTrackingController : BaseController
@@ -23,13 +24,13 @@ public class GPSMultiTrackingController : BaseController
     protected override void Start()
     {
         base.Start();
-        orientationHelperText.text = "HEAD TO: " + Scenes.CurrentTracker.Street;
+        orientationHelperText.text = "HEAD TO: " + GlobalParameters.CurrentTracker.Street;
         StartCoroutine(DistanceUpdate());
     }
     
     public override void OnBackButtonClicked()
     {
-        Scenes.Load("Main Menu");
+        SceneManager.LoadScene("Main Menu");
     }
 
     private IEnumerator DistanceUpdate()
@@ -42,17 +43,17 @@ public class GPSMultiTrackingController : BaseController
         {
             if (useFakeGPS)
             {
-                _currentDistance = MathHelper.DistanceTo(fakeLocation, Scenes.CurrentTracker.Location);
+                _currentDistance = MathHelper.DistanceTo(fakeLocation, GlobalParameters.CurrentTracker.Location);
             }
             else
             {
-                _currentDistance = MathHelper.DistanceTo(new Location(Input.location.lastData), Scenes.CurrentTracker.Location);
+                _currentDistance = MathHelper.DistanceTo(new Location(Input.location.lastData), GlobalParameters.CurrentTracker.Location);
             }
             
-            informationText.text = "Distance to " + Scenes.CurrentTracker.Name + ": " + Mathf.Round(_currentDistance) + " meters";
+            informationText.text = "Distance to " + GlobalParameters.CurrentTracker.Name + ": " + Mathf.Round(_currentDistance) + " meters";
             yield return new WaitForSeconds(gpsUpdateTime);
         }
         
-        Scenes.Load(Scenes.CurrentTracker.SceneName); 
+        SceneManager.LoadScene(GlobalParameters.CurrentTracker.SceneName);
     }
 }

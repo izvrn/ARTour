@@ -135,7 +135,7 @@ MonoBehaviour:
       m_Calls: []
   _targetSourceType: 0
   _targetCollectionResource:
-    _targetPath: Wikitude/magazine.wtc
+    _targetPath: Wikitude/tracker.wtc
     _useCustomURL: 0
     OnFinishLoading:
       m_PersistentCalls:

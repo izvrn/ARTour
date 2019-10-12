@@ -18,7 +18,7 @@ public class MarkerManager : MonoBehaviour
         {
             var obj = Instantiate(_markerPrefab, _arrow.transform);
             obj.GetComponent<NewMarkerScript>()._POI = poi;
-            obj.GetComponent<NewMarkerScript>().SetImage(poi._sourceImage);
+            obj.GetComponent<NewMarkerScript>().SetImage(poi.previewImage);
             var mat = new Material(Shader.Find("Standard"));
             mat.color = new Color(Random.Range(0, 255), Random.Range(0, 255), Random.Range(0, 255));
             obj.GetComponent<NewMarkerScript>().SetMaterial(mat);

@@ -61,7 +61,7 @@ public class SimpleRadarController : MonoBehaviour
         var a = Instantiate(markerSample, new Vector3(compassPosition.x, compassPosition.y, 0), Quaternion.identity, compassGameObject.transform);
         
         var markerScript = a.GetComponent<MarkerScript>();
-        markerScript.LocationProvider = Scenes.CurrentTracker;
+        markerScript.LocationProvider = GlobalParameters.CurrentTracker;
         _marker = markerScript;
         _markerImage = a.GetComponent<Image>();
     }

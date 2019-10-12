@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GPSTrackingController : BaseController
@@ -20,7 +21,7 @@ public class GPSTrackingController : BaseController
     {
         base.Start();
 
-        orientationHelperText.text = "HEAD TO: " + Scenes.CurrentTracker.Street;
+        orientationHelperText.text = "HEAD TO: " + GlobalParameters.CurrentTracker.Street;
         GPSTracker.Instance.StatusChanged.AddListener(OnGPSStatusChanged);
         
         StartCoroutine(DistanceUpdate());
@@ -28,7 +29,7 @@ public class GPSTrackingController : BaseController
     
     public override void OnBackButtonClicked()
     {
-        Scenes.Load(Scenes.CurrentTracker.SceneName);
+        SceneManager.LoadScene(GlobalParameters.CurrentTracker.SceneName);
     }
 
     private IEnumerator DistanceUpdate()
@@ -38,12 +39,12 @@ public class GPSTrackingController : BaseController
         
         while (_currentDistance > trackingDistance)
         {
-            _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(Scenes.CurrentTracker.Location);
-            informationText.text = "Distance to " + Scenes.CurrentTracker.Name + ": " + Mathf.Round(_currentDistance) + " meters";
+            _currentDistance = GPSTracker.Instance.CurrentLocation.DistanceTo(GlobalParameters.CurrentTracker.Location);
+            informationText.text = "Distance to " + GlobalParameters.CurrentTracker.Name + ": " + Mathf.Round(_currentDistance) + " meters";
             yield return new WaitForSeconds(gpsUpdateTime);
         }
         
-        Scenes.Load("Historical Photo Scanning"); 
+        SceneManager.LoadScene("Historical Photo Scanning");
     }
     
     private void OnGPSStatusChanged()

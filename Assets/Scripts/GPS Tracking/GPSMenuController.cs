@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Android;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Wikitude;
 
@@ -14,8 +15,8 @@ public class GPSMenuController : MonoBehaviour
     public void OnSampleButtonClicked(LocationProvider locationProvider) 
     {
         /* Start the appropriate scene based on the button name that was pressed. */
-        Scenes.CurrentTracker = locationProvider;
-        Scenes.Load("Historical Photo GPS Tracking");
+        GlobalParameters.CurrentTracker = locationProvider;
+        SceneManager.LoadScene("Historical Photo GPS Tracking");
     }
     
     void Update() 
@@ -23,7 +24,7 @@ public class GPSMenuController : MonoBehaviour
         /* Also handles the back button on Android */
         if (Input.GetKeyDown(KeyCode.Escape)) {
             /* There is nowhere else to go back, so quit the app. */
-            Scenes.Load("Main Menu");
+            SceneManager.LoadScene("Main Menu");
         }
     }
 
