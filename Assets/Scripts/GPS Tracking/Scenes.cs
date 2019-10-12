@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
 
 public static class Scenes
 {

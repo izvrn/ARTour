@@ -19,6 +19,21 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="RadarStuff" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CameraAnimation.cs" t="Include" />
+            <e p="CanvasRotator.cs" t="Include" />
+            <e p="InitializingScript.cs" t="Include" />
+            <e p="MagneticArrowRotation.cs" t="Include" />
+            <e p="MarkerManager.cs" t="Include" />
+            <e p="MarkerScaler.cs" t="Include" />
+            <e p="NewMarkerScript.cs" t="Include" />
+            <e p="NSymbolRotator.cs" t="Include" />
+            <e p="PointOfInterest.cs" t="Include" />
+            <e p="ScaleManager.cs" t="Include" />
+            <e p="TextureAnimation.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AirAd" t="Include">
             <e p="CursorAnimationScript.cs" t="Include" />
@@ -53,7 +68,6 @@
           </e>
           <e p="GPS Tracking" t="Include">
             <e p="GPSMenuController.cs" t="Include" />
-            <e p="GPSMenuController1.cs" t="Include" />
             <e p="GPSScanningController.cs" t="Include" />
             <e p="GPSTracker.cs" t="Include" />
             <e p="GPSTrackingController.cs" t="Include" />
@@ -66,9 +80,14 @@
             </e>
             <e p="Scenes.cs" t="Include" />
           </e>
+          <e p="GPSMultiTrackingController.cs" t="Include" />
           <e p="Gyroscope" t="Include">
             <e p="GyroscopeController.cs" t="Include" />
             <e p="MadgwickAHRS.cs" t="Include" />
+          </e>
+          <e p="Main Menu" t="Include">
+            <e p="MainMenuController.cs" t="Include" />
+            <e p="MenuItem.cs" t="Include" />
           </e>
           <e p="MovingController.cs" t="Include" />
           <e p="OcclusionCurtain" t="Include">
