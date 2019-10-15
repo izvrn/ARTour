@@ -4,7 +4,7 @@
 		"title": "Dullenturm",
         "description": "3d model demo",
         "information": "Das Rathaus entstand um 1420 durch Graf Heinrich als gräfliches Spielhaus (Spelhus) auf dem Weinkeller. Eine Inschrift im Wappen über dem Hauptportal verweist hierauf. Das Gebäude wurde dann im Jahr 1427 der Stadt Wernigerode von Graf Heinrich geschenkt. Auch die Stadt nutzte es als Spielhaus.",
-        "buttonSceneName": "RadarScene",
+        "buttonSceneName": "New Radar Scene",
 		"scanningSceneName": "Dullenturm Tracking (multiple markers)",
         "icon": "Icons/cube"
     },
@@ -13,7 +13,7 @@
 		"title": "Dullenturm",
         "description": "video demo",
         "information": "Das Rathaus entstand um 1420 durch Graf Heinrich als gräfliches Spielhaus (Spelhus) auf dem Weinkeller. Eine Inschrift im Wappen über dem Hauptportal verweist hierauf. Das Gebäude wurde dann im Jahr 1427 der Stadt Wernigerode von Graf Heinrich geschenkt. Auch die Stadt nutzte es als Spielhaus.",
-        "buttonSceneName": "RadarScene",
+        "buttonSceneName": "New Radar Scene",
 		"scanningSceneName": "Dullenturm Tracking (video)",
         "icon": "Icons/smartphone"
     },
@@ -22,7 +22,7 @@
 		"title": "Rathaus",
         "description": "image demo",
         "information": "Das Rathaus entstand um 1420 durch Graf Heinrich als gräfliches Spielhaus (Spelhus) auf dem Weinkeller. Eine Inschrift im Wappen über dem Hauptportal verweist hierauf. Das Gebäude wurde dann im Jahr 1427 der Stadt Wernigerode von Graf Heinrich geschenkt. Auch die Stadt nutzte es als Spielhaus. ",
-        "buttonSceneName": "RadarScene",
+        "buttonSceneName": "New Radar Scene",
 		"scanningSceneName": "Rathaus Tracking (image)",
         "icon": "Icons/phone"
     },
@@ -31,7 +31,7 @@
 		"title": "Rathaus",
         "description": "3d model demo",
         "information": "Das Rathaus entstand um 1420 durch Graf Heinrich als gräfliches Spielhaus (Spelhus) auf dem Weinkeller. Eine Inschrift im Wappen über dem Hauptportal verweist hierauf. Das Gebäude wurde dann im Jahr 1427 der Stadt Wernigerode von Graf Heinrich geschenkt. Auch die Stadt nutzte es als Spielhaus. ",
-        "buttonSceneName": "RadarScene",
+        "buttonSceneName": "New Radar Scene",
 		"scanningSceneName": "Rathaus Tracking (3d model)",
         "icon": "Icons/cube"
     }

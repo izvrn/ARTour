@@ -93,9 +93,9 @@ public class TrackingController : BaseController
         informationBackground.color = Color.red;
     }
 
-    public void OnScrollRectPageChanged(int page)
+    public void OnScrollRectPageChanged()
     {
-        CurrentTracker = page;
+        CurrentTracker = horizontalScrollSnap.CurrentPage;
     }
 
     private void TrackersInitialization()

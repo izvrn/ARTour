@@ -28,7 +28,7 @@ public class NewMarkerScript : MonoBehaviour
         var thisLoc = new Location(_POI.latitude, _POI.longitude, _POI.altitude);
         _azimuth = MathHelper.GetAzimuth(loc, thisLoc) * 180f / Mathf.PI;
         _distance = MathHelper.DistanceTo(loc, thisLoc) / 1000f;
-        _distanceText.text = _POI.name + ": " + ((_distance < 1) ? System.Math.Round(_distance*1000f, 0).ToString() + " m" : System.Math.Round(_distance, 1).ToString() + " km");
+        _distanceText.text = _POI.name[0] + ": " + ((_distance < 1) ? System.Math.Round(_distance*1000f, 0).ToString() + " m" : System.Math.Round(_distance, 1).ToString() + " km");
         _distanceText.color = new Color(Mathf.Clamp(_marker.transform.localPosition.z, 0, 1), Mathf.Clamp(1 - _marker.transform.localPosition.z, 0, 1), 0);
     }
 
@@ -45,9 +45,9 @@ public class NewMarkerScript : MonoBehaviour
         //Debug.Log(_locationImage.sprite);
         //_marker.GetComponent<MeshRenderer>().material = new Material(_marker.GetComponent<MeshRenderer>().material);
         //_marker.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1));
-        Renderer rend = _marker.GetComponent<Renderer>();
-        rend.material = new Material(Shader.Find("Specular"));
-        _marker.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1));
+       // Renderer rend = _marker.GetComponent<Renderer>();
+        //rend.material = new Material(Shader.Find("Specular"));
+        //_marker.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1));
     }
 
     public void DrawMarker()

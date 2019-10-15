@@ -61,7 +61,6 @@ public class MainMenuController : MonoBehaviour
             itemController.information.text = item.information;
             itemController.image.sprite = poi.previewImage;
             itemController.icon.sprite = Resources.Load<Sprite>(item.icon);
-            itemController.button.onClick.AddListener(() => LoadScene(item.buttonSceneName));
 
             var locationProvider = instance.GetComponent<LocationProvider>();
             locationProvider.Location = new Location(poi.latitude, poi.longitude, poi.altitude);
@@ -69,6 +68,9 @@ public class MainMenuController : MonoBehaviour
             locationProvider.Street = poi.street;
             locationProvider.Preview =  poi.previewImage;
             locationProvider.SceneName = item.scanningSceneName;
+            
+            
+            itemController.button.onClick.AddListener(() => LoadScene(item.buttonSceneName, locationProvider));
             
             horizontalScrollSnap.AddChild(instance);
         }
@@ -83,8 +85,9 @@ public class MainMenuController : MonoBehaviour
         return jsonstring;
     }
 
-    private void LoadScene(string sceneName)
+    private void LoadScene(string sceneName, LocationProvider locationProvider)
     {
+        GlobalParameters.CurrentTracker = locationProvider;
         SceneManager.LoadScene(sceneName);
     }
 }

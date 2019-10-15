@@ -27,6 +27,7 @@
             <e p="MagneticArrowRotation.cs" t="Include" />
             <e p="MarkerManager.cs" t="Include" />
             <e p="MarkerScaler.cs" t="Include" />
+            <e p="NewMarkerManager.cs" t="Include" />
             <e p="NewMarkerScript.cs" t="Include" />
             <e p="NSymbolRotator.cs" t="Include" />
             <e p="PointOfInterest.cs" t="Include" />
@@ -67,6 +68,7 @@
             <e p="VirtualObjectTouchController.cs" t="Include" />
           </e>
           <e p="GPS Tracking" t="Include">
+            <e p="GlobalParameters.cs" t="Include" />
             <e p="GPSMenuController.cs" t="Include" />
             <e p="GPSScanningController.cs" t="Include" />
             <e p="GPSTracker.cs" t="Include" />
@@ -78,7 +80,6 @@
               <e p="RadarController.cs" t="Include" />
               <e p="SimpleRadarController.cs" t="Include" />
             </e>
-            <e p="Scenes.cs" t="Include" />
           </e>
           <e p="GPSMultiTrackingController.cs" t="Include" />
           <e p="Gyroscope" t="Include">
@@ -86,8 +87,9 @@
             <e p="MadgwickAHRS.cs" t="Include" />
           </e>
           <e p="Main Menu" t="Include">
+            <e p="JsonClasses.cs" t="Include" />
             <e p="MainMenuController.cs" t="Include" />
-            <e p="MenuItem.cs" t="Include" />
+            <e p="MenuItemController.cs" t="Include" />
           </e>
           <e p="MovingController.cs" t="Include" />
           <e p="OcclusionCurtain" t="Include">

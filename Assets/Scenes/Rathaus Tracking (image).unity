@@ -699,7 +699,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &582356362
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1212,13 +1212,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1e65e11c0a783a2479612fd212f87c4e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a04e4dc17bcfaf4480c97e921a832e4, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1857,7 +1857,7 @@ MonoBehaviour:
   informationText: {fileID: 1477689411}
   informationBackground: {fileID: 2080164494}
   horizontalScrollSnap: {fileID: 413124043}
-  itemPrefab: {fileID: 6201190715349956793, guid: 30bdbc93b8c191d47916a5e8a3c339ee,
+  itemPrefab: {fileID: 7890971116968998903, guid: 12d57f7971678c34fa1442446ea6f8b8,
     type: 3}
 --- !u!4 &1249750922
 Transform:
