@@ -213,7 +213,7 @@ namespace UnityEngine.UI.Extensions
         {
             if (_childAnchorPoint != Vector2.zero)
             {
-                UpdateLayout();
+                //UpdateLayout();
             }
         }
 

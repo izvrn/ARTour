@@ -5,6 +5,84 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="2 - Scripts" t="Include">
+          <e p="1 - Main Menu" t="Include">
+            <e p="FPSCounter.cs" t="Include" />
+            <e p="GlobalParameters.cs" t="Include" />
+            <e p="JsonClasses.cs" t="Include" />
+            <e p="MainMenuController.cs" t="Include" />
+            <e p="MenuItemController.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+          </e>
+          <e p="2 - Rathaus Tracking" t="Include">
+            <e p="Image Demo" t="Include">
+              <e p="ImageController.cs" t="Include" />
+              <e p="PointerScaler.cs" t="Include" />
+              <e p="VirtualObjectTouchController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="3 - Dullenturm Tracking" t="Include">
+            <e p="Video" t="Include">
+              <e p="VideoEvents.cs" t="Include" />
+            </e>
+          </e>
+          <e p="4 - Pump Plan Tracking" t="Include">
+            <e p="PumpController.cs" t="Include" />
+          </e>
+          <e p="5 - GPS Tracking" t="Include">
+            <e p="GPSMenuController.cs" t="Include" />
+            <e p="GPSMultiTrackingController.cs" t="Include" />
+            <e p="GPSScanningController.cs" t="Include" />
+            <e p="GPSTracker.cs" t="Include" />
+            <e p="GPSTrackingController.cs" t="Include" />
+            <e p="LocationProvider.cs" t="Include" />
+            <e p="MathHelper.cs" t="Include" />
+            <e p="Radar" t="Include">
+              <e p="MarkerScript.cs" t="Include" />
+              <e p="RadarController.cs" t="Include" />
+              <e p="SimpleRadarController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Generic (Trash)" t="Include">
+            <e p="AirAd" t="Include">
+              <e p="CursorAnimationScript.cs" t="Include" />
+              <e p="CustomScrollRect.cs" t="Include" />
+              <e p="InfoButtonScript.cs" t="Include" />
+              <e p="PropellerScript.cs" t="Include" />
+            </e>
+            <e p="ArrowController.cs" t="Include" />
+            <e p="BaseController.cs" t="Include" />
+            <e p="Controllers" t="Include">
+              <e p="CameraController.cs" t="Include" />
+              <e p="GuideViewController.cs" t="Include" />
+              <e p="InstantTrackingController.cs" t="Include" />
+              <e p="MenuController.cs" t="Include" />
+              <e p="SingleImageTrackingController.cs" t="Include" />
+              <e p="SwipeManager.cs" t="Include" />
+              <e p="TrackingController.cs" t="Include" />
+              <e p="URLManager.cs" t="Include" />
+              <e p="VideoTrackingController.cs" t="Include" />
+            </e>
+            <e p="Controls" t="Include">
+              <e p="ManualMovement.cs" t="Include" />
+              <e p="MoveController.cs" t="Include" />
+              <e p="MovingController.cs" t="Include" />
+              <e p="ScaleController.cs" t="Include" />
+              <e p="VideoMovingController.cs" t="Include" />
+            </e>
+            <e p="Gyroscope" t="Include">
+              <e p="FilterButterworth.cs" t="Include" />
+              <e p="GyroscopeController.cs" t="Include" />
+              <e p="MadgwickAHRS.cs" t="Include" />
+            </e>
+            <e p="OcclusionCurtain" t="Include">
+              <e p="GutterController.cs" t="Include" />
+              <e p="GutterSwipeController.cs" t="Include" />
+            </e>
+            <e p="SimpleTrackingController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ButtonClicker.cs" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -17,6 +95,12 @@
               <e p="DOTweenModuleUtils.cs" t="Include" />
             </e>
             <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Pump" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AnimationScript.cs" t="Include" />
+            <e p="RotationScript.cs" t="Include" />
           </e>
         </e>
         <e p="RadarStuff" t="Include">
@@ -34,74 +118,6 @@
             <e p="ScaleManager.cs" t="Include" />
             <e p="TextureAnimation.cs" t="Include" />
           </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="AirAd" t="Include">
-            <e p="CursorAnimationScript.cs" t="Include" />
-            <e p="CustomScrollRect.cs" t="Include" />
-            <e p="InfoButtonScript.cs" t="Include" />
-            <e p="PropellerScript.cs" t="Include" />
-          </e>
-          <e p="ArrowController.cs" t="Include" />
-          <e p="Controllers" t="Include">
-            <e p="BaseController.cs" t="Include" />
-            <e p="CameraController.cs" t="Include" />
-            <e p="FPSCounter.cs" t="Include" />
-            <e p="GuideViewController.cs" t="Include" />
-            <e p="InstantTrackingController.cs" t="Include" />
-            <e p="MenuController.cs" t="Include" />
-            <e p="SingleImageTrackingController.cs" t="Include" />
-            <e p="SingleObjectTrackingController.cs" t="Include" />
-            <e p="SwipeManager.cs" t="Include" />
-            <e p="TrackingController.cs" t="Include" />
-            <e p="URLManager.cs" t="Include" />
-            <e p="VideoTrackingController.cs" t="Include" />
-          </e>
-          <e p="Controls" t="Include">
-            <e p="ManualMovement.cs" t="Include" />
-            <e p="MoveController.cs" t="Include" />
-            <e p="ScaleController.cs" t="Include" />
-          </e>
-          <e p="Demo" t="Include">
-            <e p="ImageController.cs" t="Include" />
-            <e p="PointerScaler.cs" t="Include" />
-            <e p="VirtualObjectTouchController.cs" t="Include" />
-          </e>
-          <e p="GPS Tracking" t="Include">
-            <e p="GlobalParameters.cs" t="Include" />
-            <e p="GPSMenuController.cs" t="Include" />
-            <e p="GPSScanningController.cs" t="Include" />
-            <e p="GPSTracker.cs" t="Include" />
-            <e p="GPSTrackingController.cs" t="Include" />
-            <e p="LocationProvider.cs" t="Include" />
-            <e p="MathHelper.cs" t="Include" />
-            <e p="Radar" t="Include">
-              <e p="MarkerScript.cs" t="Include" />
-              <e p="RadarController.cs" t="Include" />
-              <e p="SimpleRadarController.cs" t="Include" />
-            </e>
-          </e>
-          <e p="GPSMultiTrackingController.cs" t="Include" />
-          <e p="Gyroscope" t="Include">
-            <e p="GyroscopeController.cs" t="Include" />
-            <e p="MadgwickAHRS.cs" t="Include" />
-          </e>
-          <e p="Main Menu" t="Include">
-            <e p="JsonClasses.cs" t="Include" />
-            <e p="MainMenuController.cs" t="Include" />
-            <e p="MenuItemController.cs" t="Include" />
-          </e>
-          <e p="MovingController.cs" t="Include" />
-          <e p="OcclusionCurtain" t="Include">
-            <e p="GutterController.cs" t="Include" />
-            <e p="GutterSwipeController.cs" t="Include" />
-          </e>
-          <e p="SceneLoader.cs" t="Include" />
-          <e p="SceneProvider.cs" t="Include" />
-          <e p="Video" t="Include">
-            <e p="VideoEvents.cs" t="Include" />
-          </e>
-          <e p="VideoMovingController.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Backobjects.shader" t="Include" />

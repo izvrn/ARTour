@@ -47,37 +47,25 @@ MonoBehaviour:
   OnTargetsLoaded:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.TrackerBehaviour+OnTargetsLoadedEvent, WikitudeUnityPlugin,
-      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnErrorLoadingTargets:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.TrackerBehaviour+OnErrorLoadingTargetsEvent, WikitudeUnityPlugin,
-      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnInitializationError:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.TrackerBehaviour+OnInitializationErrorEvent, WikitudeUnityPlugin,
-      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnExtendedTrackingQualityChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.ImageTracker+OnExtendedTrackingQualityChangedEvent, WikitudeUnityPlugin,
-      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   _targetSourceType: 0
   _targetCollectionResource:
-    _targetPath: Wikitude/magazine.wtc
+    _targetPath: Wikitude/tracker.wtc
     _useCustomURL: 0
     OnFinishLoading:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.TargetCollectionResource+OnFinishLoadingEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
     OnErrorLoading:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.TargetCollectionResource+OnErrorLoadingEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   _cloudRecognitionService:
     _clientToken: 
     _groupId: 
@@ -87,28 +75,18 @@ MonoBehaviour:
     OnInitialized:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.CloudRecognitionService+OnInitializedEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
     OnInitializationError:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.CloudRecognitionService+OnInitializationErrorEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
     OnRecognitionResponse:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.CloudRecognitionService+OnRecognitionResponseEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
     OnRecognitionError:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.CloudRecognitionService+OnRecognitionErrorEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
     OnInterruption:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Wikitude.CloudRecognitionService+OnInterruptionEvent, WikitudeUnityPlugin,
-        Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   _maximumNumberOfConcurrentTrackableTargets: 1
   _rangeExtension: 2
   _trackerEfficiencyMode: 0
@@ -163,10 +141,6 @@ MonoBehaviour:
   OnImageRecognized:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.ImageTrackable+OnImageRecognizedEvent, WikitudeUnityPlugin,
-      Version=8.7.0.0, Culture=neutral, PublicKeyToken=null
   OnImageLost:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Wikitude.ImageTrackable+OnImageLostEvent, WikitudeUnityPlugin, Version=8.7.0.0,
-      Culture=neutral, PublicKeyToken=null

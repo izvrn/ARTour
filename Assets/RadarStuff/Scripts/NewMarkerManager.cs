@@ -14,15 +14,13 @@ public class NewMarkerManager : MonoBehaviour
     void Start()
     {
         _pois = GlobalParameters.POIs.Values.ToList();
-        Debug.Log(_pois.Count);
-        
         _mats = new List<Material>();
         _markerObjs = new List<GameObject>();
         foreach (var poi in _pois)
         {
             var obj = Instantiate(_markerPrefab, _arrow.transform);
             obj.GetComponent<NewMarkerScript>()._POI = poi;
-            obj.GetComponent<NewMarkerScript>().SetImage(poi.previewImage);
+            obj.GetComponent<NewMarkerScript>().SetImage(GlobalParameters.CurrentTracker.Preview);
 
             var rend = obj.GetComponentInChildren<Renderer>();
             
