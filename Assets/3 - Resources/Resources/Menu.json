@@ -9,6 +9,36 @@
       "previewImage": "Images/pump",
       "icon": "Icons/cube"
     },
+
+    {
+      "title": "Dullenturm",
+      "description": "from far dist. tracking",
+      "information": "Der Dullenturm gehörte zur spätmittelalterlichen Stadtbefestigung von Wernigerode. Bei diesem Turm handelte es sich um einen geschlossenen Wehrturm. Hierin wurden die \"Dullen\", geistig Behinderte aber auch Gefangene oder Betrunkene vorübergehend festgesetzt.",
+      "buttonSceneName": "Dullenturm Tracking (test from far distance)",
+      "scanningSceneName": "Dullenturm Tracking (test from far distance)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },
+
+    {
+      "title": "Dullenturm",
+      "description": "simple tracking",
+      "information": "Der Dullenturm gehörte zur spätmittelalterlichen Stadtbefestigung von Wernigerode. Bei diesem Turm handelte es sich um einen geschlossenen Wehrturm. Hierin wurden die \"Dullen\", geistig Behinderte aber auch Gefangene oder Betrunkene vorübergehend festgesetzt.",
+      "buttonSceneName": "Dullenturm Tracking (simple tracking)",
+      "scanningSceneName": "Dullenturm Tracking (simple tracking)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },    
+    
+    {
+      "title": "Dullenturm",
+      "description": "extended tracking",
+      "information": "Der Dullenturm gehörte zur spätmittelalterlichen Stadtbefestigung von Wernigerode. Bei diesem Turm handelte es sich um einen geschlossenen Wehrturm. Hierin wurden die \"Dullen\", geistig Behinderte aber auch Gefangene oder Betrunkene vorübergehend festgesetzt.",
+      "buttonSceneName": "Dullenturm Tracking (extended tracking)",
+      "scanningSceneName": "Dullenturm Tracking (extended tracking)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },
     
     {
       "title": "Dullenturm",

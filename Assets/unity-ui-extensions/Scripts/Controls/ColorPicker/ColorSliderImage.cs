@@ -216,7 +216,7 @@ namespace UnityEngine.UI.Extensions.ColorPicker
             {
                 case Slider.Direction.BottomToTop:
                 case Slider.Direction.TopToBottom:
-                    image.uvRect = new Rect(0, 0, 2, 1);
+                    image.uvRect = new Rect(0, 0, 1, 1);
                     break;
                 case Slider.Direction.LeftToRight:
                 case Slider.Direction.RightToLeft:

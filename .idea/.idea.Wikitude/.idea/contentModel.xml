@@ -81,6 +81,45 @@
             </e>
             <e p="SimpleTrackingController.cs" t="Include" />
           </e>
+          <e p="GUI" t="Include">
+            <e p="GUITest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="3 - Resources" t="Include">
+          <e p="GUI" t="Include">
+            <e p="Blue Cartoon UI" t="Include">
+              <e p="Demo_Assets" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="GUI_Demo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Modern_GUI_Skin" t="Include">
+              <e p="Demo_Assets" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="GUI_Demo1.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Necromancer GUI" t="Include">
+              <e p="Kingthings.txt" t="Include" />
+              <e p="readme.txt" t="Include" />
+            </e>
+            <e p="Techno Blue UI" t="Include">
+              <e p="Demo_Assets" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="GUI_Demo2.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="UiRoundedCorners" t="Include">
+              <e p="ImageWithRoundedCorners.cs" t="Include" />
+              <e p="Nobi.UiRoundedCorners.asmdef" t="Include" />
+              <e p="RoundedCorners.cginc" t="Include" />
+              <e p="RoundedCornersColor.shader" t="Include" />
+              <e p="RoundedCornersTexture.shader" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="ButtonClicker.cs" t="Include" />
         <e p="Demigiant" t="Include">
@@ -95,6 +134,98 @@
               <e p="DOTweenModuleUtils.cs" t="Include" />
             </e>
             <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Gamestrap" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EditorHelper.cs" t="Include" />
+            <e p="TextureLoader.cs" t="Include" />
+            <e p="UIIcons.cs" t="Include" />
+          </e>
+          <e p="TransitionHelper.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Editor" t="Include">
+              <e p="GamestrapUI.cs" t="Include" />
+              <e p="GamestrapUIHelper.cs" t="Include" />
+              <e p="GamestrapUIPrefabs.cs" t="Include" />
+            </e>
+            <e p="Effects" t="Include">
+              <e p="GamestrapEffect.cs" t="Include" />
+              <e p="GradientEffect.cs" t="Include" />
+              <e p="MirrorEffect.cs" t="Include" />
+              <e p="RadialGradientEffect.cs" t="Include" />
+              <e p="ShadowEffect.cs" t="Include" />
+              <e p="SkewEffect.cs" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Complete Project" t="Include">
+                <e p="Global" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="ESceneNames.cs" t="Include" />
+                    <e p="GSAppExampleControl.cs" t="Include" />
+                    <e p="SceneTransitionsButton.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Screens" t="Include">
+                  <e p="Gameplay" t="Include">
+                    <e p="GameplayUI.cs" t="Include" />
+                  </e>
+                  <e p="Levels" t="Include">
+                    <e p="LevelsControl.cs" t="Include" />
+                  </e>
+                  <e p="Main Menu" t="Include">
+                    <e p="MainMenuControl.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Fonts" t="Include">
+              <e p="Basis33" t="Include">
+                <e p="LICENSE.txt" t="Include" />
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="Bebas" t="Include">
+                <e p="Flat-it License.txt" t="Include" />
+              </e>
+              <e p="Bigfish" t="Include">
+                <e p="FontInfo.txt" t="Include" />
+              </e>
+              <e p="Lato" t="Include">
+                <e p="SIL Open Font License.txt" t="Include" />
+              </e>
+              <e p="Monospace" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="OpenSans" t="Include">
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+              <e p="PixelFJ8pt1" t="Include">
+                <e p="peace,...txt" t="Include" />
+              </e>
+              <e p="Polaris" t="Include">
+                <e p="FontInfo.txt" t="Include" />
+              </e>
+              <e p="ubuntu" t="Include">
+                <e p="UBUNTU FONT LICENCE.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Gizmos" t="Include">
+              <e p="_readme.txt" t="Include" />
+            </e>
+            <e p="Graphics" t="Include">
+              <e p="Flags" t="Include">
+                <e p="_readme.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Helper Scripts" t="Include">
+              <e p="ButtonShowHide.cs" t="Include" />
+              <e p="Theme" t="Include">
+                <e p="GamestrapTheme.cs" t="Include" />
+              </e>
+              <e p="ThemeButton.cs" t="Include" />
+              <e p="ThemeToggler.cs" t="Include" />
+              <e p="ToggleButtonIcon.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Pump" t="Include">
@@ -125,6 +256,7 @@
           <e p="Portal.shader" t="Include" />
           <e p="VideoChromaKeyer.shader" t="Include" />
         </e>
+        <e p="TargetTest.cs" t="Include" />
         <e p="unity-ui-extensions" t="Include">
           <e p="Editor" t="Include">
             <e p="AccordionElementEditor.cs" t="Include" />
@@ -345,6 +477,7 @@
           </e>
         </e>
       </e>
+      <e p="Nobi.UiRoundedCoreners.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />

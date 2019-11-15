@@ -24,6 +24,18 @@ EditorBuildSettings:
     path: Assets/1 - Scenes/Rathaus Tracking (image).unity
     guid: b853e904b6d7b6a41bdba75ce53d16e4
   - enabled: 1
+    path: Assets/1 - Scenes/Dullenturm Tracking (test from far distance).unity
+    guid: cda94c451d54a8f409e7b4a740160252
+  - enabled: 1
+    path: Assets/1 - Scenes/Dullenturm Tracking (test from far distance extended).unity
+    guid: 51b9b6e05c3abe742bd7ab1a4cbb2c79
+  - enabled: 1
+    path: Assets/1 - Scenes/Dullenturm Tracking (simple tracking).unity
+    guid: 04995ab82ae12504b9f145e493e4e5dd
+  - enabled: 1
+    path: Assets/1 - Scenes/Dullenturm Tracking (extended tracking).unity
+    guid: 56aa17c71dadbe54692929d36fa8001d
+  - enabled: 1
     path: Assets/1 - Scenes/Dullenturm Tracking (multiple markers).unity
     guid: 512277e3bf65a0743baa2701ff177bb6
   - enabled: 1

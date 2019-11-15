@@ -9,9 +9,11 @@ using Wikitude;
 
 public class TrackingController : BaseController
 {
+    public bool hideScrollSnap = false;
     [Header("INFORMATION HEADER SETTINGS")]
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
+    [SerializeField] private GameObject resetExtendedTrackingButton;
 
     [Header("HORIZONTAL SCROLLRECT SETTINGS")] 
     [SerializeField] private HorizontalScrollSnap horizontalScrollSnap;
@@ -83,6 +85,9 @@ public class TrackingController : BaseController
 
     public void OnTargetRecognized(RecognizedTarget target)
     {
+        if (resetExtendedTrackingButton) 
+            resetExtendedTrackingButton.SetActive(true);
+        
         informationText.text = "Target: " + _trackers[CurrentTracker].name + " Recognized";
         informationBackground.color = Color.green;
     }
@@ -113,11 +118,25 @@ public class TrackingController : BaseController
     private IEnumerator Initialization()
     {
         yield return new WaitForSeconds(2f);
-
         TrackersInitialization();
-        
         CurrentTracker = 0;
         _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
+        if (hideScrollSnap)
+            horizontalScrollSnap.gameObject.SetActive(false);
+    }
+
+    public void ResetExtendedTracking()
+    {
+        if (_trackers[CurrentTracker] is ObjectTracker)
+        {
+            (_trackers[CurrentTracker] as ObjectTracker).StopExtendedTracking();
+            resetExtendedTrackingButton.SetActive(false);
+            informationText.text = "Extended Tracking Stopped";
+        }
+        else
+        {
+            informationText.text = "Extended Tracking Stopping Failed";
+        }
     }
 }
 
