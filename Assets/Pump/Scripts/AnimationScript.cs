@@ -34,8 +34,17 @@ public class AnimationScript : MonoBehaviour
     {
         if ((Input.touchCount > 0 || Input.GetKeyDown(KeyCode.Mouse0)) && _timer > 1f)
         {
-            _timer = 0;
-            SwitchWaypoint();
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.collider.tag == "Pump")
+                {
+                    _timer = 0;
+                    SwitchWaypoint();
+                }
+            }
+            
         }
 
         transform.localPosition = Vector3.Lerp(transform.localPosition, _targetPositon, Time.deltaTime * 2f);

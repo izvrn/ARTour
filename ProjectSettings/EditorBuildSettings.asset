@@ -5,43 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/1 - Scenes/Main Menu.unity
-    guid: 929c293ab85da7d46bd4ea236c81a4ef
   - enabled: 1
     path: Assets/1 - Scenes/New Main Menu.unity
     guid: 8a1fec0a678a4a84fb64823eda6aa96c
-  - enabled: 0
-    path: Assets/RadarStuff/RadarScene.unity
-    guid: 4d41fd256473bdd45b75a6c032835828
   - enabled: 1
-    path: Assets/RadarStuff/New Radar Scene.unity
-    guid: 4834147ac78133945be358b53addfa29
+    path: Assets/1 - Scenes/Dullenturm Tracking (close).unity
+    guid: 3359929601bb74f41950c17f067dae84
   - enabled: 1
-    path: Assets/1 - Scenes/Rathaus Tracking (3d model).unity
-    guid: b66d87a9bc492d3469da1ef52f14240f
+    path: Assets/1 - Scenes/Dullenturm Tracking (far).unity
+    guid: 8950566d3ae727f4f8daddb3f5ebd7cb
   - enabled: 1
-    path: Assets/1 - Scenes/Rathaus Tracking (image).unity
-    guid: b853e904b6d7b6a41bdba75ce53d16e4
-  - enabled: 1
-    path: Assets/1 - Scenes/Dullenturm Tracking (test from far distance).unity
-    guid: cda94c451d54a8f409e7b4a740160252
-  - enabled: 1
-    path: Assets/1 - Scenes/Dullenturm Tracking (test from far distance extended).unity
-    guid: 51b9b6e05c3abe742bd7ab1a4cbb2c79
-  - enabled: 1
-    path: Assets/1 - Scenes/Dullenturm Tracking (simple tracking).unity
-    guid: 04995ab82ae12504b9f145e493e4e5dd
-  - enabled: 1
-    path: Assets/1 - Scenes/Dullenturm Tracking (extended tracking).unity
+    path: Assets/1 - Scenes/Dullenturm Tracking (far+close).unity
     guid: 56aa17c71dadbe54692929d36fa8001d
   - enabled: 1
-    path: Assets/1 - Scenes/Dullenturm Tracking (multiple markers).unity
-    guid: 512277e3bf65a0743baa2701ff177bb6
+    path: Assets/1 - Scenes/Dullenturm Tracking (qr code).unity
+    guid: f812924ae32ed694584523998140adfd
   - enabled: 1
     path: Assets/1 - Scenes/Dullenturm Tracking (video).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/1 - Scenes/Pump Plan Tracking.unity
-    guid: 9f3e10e0d0cef0145ae02916f8ddfe88
+    path: Assets/1 - Scenes/Rathaus Tracking (image).unity
+    guid: b853e904b6d7b6a41bdba75ce53d16e4
+  - enabled: 1
+    path: Assets/1 - Scenes/Rathaus Tracking (3d model).unity
+    guid: b66d87a9bc492d3469da1ef52f14240f
   m_configObjects: {}

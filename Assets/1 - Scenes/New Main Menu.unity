@@ -809,7 +809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuJSON: Menu.json
   poisJSON: POIs.json
-  menuItemSample: {fileID: 7728087019058127514, guid: a95f9fd971dba9f4180a6050d6fc6733,
+  menuItemSample: {fileID: 7728087019058127514, guid: 72ac5e1cb8a093a4fb536af9581d0000,
     type: 3}
   horizontalScrollSnap: {fileID: 1897725234}
   paginationTransform: {fileID: 1401429132}

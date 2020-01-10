@@ -3,15 +3,18 @@ using UnityEngine.UI;
 
 public class GuideViewController : MonoBehaviour
 {
+    [SerializeField] private bool guideViewAlwaysOff;
     [SerializeField] private Image guideViewImage;
 
     public void OnTargetReco()
     {
-        guideViewImage.gameObject.SetActive(false);
+        if (!guideViewAlwaysOff)
+            guideViewImage.gameObject.SetActive(false);
     }
 
     public void OnTargetLost()
     {
-        guideViewImage.gameObject.SetActive(true);
+        if (!guideViewAlwaysOff)
+            guideViewImage.gameObject.SetActive(true);
     }
 }

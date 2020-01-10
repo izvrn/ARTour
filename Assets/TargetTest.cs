@@ -15,13 +15,13 @@ public class TargetTest : MonoBehaviour
         if (resetExtendedTrackingButton && extendedTracking) 
             resetExtendedTrackingButton.SetActive(true);
         
-        informationText.text = "Target: " + target.Name + " Recognized; Scale: " + target.Scale;
+        informationText.text = "Target: " + target.Name + " Recognized";
         informationBackground.color = Color.green;
     }
 
     public void OnTargetLost(ObjectTarget target)
     {
-        informationText.text = "Target: " + target.Name + " Lost; Scale: " + target.Scale;
+        informationText.text = "Target: " + target.Name + " Lost";
         informationBackground.color = Color.red;
     }
     

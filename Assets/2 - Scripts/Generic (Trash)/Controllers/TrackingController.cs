@@ -14,6 +14,8 @@ public class TrackingController : BaseController
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
     [SerializeField] private GameObject resetExtendedTrackingButton;
+    
+    [SerializeField] private Text versionText;
 
     [Header("HORIZONTAL SCROLLRECT SETTINGS")] 
     [SerializeField] private HorizontalScrollSnap horizontalScrollSnap;
@@ -59,7 +61,10 @@ public class TrackingController : BaseController
     private new void Start()
     {
         base.Start();
-
+        if (!versionText)
+                    versionText = GameObject.FindGameObjectWithTag("VersionText").GetComponent<Text>();
+                
+        versionText.text = Application.version;
         StartCoroutine(Initialization());
     }
 
@@ -120,7 +125,10 @@ public class TrackingController : BaseController
         yield return new WaitForSeconds(2f);
         TrackersInitialization();
         CurrentTracker = 0;
-        _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
+        
+        if (_trackers.Count > 0)
+            _movingController.ObjectTransform = _trackers[0].transform.GetChild(0).GetChild(0);
+        
         if (hideScrollSnap)
             horizontalScrollSnap.gameObject.SetActive(false);
     }
@@ -129,7 +137,7 @@ public class TrackingController : BaseController
     {
         if (_trackers[CurrentTracker] is ObjectTracker)
         {
-            (_trackers[CurrentTracker] as ObjectTracker).StopExtendedTracking();
+            (_trackers[CurrentTracker] as ObjectTracker)?.StopExtendedTracking();
             resetExtendedTrackingButton.SetActive(false);
             informationText.text = "Extended Tracking Stopped";
         }

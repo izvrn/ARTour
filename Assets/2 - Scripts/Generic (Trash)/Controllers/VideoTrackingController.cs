@@ -8,6 +8,8 @@ public class VideoTrackingController : BaseController
     [SerializeField] private Text informationText;
     [SerializeField] private Image informationBackground;
 
+    [SerializeField] private Text versionText;
+    
     private TrackerBehaviour _tracker;
     private int _trackerCount;
 
@@ -19,6 +21,11 @@ public class VideoTrackingController : BaseController
     private new void Start()
     {
         base.Start();
+        
+        if (!versionText)
+            versionText = GameObject.FindGameObjectWithTag("VersionText").GetComponent<Text>();
+                
+        versionText.text = Application.version;
     }
 
     public void OnExtendedTrackingQualityChanged(RecognizedTarget target, ExtendedTrackingQuality oldQuality,

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class MovingController : MonoBehaviour
 {
-    public Transform ObjectTransform { get; set; }
+    public Transform ObjectTransform;
     
     [Header("CONTROLS OBJECTS FOR TOGGLING")]
     [SerializeField] private GameObject controlsInfoGameObject;

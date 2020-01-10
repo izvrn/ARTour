@@ -23,8 +23,8 @@ public class BaseController : MonoBehaviour
         Debug.Log("URL Resource loaded successfully.");
     }
 
-    public virtual void OnErrorLoading(Error error) {
-        PrintError("Error loading URL Resource!", error);
+    public virtual void OnErrorLoading() {
+        Debug.LogError("Error loading URL Resource!");
     }
 
     public virtual void OnInitializationError(Error error) {
