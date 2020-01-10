@@ -1,0 +1,74 @@
+{
+  "data": [
+	{
+      "title": "Dullenturm",
+      "description": "Close marker",
+      "information": "Test scene for extended tracking from close distance",
+      "buttonSceneName": "Dullenturm Tracking (close)",
+      "scanningSceneName": "Dullenturm Tracking (close)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },
+	
+
+	{
+      "title": "Dullenturm",
+      "description": "Far marker",
+      "information": "Test scene for extended tracking from far distance",
+      "buttonSceneName": "Dullenturm Tracking (far)",
+      "scanningSceneName": "Dullenturm Tracking (far)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },
+
+    {
+      "title": "Dullenturm",
+      "description": "Close + far markers",
+      "information": "Test scene for extended tracking from far distance + close distance simultaneously",
+      "buttonSceneName": "Dullenturm Tracking (far+close)",
+      "scanningSceneName": "Dullenturm Tracking (far+close)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },
+  
+    {
+      "title": "Dullenturm",
+      "description": "QR Code tracking",
+      "information": "Test scene for extended tracking with qr-codes",
+      "buttonSceneName": "Dullenturm Tracking (qr code)",
+      "scanningSceneName": "Dullenturm Tracking (qr code)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/cube"
+    },
+	
+	{
+      "title": "Dullenturm",
+      "description": "video demo",
+      "information": "Test scene for video playback",
+	  "buttonSceneName": "Dullenturm Tracking (video)",
+      "scanningSceneName": "Dullenturm Tracking (video)",
+      "previewImage": "Images/dullenturm",
+      "icon": "Icons/smartphone"
+    },
+	
+	{
+      "title": "Rathaus",
+      "description": "image demo",
+      "information": "Historical image",
+      "buttonSceneName": "Rathaus Tracking (image)",
+      "scanningSceneName": "Rathaus Tracking (image)",
+      "previewImage": "Images/rathaus",
+      "icon": "Icons/phone"
+    },
+	
+	{
+      "title": "Rathaus",
+      "description": "3d model demo",
+      "information": "3D Rathaus model",
+      "buttonSceneName": "Rathaus Tracking (3d model)",
+      "scanningSceneName": "Rathaus Tracking (3d model)",
+      "previewImage": "Images/rathaus",
+      "icon": "Icons/cube"
+    }
+  ]
+}

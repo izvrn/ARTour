@@ -4,12 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Model
-  - GeoPoint
+  - UIButton
   - Tracker Behaviour
-  - Controller
+  - Pump
   - CurtainToggler
-  - Trackable
+  - Controller
+  - VersionText
   layers:
   - Default
   - TransparentFX
@@ -19,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - Trackable
+  - 
   - 
   - 
   - 

@@ -1,0 +1,57 @@
+# Blender MTL File: 'compassss.blend'
+# Material Count: 5
+
+newmtl Материал
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Mi Notebook Pro\\Desktop\\Bilder\\BackGroundFinal.PNG
+
+newmtl Материал.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Mi Notebook Pro\\Desktop\\Bilder\\BackGroundTest.PNG
+
+newmtl Материал.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 0.386364
+illum 9
+map_Kd C:\\Users\\Mi Notebook Pro\\Desktop\\Bilder\\Transparent.png
+
+newmtl Материал.003
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Mi Notebook Pro\\Desktop\\Bilder\\BackGroundTest.PNG
+
+newmtl Материал.009
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Mi Notebook Pro\\Desktop\\Bilder\\BackGroundFinal.PNG
